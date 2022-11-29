@@ -1,0 +1,128 @@
+body{
+    color: var(--dark);
+    font-family: 'DM Sans', sans-serif !important;
+}
+p{
+    color: var(--body-font);
+    line-height: 28.8px;
+    margin-bottom: 0px;
+}
+span, a, p, div, button{
+    font-size: var(--p);
+    line-height: 100%;
+}
+button{
+    border: none;
+}
+h1, h1 span{
+    font-size: var(--h1);
+}
+h2{
+    font-size: var(--h2);
+}
+h3{
+    font-size: var(--h3);
+}
+h4{
+    font-size: var(--h4);
+}
+h5{
+    font-size: var(--h5);
+}
+h6{
+    font-size: var(--h6);
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'GeneralSans-Variable' !important;
+}
+.nav-dropdown-items{
+    display: flex;
+    gap: 30px;
+}
+.nav-dropdown-items i{
+    font-size: 13px;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.other-nav-tool{
+    display: flex;
+    gap: 22px;
+    align-items: center;
+}
+
+.nav-section{
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+
+.other-nav-tool button{
+    background-color: var(--primary);
+    border-radius: 4px;
+    padding: 17px 25px;
+    border: none;
+}
+
+.select-language{
+    font-size: 20px;
+    background-color: var(--white-200);
+    border-radius: 4px;
+    width: 50px;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-section{
+    background-color: var(--white-200);
+    padding-top: 141px;
+    text-align: center;
+}
+.hero-section h1{
+    line-height: 81.6px;
+    max-width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.hero-section h1 .custom-color{
+    display: inline-block;
+    position: relative;
+    padding: 0px 4px;
+    z-index: 2;
+}
+.hero-section h1 .custom-color::after{
+    content: '';
+    position: absolute;
+    display: inline-block;
+    bottom: 0;
+    z-index: -1;
+    left: 0;
+    width: 100%;
+    height: 26px;
+    background-color: var(--primary);
+}
+
+.hero-short-brief{
+    margin-top: 23px;
+    max-width: 744px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 28.8px;
+}
+
+.request-demo{
+    text-align: center;
+    margin-top: 23px;
+}
+
+.request-demo button{
+    background-color: var(--primary);
+    padding: 17px 30px;
+    border-radius: 4px;
+}

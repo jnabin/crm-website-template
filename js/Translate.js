@@ -23,8 +23,8 @@ function Translate() {
                                 var key = elem.getAttribute(_self.attribute);
                                  
                                 if(key != null) {
-                                     console.log(key);
-                                     elem.innerHTML = LngObject[key]  ;
+                                     if(LngObject[key])
+                                        elem.innerHTML = LngObject[key];
                                 }
                             }
                      
