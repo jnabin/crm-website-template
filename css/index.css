@@ -85,10 +85,11 @@ h1, h2, h3, h4, h5, h6{
 }
 .hero-section h1{
     line-height: 81.6px;
-    max-width: 1160px;
+    max-width: 1170px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    font-weight: 600;
 }
 .hero-section h1 .custom-color{
     display: inline-block;
@@ -100,7 +101,7 @@ h1, h2, h3, h4, h5, h6{
     content: '';
     position: absolute;
     display: inline-block;
-    bottom: 0;
+    bottom: -6px;
     z-index: -1;
     left: 0;
     width: 100%;
