@@ -34,6 +34,10 @@ h6{
 }
 h1, h2, h3, h4, h5, h6{
     font-family: 'GeneralSans-Variable' !important;
+    color: var(--dark);
+}
+.short-title, .title{
+    font-family: 'GeneralSans-Variable' !important;
 }
 .nav-dropdown-items{
     display: flex;
@@ -80,8 +84,9 @@ h1, h2, h3, h4, h5, h6{
 
 .hero-section{
     background-color: var(--white-200);
-    padding-top: 141px;
+    padding-top: 100px;
     text-align: center;
+    height: 1045px;
 }
 .hero-section h1{
     line-height: 81.6px;
@@ -127,3 +132,83 @@ h1, h2, h3, h4, h5, h6{
     padding: 17px 30px;
     border-radius: 4px;
 }
+
+.hero-images{
+    position: relative;
+}
+
+img{
+    max-width: 100%;
+}
+
+.campaign-image{
+    position: absolute;
+    top: 443px;
+    left: 8px;
+}
+
+.mobile-frame{
+    position: absolute;
+    top: 254px;
+    right: 21px;
+}
+
+.mobile-gif{
+    position: relative;
+}
+
+.gif-content{
+    position: absolute;
+    top: 35px;
+    left: 19px;
+    width: 206px;
+    height: 408px;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.brand-section{
+    margin-top: 70px;
+}
+
+.brand-container{
+    display: flex;
+    gap: 30px;
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    height: 120px;
+}
+
+.brand-container .short-title{
+    line-height: 28px;
+    flex-basis: 288px;
+}
+
+.mobile-border{
+    width: 244px;
+}
+
+.brand-list{
+    display: flex;
+    gap: 70px;
+}
+
+.brand-list img{
+    max-width: 155px;
+}
+
+.index-header{
+    height: 1319px;
+}
+
+.vertical-line span{
+    width: 1px;
+    height: 100%;
+    background-color: var(--border);
+    display: inline-block;
+}
+
