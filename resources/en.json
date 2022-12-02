@@ -1,3 +1,12 @@
 {
-    "use-case" : "Use case"
+    "nav-use-case" : "Use case",
+    "nav-services" : "Services",
+    "nav-pricing" : "Pricing",
+    "nav-get-demo" : "Get a demo",
+    "hero-title-1": "All your needs for your ",
+    "hero-organization": "organization,",
+    "hero-title-2" : " in one and the same place.",
+    "hero-sub-brief" : "Since 2012, we have supported hundreds of agents of change by offering them all the tools necessary for the success of their commitment.",
+    "request-demo" : "Request a demo",
+    "brand-title" : "A relationship of trust acquired through performance."
 }

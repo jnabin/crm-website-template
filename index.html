@@ -37,7 +37,7 @@
                <div class="nav-dropdown-items">
                   <div class="use-case">
                      <span class="pointer" data-bs-toggle="dropdown" aria-expanded="false">
-                        <span data-tag="use-case">Use case</span>
+                        <span data-tag="nav-use-case">Use case</span>
                         <i class="fa-solid fa-chevron-down"></i>
                      </span>
                      <ul class="dropdown-menu">
@@ -50,7 +50,7 @@
                   </div>
                   <div class="use-case">
                      <span class="pointer" data-bs-toggle="dropdown" aria-expanded="false">
-                        Services
+                        <span data-tag="nav-services">Services</span>
                         <i class="fa-solid fa-chevron-down"></i>
                      </span>
                      <ul class="dropdown-menu">
@@ -62,12 +62,14 @@
                      </ul>
                   </div>
                   <div class="pricing">
-                     <span>Pricing</span>
+                     <span data-tag="nav-pricing">Pricing</span>
                   </div>
                </div>
                <div class="other-nav-tool">
                   <div class="get-demo">
-                     <button>Get a demo</button>
+                     <button>
+                        <span data-tag="nav-get-demo">Get a demo</span>
+                     </button>
                   </div>
                   <div class="select-language">
                      <i class="fa-solid fa-globe"></i>
@@ -79,14 +81,14 @@
       <div class="hero-section">
          <div class="container">
             <h1>
-               All your needs for your <span class="custom-color">organization,</span>
-               in one and the same place.
+               <span data-tag="hero-title-1">All your needs for your </span> <span class="custom-color" data-tag="hero-organization">organization,</span>
+               <span data-tag="hero-title-2"> in one and the same place.</span>
             </h1>
-            <p class="hero-short-brief">
+            <p class="hero-short-brief" data-tag="hero-sub-brief">
                Since 2012, we have supported hundreds of agents of change by offering them all the tools necessary for the success of their commitment.
             </p>
             <div class="request-demo">
-               <button>Request a demo</button>
+               <button data-tag="request-demo">Request a demo</button>
             </div>
          </div>
          <div class="container hero-images">
@@ -105,7 +107,7 @@
       <section class="brand-section">
          <div class="brand-container container">
             <div class="short-title align-self-center">
-               <h6>A relationship of trust acquired through performance.</h6>
+               <h6 data-tag="brand-title">A relationship of trust acquired through performance.</h6>
             </div>
             <div class="vertical-line">
                <span></span>
@@ -119,8 +121,303 @@
             </div>
          </div>
       </section>
+      <section class="service-section">
+         <div class="container">
+            <h2 class="text-center">Development for every community and organization, no matter 
+               <span class="custom-color">the goals</span>
+            </h2>
+            <div class="service-list">
+               <div class="service-item political-parti">
+                  <div>
+                     <img src="./resources/images/service-political-parti.png" alt="Political parti and candidate" srcset="">
+                  </div>
+                  <div>
+                     <h5>Political parti and candidate</h5>
+                  </div>
+                  <div>
+                     <p>
+                        We have a complete software to help you collect donation and run your campaign in order to maximise the voter tournout.
+                     </p>
+                  </div>
+                  <div>
+                     <a href="/">Learn More<i class="fa-solid fa-arrow-right"></i></a>
+                  </div>
+               </div>
+               <div class="service-item non-profit">
+                  <div>
+                     <img src="./resources/images/service-non-profit.png" alt="Non-Profit" srcset="">
+                  </div>
+                  <div>
+                     <h5>Non-Profit</h5>
+                  </div>
+                  <div>
+                     <p>
+                        We have a complete software to help you collect donation and run your campaign in order to maximise the voter tournout.
+                     </p>
+                  </div>
+                  <div>
+                     <a href="/">Learn More<i class="fa-solid fa-arrow-right"></i></a>
+                  </div>
+               </div>
+               <div class="service-item elected-office">
+                  <div>
+                     <img src="./resources/images/service-elected-office.png" alt="Elected office" srcset="">
+                  </div>
+                  <div>
+                     <h5>Elected office</h5>
+                  </div>
+                  <div>
+                     <p>
+                        We have a complete software to help you collect donation and run your campaign in order to maximise the voter tournout.
+                     </p>
+                  </div>
+                  <div>
+                     <a href="/">Learn More<i class="fa-solid fa-arrow-right"></i></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="why-choose-us">
+         <div class="container why-choose">
+            <h3>
+               Why you should use Democratik software?
+            </h3>
+            <div class="why-choose-options">
+               <div class="why-choose-item">
+                  <div>
+                     <span class="solid-base desc-icon"><img src="./resources/images/choose-1.svg" alt="" srcset=""></span>
+                  </div>
+                  <div>
+                     <h6>Give a solid base to your team with a prooved methodologies</h6>
+                  </div>
+               </div>
+               <div class="why-choose-item">
+                  <div>
+                     <span class="collaborate desc-icon"><img src="./resources/images/collaborate.svg" alt="" srcset=""></span>
+                  </div>
+                  <div>
+                     <h6>Collaborate with your team member and share info</h6>
+                  </div>
+               </div>
+               <div class="why-choose-item remote">
+                  <div>
+                     <span class="work-remote desc-icon"><img src="./resources/images/work-remote.svg" alt="" srcset=""></span>
+                  </div>
+                  <div>
+                     <h6>Work remotely</h6>
+                  </div>
+               </div>
+               <div class="why-choose-item">
+                  <div>
+                     <span class="limit-access desc-icon"><img src="./resources/images/limit-access.svg" alt="" srcset=""></span>
+                  </div>
+                  <div>
+                     <h6>Limit the access on your organization per role, team, zone, and even custom list.</h6>
+                  </div>
+               </div>
+               <div class="why-choose-item">
+                  <div>
+                     <span class="automize-task desc-icon"><img src="./resources/images/to-do-list.svg" alt="" srcset=""></span>
+                  </div>
+                  <div>
+                     <h6>Automatize most of your tasks and do more with less time</h6>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="features">
+         <div class="container feature-content">
+            <h2>All the <span class="custom-color">features</span> you need to create, manage and grow your organization.</h2>
+            <div class="feature-tabs">
+               <div class="tab-header">
+                  <div class="active">
+                     <img src="./resources/images/powerful-database.svg" alt="" srcset="">
+                     <span class="tab-name">Powerfull database</span>
+                  </div>
+                  <div >
+                     <img src="./resources/images/mobile-application.svg" alt="" srcset="">
+                     <span class="tab-name">Mobile application</span>
+                  </div>
+                  <div >
+                     <img src="./resources/images/robot-call.svg" alt="" srcset="">
+                     <span class="tab-name">Robot call</span>
+                  </div>
+                  <div >
+                     <img src="./resources/images/sms-broadcast.svg" alt="" srcset="">
+                     <span class="tab-name">SMS broadcast</span>
+                  </div>
+                  <div >
+                     <img src="./resources/images/call-center.svg" alt="" srcset="">
+                     <span class="tab-name">Call center</span>
+                  </div>
+                  <div >
+                     <img src="./resources/images/fund-raising.svg" alt="" srcset="">
+                     <span class="tab-name">Fundraising</span>
+                  </div>
+                  <div >
+                     <img src="./resources/images/membership.svg" alt="" srcset="">
+                     <span class="tab-name">Membership</span>
+                  </div>
+               </div>
+               <div class="tab-indicator"></div>
+               <div class="tab-body">
+                  <div class="tab-body-item active">
+                     <div class="active-members-dashboard">
+                        <img src="./resources/images/active-members.png" alt="" srcset="">
+                     </div>
+                     <div class="service-desc p-r-50">
+                        <img width="80" src="./resources/images/powerful-database.svg" alt="" srcset="">
+                        <h3>Powerfull contact database</h3>
+                        <p class="regular">Lorem ipsum dolor sit amet consectetur. Pharetra egestas quis diam nullam amet feugiat sit mauris. A massa enim sed vitae pellentesque cras aliquet. Cras semper cras quis at sit.</p>
+                        <div class="request-demo text-start">
+                           <button data-tag="request-demo">Request a demo</button>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="tab-body-item">
+                     <div class="active-members-dashboard">
+                        <img src="./resources/images/mobile-app.png" alt="" srcset="">
+                     </div>
+                     <div class="service-desc p-r-50">
+                        <img width="80" src="./resources/images/mobile-application.svg" alt="" srcset="">
+                        <h3>Mobile application</h3>
+                        <p class="regular">Lorem ipsum dolor sit amet consectetur. Pharetra egestas quis diam nullam amet feugiat sit mauris. A massa enim sed vitae pellentesque cras aliquet. Cras semper cras quis at sit.</p>
+                        <div class="request-demo text-start">
+                           <button data-tag="request-demo">Request a demo</button>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="tab-body-item">
+                     <div class="active-members-dashboard">
+                        <img src="./resources/images/active-members.png" alt="" srcset="">
+                     </div>
+                     <div class="service-desc p-r-50">
+                        <img width="80" src="./resources/images/robot-call.svg" alt="" srcset="">
+                        <h3>Robotcall</h3>
+                        <p class="regular">Lorem ipsum dolor sit amet consectetur. Pharetra egestas quis diam nullam amet feugiat sit mauris. A massa enim sed vitae pellentesque cras aliquet. Cras semper cras quis at sit.</p>
+                        <div class="request-demo text-start">
+                           <button data-tag="request-demo">Request a demo</button>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="tab-body-item">
+                     <div class="active-members-dashboard">
+                        <img src="./resources/images/active-members.png" alt="" srcset="">
+                     </div>
+                     <div class="service-desc p-r-50">
+                        <img width="80" src="./resources/images/sms-broadcast.svg" alt="" srcset="">
+                        <h3>SMS broadcast</h3>
+                        <p class="regular">Lorem ipsum dolor sit amet consectetur. Pharetra egestas quis diam nullam amet feugiat sit mauris. A massa enim sed vitae pellentesque cras aliquet. Cras semper cras quis at sit.</p>
+                        <div class="request-demo text-start">
+                           <button data-tag="request-demo">Request a demo</button>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="tab-body-item">
+                     <div class="active-members-dashboard">
+                        <img src="./resources/images/active-members.png" alt="" srcset="">
+                     </div>
+                     <div class="service-desc p-r-50">
+                        <img width="80" src="./resources/images/call-center.svg" alt="" srcset="">
+                        <h3>Call center</h3>
+                        <p class="regular">Lorem ipsum dolor sit amet consectetur. Pharetra egestas quis diam nullam amet feugiat sit mauris. A massa enim sed vitae pellentesque cras aliquet. Cras semper cras quis at sit.</p>
+                        <div class="request-demo text-start">
+                           <button data-tag="request-demo">Request a demo</button>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="tab-body-item">
+                     <div class="active-members-dashboard">
+                        <img src="./resources/images/active-members.png" alt="" srcset="">
+                     </div>
+                     <div class="service-desc p-r-50">
+                        <img width="80" src="./resources/images/fund-raising.svg" alt="" srcset="">
+                        <h3>Fundraising</h3>
+                        <p class="regular">Lorem ipsum dolor sit amet consectetur. Pharetra egestas quis diam nullam amet feugiat sit mauris. A massa enim sed vitae pellentesque cras aliquet. Cras semper cras quis at sit.</p>
+                        <div class="request-demo text-start">
+                           <button data-tag="request-demo">Request a demo</button>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="tab-body-item">
+                     <div class="active-members-dashboard">
+                        <img src="./resources/images/active-members.png" alt="" srcset="">
+                     </div>
+                     <div class="service-desc p-r-50">
+                        <img width="80" src="./resources/images/membership.svg" alt="" srcset="">
+                        <h3>Membership</h3>
+                        <p class="regular">Lorem ipsum dolor sit amet consectetur. Pharetra egestas quis diam nullam amet feugiat sit mauris. A massa enim sed vitae pellentesque cras aliquet. Cras semper cras quis at sit.</p>
+                        <div class="request-demo text-start">
+                           <button data-tag="request-demo">Request a demo</button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="feature-list">
+         <div class="feature-list-content container">
+            <div>
+               <div>
+                  <img src="./resources/images/feature-list-logo.svg" alt="" srcset="">
+               </div>
+               <h2>Discover our 100+ features</h2>
+               <p class="regular">Democratik also offers newsletters, custom fields, activity log, texting, stat maps, public data, managing your members and much more.</p>
+            </div>
+            <div class="features-list">
+               <img src="./resources/images/feature-list.png" alt="" srcset="">
+               <div class="feature-list-shadow">
+
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="testimonial">
+         <div class="testimonial-content container">
+            <h2 class="text-center">
+               What users <span class="custom-color">love about</span> Democratik
+            </h2>
+            <div class="testmonials">
+               <div class="testimonial-item position-relative">
+                  <div class="actor-image">
+                     <img src="./resources/images/alexandre-foisy.png" alt="" srcset="">
+                  </div>
+                  <div class="review-details">
+                     <div class="ratings">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                     </div>
+                     <h5>
+                        “Election campaigns are among the most defining moments of a person's life. We put all our expertise at your disposal to make this big step, new for some, a pleasant and memorable experience. »
+                     </h5>
+                     <div>
+                        <h6>Alexandre Foisy</h6>
+                        <p class="regular">General director</p>
+                     </div>
+                     <div class="slider-button">
+                        <button>
+                           <span><i class="fa-solid fa-chevron-left"></i></span>
+                        </button>
+                        <button>
+                           <span>
+                              <i class="fa-solid fa-chevron-right"></i>
+                           </span>
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
    </main>
    <script src="./js/jquery-3.6.1.min.js"></script>
    <script src="./js/bootstrap.bundle.min.js"></script>
+   <script src="./js/index.js"></script>
 </body>
 </html>
