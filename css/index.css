@@ -371,11 +371,11 @@ a{
     display: flex;
     height: 80px;
     align-items: center;
+    justify-content: space-between;
 }
 
 .feature-tabs .tab-header > div {
     position: relative;
-    width: 14.29%;
     text-align: center;
     z-index: 2;
     cursor: pointer;
@@ -417,7 +417,7 @@ a{
 }
 .feature-tabs .tab-body > div.active{
     transform: translateY(0px);
-    top: 30px;
+    top: 0px;
     opacity: 1;
 }
 .feature-tabs .tab-body h1{
@@ -432,7 +432,7 @@ a{
 }
 
 .active-members-dashboard{
-    height: calc(520px - 30px);
+    height: calc(520px);
     display: flex;
     align-items: center;
     min-width: 548px;

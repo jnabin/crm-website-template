@@ -11,6 +11,10 @@ for(let i=0; i< tabHeaderNodes.length; i++) {
         tabHeaderNodes[i].classList.add("active");
         tabBody.querySelector(".active").classList.remove("active");
         tabBodyNodes[i].classList.add("active");
-        tabIndicator.style.left = `calc(calc(calc(14.29%) * ${i}) + 0px)`;
+        let leftHeaderPosition = tabHeaderNodes[i].getBoundingClientRect().left;
+        let leftBodyPosition = tabBodyNodes[i].getBoundingClientRect().left;
+        let actualHeaderLeftPosition = leftHeaderPosition - leftBodyPosition;
+        tabIndicator.style.left = `${actualHeaderLeftPosition}px`;
+        tabIndicator.style.width = `${tabHeaderNodes[i].offsetWidth}px`;
     });
 }
