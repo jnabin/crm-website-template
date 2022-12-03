@@ -586,7 +586,7 @@ p.regular.light-green{
     display: flex;
     justify-content: space-between;
     padding-top: 60px;
-    padding-bottom: 40px;
+    padding-bottom: 55px;
     border-bottom: 1px solid #2A3650;
 
 }
@@ -623,7 +623,11 @@ p.regular.light-green{
 }
 
 footer .body-section{
-    margin-top: 45px;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
 }
 
 footer.footer p.regular, footer.footer p.regular a{
@@ -634,6 +638,7 @@ footer.footer p.regular, footer.footer p.regular a{
     display: flex;
     gap: 20px;
     align-items: center;
+    padding-top: 15px;
 }
 
 .address-section i{
@@ -649,8 +654,8 @@ footer.footer p.regular, footer.footer p.regular a{
 .icon-content{
     background: rgba(255, 239, 235, 0.1);
     border-radius: 4px;
-    width: 35px;
-    height: 35px;
+    min-width: 35px;
+    min-height: 35px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -659,6 +664,44 @@ footer.footer p.regular, footer.footer p.regular a{
 .footer-body-item{
     display: flex;
     flex-direction: column;
-    gap: 30px;
-    margin-top: 30px;
+    gap: 10px;
+}
+
+.footer-body-item .section-title{
+    padding-bottom: 20px;
+}
+
+.footer-body-item .section-title .primary-title{
+    color: var(--primary);
+}
+
+footer .address-content{
+    max-width: 320px;
+}
+
+.copy-right-section{
+    border-top: 1px solid #2A3650;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.follow-option{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.follow-option .social-media-logo{
+    background-color: var(--primary);
+    max-width: 30px;
+    max-height: 30px;
+    min-width: 30px;
+    min-height: 30px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
