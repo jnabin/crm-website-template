@@ -60,7 +60,71 @@ h1, h2, h3, h4, h5, h6{
 .nav-dropdown-items i{
     font-size: 13px;
 }
-
+.nav-dropdown-items .use-case .dropdown-menu{
+    max-width: 360px !important;
+}
+.nav-dropdown-items .use-case.services .dropdown-menu{
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    max-width: 600px !important;
+    list-style-position: inside;
+}
+.custom-service-dropdown-menu.show{
+    display: flex;
+}
+.nav-dropdown-items .dropdown-menu{
+    border: 1px solid var(--border) !important;
+    border-radius: 4px !important;
+    padding: 10px !important;
+    margin-top: 20px !important;
+}
+.dropdown-item-image{
+    flex-grow: 1;
+}
+.dropdown-item-image img{
+    min-width: 54px;
+    min-height: 54px;
+}
+.dropdown-item:active {
+    background-color: white !important;
+    color: var(--body-font);
+}
+.cursor{
+    cursor: pointer;
+}
+.nav-dropdown-items .dropdown-menu li{
+    padding-top: 12.5px !important;
+    padding-bottom: 12.5px !important;
+}
+.select-language .dropdown-menu{
+    margin-top: 20px !important;
+    max-width: 125px !important;
+    width: 125px !important;
+}
+.select-language .dropdown-menu li a{
+    padding-top: 9px !important;
+    padding-bottom: 9px !important;
+}
+.nav-dropdown-items .custom-service-dropdown-menu div a{
+    margin-top: 12.5px;
+    margin-bottom: 12.5px;
+}
+.nav-dropdown-items .dropdown-menu li a, .nav-dropdown-items .dropdown-menu a{
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+}
+.nav-dropdown-items .dropdown-menu li a p.bold-nav-text, .nav-dropdown-items .dropdown-menu a p.bold-nav-text{
+    font-size: 20px;
+    color: var(--dark);
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.service-left-options, .service-right-options{
+    display: flex;
+    flex-direction: column;
+}
 .pointer{
     cursor: pointer;
 }
