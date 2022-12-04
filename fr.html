@@ -8,9 +8,9 @@
    <link rel="stylesheet" href="./css/bootstrap.min.css">
    <link rel="stylesheet" href="./css/variable.css">
    <link rel="stylesheet" href="./css/index.css">
+   <link rel="stylesheet" href="./css/common.css">
    <link rel="stylesheet" href="./css/responsive.css">
    <link rel="stylesheet" href="./css/generic.css">
-   <link rel="stylesheet" href="./css/common.css">
    <link rel="stylesheet" href="./css/fontawesome/css/all.min.css">
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="stylesheet" href="./css/font-css/general-sans.css">
@@ -26,7 +26,6 @@
             currentLng = 'en';
          } else if(userLang.includes('fr')) {
             currentLng = 'fr';
-            window.location.href = "/fr"
          }
          let attributeName = 'data-tag';
          translate.init(attributeName, currentLng);
