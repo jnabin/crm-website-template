@@ -1,0 +1,113 @@
+/*for tablet*/
+
+@media only screen and (max-width: 995px) {
+    :root {
+        --h1: 40px;
+        --h2: 34px;
+        --h3: 30px;
+        --h4: 26px;
+        --h5: 24px;
+        --h6: 18px;
+        --bigp: 18px;
+        --p: 16px;
+        --button: 16px;
+    }
+    .main-cm-logo{
+        width: 173px;
+    }
+    .other-nav-tool button{
+        padding: 16px 25px;
+    }
+    .hero-section h1 .custom-color::after {
+        bottom: -5px;
+        height: 18px;
+    }
+    h1{
+        line-height: 48px !important;
+    }
+    h2{
+        line-height: 40.8px !important;
+    }
+    h5{
+        line-height: 33.6px !important;
+    }
+    .nav-dropdown-items{
+        display: none;
+    }
+    .hero-short-brief {
+        line-height: 25.6px;
+    }
+    .gif-content {
+        top: 21px;
+        left: 10px;
+        width: 13.81vw
+        /* height: 408px; */
+    }
+
+    .mobile-border{
+        width: 16.01vw
+    }
+
+    .mobile-frame {
+        top: 112px;
+    }
+
+    .campaign-image {
+        top: 190px;
+        left: 12px;
+        width: 19.782vw;
+    }
+
+    .hero-images {
+        margin-top: 30px;
+    }
+
+    .hero-section {
+        height: 844px;
+    }
+
+    .index-header{
+        height: 934px;
+    }
+    .brand-list img {
+        max-width: 69px;
+    }
+
+    .brand-container {
+        gap: 20px;
+    }
+    .service-list{
+        flex-wrap: wrap;
+    }
+    .service-list .service-item {
+        flex-basis: calc(50% - 11px);
+    }
+    h2 .custom-color::after {
+        bottom: 8px;
+        height: 16px;
+    }
+
+    .service-item.request-demo-section{
+        display: flex;
+    }
+
+    footer .body-section {
+        flex-wrap: wrap;
+    }
+
+    .footer-content .top-section .enter-email .subscribe{
+        height: 48px;
+    }
+
+    .download-option img{
+        max-width: calc(50% - 10px);
+    }
+
+    .footer-content .top-section .enter-email {
+        max-width: 300px;
+    }
+    .footer-content .top-section {
+        display: flex;
+        gap: 20px;
+    }
+}

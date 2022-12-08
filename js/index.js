@@ -18,3 +18,16 @@ for(let i=0; i< tabHeaderNodes.length; i++) {
         tabIndicator.style.width = `${tabHeaderNodes[i].offsetWidth}px`;
     });
 }
+
+function updateTabIndicator() {
+    let activeTabHeader = document.querySelector(".tab-header > div.active");
+    let activeTabBody = document.querySelector(".tab-body > div.active");
+
+    let leftHeaderPosition = activeTabHeader.getBoundingClientRect().left;
+    let leftBodyPosition = activeTabBody.getBoundingClientRect().left;
+    let actualHeaderLeftPosition = leftHeaderPosition - leftBodyPosition;
+    tabIndicator.style.left = `${actualHeaderLeftPosition}px`;
+    tabIndicator.style.width = `${activeTabHeader.offsetWidth}px`;
+}
+
+window.onresize = updateTabIndicator;
