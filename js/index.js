@@ -31,3 +31,42 @@ function updateTabIndicator() {
 }
 
 window.onresize = updateTabIndicator;
+showBrandListLoop();
+
+function showBrandListLoop() {
+    let $elem=$('#brandListScroll');
+    let newScrollLeft = $elem.scrollLeft(),
+        width=$elem.width(),
+        scrollWidth=$elem.get(0).scrollWidth;
+
+    if (newScrollLeft+width==scrollWidth || (scrollWidth - (newScrollLeft+width) < 1)) {
+        document.getElementById('brandListScroll').scrollLeft = 0;
+    } else {
+        document.getElementById('brandListScroll').scrollLeft += 50;
+    }
+    setTimeout(() => {
+        showBrandListLoop();
+    }, 1000);
+}
+
+let coll = document.getElementsByClassName("expansion-controll");
+let k;
+
+for (k = 0; k < coll.length; k++) {
+  coll[k].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    content.classList.toggle("extended");
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + 20+ "px";
+    }
+  });
+}
+
+let expandMenu = document.getElementById("expandMenu");
+expandMenu.addEventListener("click", () => {
+    let expandNav = document.getElementById("tabletNavDropdownItemsWrapper");
+    expandNav.classList.toggle("expanded-menu");
+});
