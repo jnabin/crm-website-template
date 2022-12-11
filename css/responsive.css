@@ -1,3 +1,4 @@
+
 /*for tablet*/
 
 @media only screen and (max-width: 995px) {
@@ -218,3 +219,45 @@
 .container, .container-sm {
     max-width: 90% !important;
 }}
+
+/* for mobile */
+@media only screen and (max-width: 590px) {
+    .recent-news-item{
+        max-width: 100%
+    }
+
+    .service-list .service-item {
+        flex-basis: 100%;
+    }
+
+    .brand-container .short-title,
+    .brand-container .vertical-line{
+        display: none;
+    }
+
+    .testimonial-item{
+        flex-wrap: wrap;
+    }
+
+    .testimonial-item .actor-image,
+    .testimonial-item .review-details{
+        max-width: 100%;
+    }
+
+    .testimonial-item .actor-image{
+        height: 268px;
+        width: auto !important;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: var(--light-green);
+    }
+
+    .testimonial-item .actor-image img{
+        max-height: 100%;
+    }
+
+    .hero-section {
+        padding-top: 70px;
+    }
+}
