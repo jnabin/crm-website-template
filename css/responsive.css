@@ -27,6 +27,14 @@
     .main-cm-logo{
         width: 173px;
     }
+
+    .voter-animation,
+    .elector-animation,
+    .no-profit-animation,
+    .candidate-animation{
+        display: none;
+    }
+
     .other-nav-tool button{
         padding: 16px 25px;
     }
