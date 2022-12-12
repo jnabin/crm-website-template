@@ -82,7 +82,7 @@ function reveal() {
       let elementVisible = 1055;
       console.log(windowHeight - elementVisible);
 
-      if (elementTop <= 0 && elementTop >= -1055) {
+      if (elementTop <= -50 && elementTop >= -1000) {
         reveals[i].classList.add("active");
       } else {
         reveals[i].classList.remove("active");
