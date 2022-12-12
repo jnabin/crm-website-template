@@ -55,7 +55,7 @@ let k;
 for (k = 0; k < coll.length; k++) {
   coll[k].addEventListener("click", function() {
     this.classList.toggle("active");
-    var content = this.nextElementSibling;
+    let content = this.nextElementSibling;
     content.classList.toggle("extended");
     if (content.style.maxHeight){
       content.style.maxHeight = null;
@@ -70,3 +70,27 @@ expandMenu.addEventListener("click", () => {
     let expandNav = document.getElementById("tabletNavDropdownItemsWrapper");
     expandNav.classList.toggle("expanded-menu");
 });
+
+function reveal() {
+    let reveals = document.querySelectorAll(".reveal");
+  
+    for (let i = 0; i < reveals.length; i++) {
+      let windowHeight = window.innerHeight;
+      console.log(windowHeight, "windowheight");
+      let elementTop = reveals[i].getBoundingClientRect().top;
+      console.log(elementTop, "elementTop");
+      let elementVisible = 1055;
+      console.log(windowHeight - elementVisible);
+
+      if (elementTop <= 0 && elementTop >= -1055) {
+        reveals[i].classList.add("active");
+      } else {
+        reveals[i].classList.remove("active");
+      }
+    }
+  }
+  
+  window.addEventListener("scroll", reveal);
+  
+  // To check the scroll position on page load
+  reveal();

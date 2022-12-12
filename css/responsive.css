@@ -10,6 +10,9 @@
 /*for tablet*/
 
 @media only screen and (max-width: 995px) {
+    .hero-images{
+        width: 100%;
+    }
     :root {
         --h1: 40px;
         --h2: 34px;
@@ -231,6 +234,17 @@
 
 /* for mobile */
 @media only screen and (max-width: 590px) {
+    :root {
+        --h1: 32px;
+        --h2: 26px;
+        --h3: 20px;
+        --h4: 26px;
+        --h5: 24px;
+        --h6: 18px;
+        --bigp: 18px;
+        --p: 16px;
+        --button: 16px;
+    }
     .recent-news-item{
         max-width: 100%
     }

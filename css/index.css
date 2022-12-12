@@ -1,9 +1,9 @@
 
 .hero-section{
     background-color: var(--white-200);
-    padding-top: 80px;
+    padding-top: 90px;
     text-align: center;
-    height: 1045px;
+    height: 1055px;
 }
 .hero-section h1{
     line-height: 81.6px;
@@ -50,12 +50,101 @@ h2 .custom-color::after{
     background-color: var(--primary);
 }
 
+.hero-section h1{
+    position: relative;
+}
+
 .hero-short-brief{
     margin-top: 23px;
     max-width: 744px;
     margin-left: auto;
     margin-right: auto;
     line-height: 28.8px;
+}
+
+.voter-animation img,
+.elector-animatio img,
+.candidate-animation img,
+.no-profit-animation img{
+    width: 66px;
+    height: 66px;
+}
+
+.voter-animation,
+.elector-animation{
+    display: inline-block;
+    z-index: 11;
+    position: absolute;
+    top: 40px;
+    transition: top 1.5s ease-out;
+}
+
+.no-profit-animation,
+.candidate-animation{
+    position: absolute;
+    display: inline-block;
+    z-index: 11;
+    top: 25px;
+    transition: top 1.5s ease-out;
+}
+
+.candidate-animation{
+    left: 35px;
+}
+
+.no-profit-animation{
+    right: 35px;
+}
+
+.voter-animation::after{
+    content: 'Voter';
+    width: 45px;
+    height: 25px;
+}
+
+.elector-animation::after{
+    content: 'Elector';
+    width: 64px;
+    height: 26px;
+}
+
+.no-profit-animation::after{
+    content: 'Candidate';
+    width: 84px;
+    height: 26px;
+}
+
+.no-profit-animation::after{
+    content: 'No-Profit';
+    width: 63.49px;
+    height: 24px;
+}
+
+.voter-animation::after,
+.elector-animation::after,
+.no-profit-animation::after,
+.candidate-animation::after{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 160%;
+    color: var(--dark);
+    background: #FFFFFF;
+    border-radius: 41.6667px;
+    position: absolute;
+    bottom: -6px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.voter-animation{
+    left: -135px;
+}
+
+.elector-animation{
+    right: -100px;
 }
 
 .request-demo{
@@ -71,18 +160,23 @@ h2 .custom-color::after{
 
 .hero-images{
     position: relative;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .campaign-image{
     position: absolute;
     top: 443px;
     left: 8px;
+    transition: top 1.5s ease-out;
 }
 
 .mobile-frame{
     position: absolute;
     top: 254px;
     right: 21px;
+    transition: top 1.5s ease-out;
 }
 
 .mobile-gif{
@@ -101,6 +195,7 @@ h2 .custom-color::after{
     display: flex;
     flex-direction: column;
     gap: 100px;
+    margin-top: 20px;
 }
 
 .brand-section{
@@ -144,7 +239,7 @@ h2 .custom-color::after{
 }
 
 .index-header{
-    height: 1269px;
+    height: 1279px;
 }
 
 .vertical-line span{
@@ -514,4 +609,53 @@ p.regular.light-green{
     border-radius: 4px;
     gap: 50px;
     display: none;
+}
+
+.reveal .hero-main-dh-img{
+    transition: transform 1.5s ease-out;
+}
+
+.reveal.active .hero-main-dh-img{
+    transform: translateY(35px);
+}
+
+.reveal.active .campaign-image{
+    top: 428px;
+}
+
+.service-item img{
+    transition: transform 0.5s ease-out;
+}
+
+.service-item img:hover{
+    transform: scale(1.1);
+}
+
+.reveal.active .voter-animation, 
+.reveal.active .elector-animation{
+    top: 55px;
+}
+
+.reveal.active .no-profit-animation,
+.reveal.active .candidate-animation {
+    top: 40px;
+}
+
+.reveal.active .mobile-frame{
+    top: 239px;
+}
+
+.reveal.active .mobile-frame{
+    transform: translateY(-50px);
+}
+
+@keyframes fade-bottom {
+    0% {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
 }

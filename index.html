@@ -44,10 +44,10 @@
                </div>
                <div class="nav-dropdown-items">
                   <div class="use-case">
-                     <span class="pointer" data-bs-toggle="dropdown" aria-expanded="false">
+                     <button class="pointer" data-bs-toggle="dropdown" aria-expanded="false">
                         <span data-tag="nav-use-case">Use case</span>
                         <i class="fa-solid fa-chevron-down"></i>
-                     </span>
+                     </button>
                      <ul class="dropdown-menu">
                        <li>
                         <a class="dropdown-item" href="#">
@@ -79,10 +79,10 @@
                      </ul>
                   </div>
                   <div class="use-case services">
-                     <span class="pointer" data-bs-toggle="dropdown" aria-expanded="false">
+                     <button class="pointer" data-bs-toggle="dropdown" aria-expanded="false">
                         <span data-tag="nav-services">Services</span>
                         <i class="fa-solid fa-chevron-down"></i>
-                     </span>
+                     </button>
                      <div class="dropdown-menu custom-service-dropdown-menu">
                         <div class="service-left-options">
                            <a class="dropdown-item" href="#">
@@ -139,8 +139,8 @@
                         </div>
                      </div>
                   </div>
-                  <div class="pricing">
-                     <span data-tag="nav-pricing">Pricing</span>
+                  <div class="use-case pricing pointer">
+                     <button class="pointer" data-tag="nav-pricing">Pricing</button>
                   </div>
                </div>
                <div class="tablet-nav-dropdown-items-wrapper" id="tabletNavDropdownItemsWrapper">
@@ -296,11 +296,18 @@
             </div>
          </nav>
       </div>
-      <div class="hero-section">
+      <div class="hero-section reveal">
          <div class="container">
             <h1>
                <span data-tag="hero-title-1">All your needs for your </span> <span class="custom-color" data-tag="hero-organization">organization,</span>
                <span data-tag="hero-title-2"> in one and the same place.</span>
+
+               <span class="voter-animation">
+                  <img src="./resources/images/voter-her0.svg" alt="" srcset="">
+               </span>
+               <span class="elector-animation">
+                  <img src="./resources/images/elector-hero.svg" alt="" srcset="">
+               </span>
             </h1>
             <p class="hero-short-brief" data-tag="hero-sub-brief">
                Since 2012, we have supported hundreds of agents of change by offering them all the tools necessary for the success of their commitment.
@@ -310,7 +317,13 @@
             </div>
          </div>
          <div class="container hero-images">
-            <img src="./resources/images/hero-section-dashboard.png" alt="" srcset="">
+            <span class="candidate-animation">
+               <img src="./resources/images/candidate-hero.svg" alt="" srcset="">
+            </span>
+            <span class="no-profit-animation">
+               <img src="./resources/images/no-profit-hero.svg" alt="" srcset="">
+            </span>
+            <img class="hero-main-dh-img" src="./resources/images/hero-section-dashboard.png" alt="" srcset="">
             <img class="campaign-image" src="./resources/images/campaign.svg" alt="" srcset="">
             <div class="mobile-frame">
                <div class="mobile-gif">
