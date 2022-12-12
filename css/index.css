@@ -627,6 +627,14 @@ p.regular.light-green{
     transition: transform 0.5s ease-out;
 }
 
+.service-list .service-item div a i{
+    transition: padding 0.3s ease-out;
+}
+
+.service-list .service-item div a:hover i{
+    padding-left: 13px;
+}
+
 .service-item img:hover{
     transform: scale(1.1);
 }
