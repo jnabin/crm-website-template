@@ -7,11 +7,43 @@
         width: 0px;
     }
 }
+@media only screen and (max-width: 1423px) {
+    .voter-animation{
+        left: -5vw;
+    }
+    
+    .elector-animation{
+        right: -5vw;
+    }
+}
 /*for tablet*/
 
 @media only screen and (max-width: 995px) {
     .hero-images{
         width: 100%;
+    }
+    .reveal.active .voter-animation, 
+    .reveal.active .elector-animation{
+        top: 35px;
+    }
+
+    .reveal.active .no-profit-animation,
+    .reveal.active .candidate-animation {
+        top: 25px;
+    }
+
+    .reveal.active .mobile-frame{
+        top: 130px;
+    }
+
+    .reveal.active .mobile-frame{
+        top: 96px;
+    }
+    .reveal.active .campaign-image{
+        top: 205px;
+    }
+    .reveal.active .hero-main-dh-img{
+        transform: translateY(20px);
     }
     :root {
         --h1: 40px;
