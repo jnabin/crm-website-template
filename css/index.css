@@ -23,7 +23,7 @@
     content: '';
     position: absolute;
     display: inline-block;
-    bottom: -6px;
+    bottom: -30px;
     z-index: -1;
     left: 0;
     width: 100%;
