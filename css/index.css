@@ -108,7 +108,7 @@ h2 .custom-color::after{
     height: 26px;
 }
 
-.no-profit-animation::after{
+.candidate-animation::after{
     content: 'Candidate';
     width: 84px;
     height: 26px;
@@ -152,10 +152,11 @@ h2 .custom-color::after{
     margin-top: 23px;
 }
 
-.request-demo button{
+.request-demo a{
     background-color: var(--primary);
     padding: 17px 30px;
     border-radius: 4px;
+    display: inline-block;
 }
 
 .hero-images{

@@ -14,13 +14,17 @@ p{
 p.regular{
     line-height: 25.6px;
 }
+p.regular.small{
+    line-height: 22.4px;
+    font-size: 14px;
+}
 a{
     text-decoration: none;
     color: var(--dark);
 }
 span, a, p, div, button{
     font-size: var(--p);
-    line-height: 100%;
+    line-height: 25.6px;
 }
 button{
     border: none;
@@ -146,7 +150,11 @@ h1, h2, h3, h4, h5, h6{
     align-items: center;
 }
 
-.other-nav-tool button{
+/* a:hover{
+    color: transparent;
+} */
+
+.other-nav-tool a{
     background-color: var(--primary);
     border-radius: 4px;
     padding: 17px 25px;
@@ -270,7 +278,12 @@ footer.footer p.regular, footer.footer p.regular a{
     align-items: center;
     justify-content: center;
 }
-
+.button-text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: var(--dark);
+}
 .footer-body-item{
     display: flex;
     flex-direction: column;

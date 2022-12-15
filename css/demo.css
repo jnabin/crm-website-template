@@ -1,0 +1,130 @@
+.index-header{
+    border-bottom: 1px solid var(--border);
+}
+
+.demo-body-content{
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+    align-items: center;
+}
+
+.offered-items{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.offer-item{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.offered-items .offer-item span:first-child{
+    border: 1px solid var(--border);
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.comment-content{
+    background: #F6F6F9;
+    border-radius: 4px;
+    padding: 20px 20px;
+}
+.comment-text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28.8px;
+    color: var(--dark);
+    margin-bottom: 25px;
+}
+
+.user-details{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    height: 60px;
+    padding: 0 15px;
+}
+
+.c-user-profile{
+    height: 36px;
+    width: 36px;
+}
+
+.user-details .raw-details{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.c-logo{
+    text-align: end;
+}
+
+.c-logo img{
+    width: 67%
+}
+
+.submit-form{
+    background-color: var(--primary);
+    padding: 17px 0px;
+    text-align: center;
+}
+
+.contact-form{
+    flex-basis: 677px;
+}
+
+.contact-form .form-content{
+    background: #F6F6F9;
+    padding: 35px 30px;
+}
+
+.contact-form .form-content .form-group-row{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.c-form-group{
+    flex-basis: calc(100%);
+}
+
+.contact-form .form-content label{
+    margin-bottom: 10px;
+}
+
+.contact-form .form-content input,
+.contact-form .form-content select{
+    display: block;
+    width: 100%;
+    outline: 1px solid var(--border);
+    border-radius: 4px;
+    border: none;
+    height: 50px;
+    padding: 0px 15px;
+} 
+
+.contact-form .form-content input:focus,
+.contact-form .form-content select:focus{
+    outline: 1px solid var(--primary) !important;
+}
+
+.basic-demo-info{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex-basis: 514px;
+}
+
+.what-user-say{
+    margin-bottom: 15px;
+}

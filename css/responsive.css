@@ -125,7 +125,7 @@
         height: 844px;
     }
 
-    .index-header{
+    .home.index-header{
         height: 934px;
     }
     .brand-list img {
@@ -264,6 +264,23 @@
     .slider-button {
         right: 0;
         left: auto;
+    }
+
+    /* demo page */
+    .demo-body-content{
+        flex-wrap: wrap;
+    }
+
+    .demo-body-content{
+        margin-top: 70px;
+    }
+
+    .basic-demo-info{
+        gap: 25px;
+    }
+
+    .demo-body-content{
+        gap: 40px;
     }
 }
 
