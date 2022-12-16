@@ -282,6 +282,24 @@
     .demo-body-content{
         gap: 40px;
     }
+
+    /* contact us */
+    .contact-us-body-content{
+        flex-wrap: wrap;
+    }
+
+    .contact-form,
+    .contact-us-desc-detail{
+        flex-basis: 100%;
+    }
+
+    .available-contact-options{
+        flex-direction: row;
+    }
+    .message-us-option,
+    .chat-with-us{
+        flex-basis: calc(50% - 12.5px);
+    }
 }
 
 @media (min-width: 576px) {
@@ -437,4 +455,18 @@
     /* .footer-content .top-section .enter-email {
         flex-basis: 100%;
     } */
+
+    /* contact us */
+    .available-contact-options{
+        flex-direction: column;
+    }
+    .message-us-option,
+    .chat-with-us{
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .help-options{
+        flex-wrap: wrap;
+    }
 }

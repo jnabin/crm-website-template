@@ -1,0 +1,161 @@
+.index-header{
+    border-bottom: 1px solid var(--border);
+}
+.contact-us-body-content{
+    margin-top: 90px;
+    align-items: center;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.get-touch-button a{
+    display: inline-block;
+    padding: 10px 30px;
+    background: var(--light-green);
+    border-radius: 4px;
+}
+
+.available-contact-options{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.message-us-option,
+.chat-with-us{
+    max-width: 450px;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 23px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.chat-peoples span{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-left: -15px;
+}
+
+.chat-peoples span:first-child{
+    margin-left: 0px;
+}
+
+.mail-us-illustration img,
+.chat-us-illustration img{
+    width: 34px;
+}
+
+.mail-us-illustration span{
+    background: var(--light-red);
+    border-radius: 4px;
+    width: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 82px;
+}
+
+.chat-us-illustration span{
+    background: var(--light-green);
+    border-radius: 4px;
+    width: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 82px;
+}
+
+.contact-us-desc-detail {
+    flex-basis: 540px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contact-form{
+    flex-basis: 677px;
+}
+
+.contact-form .form-content{
+    background: #F6F6F9;
+    padding: 35px 30px;
+    border-radius: 4px;
+}
+
+
+.submit-form{
+    background-color: var(--primary);
+    padding: 17px 0px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.contact-form .form-content form textarea{
+    height: 169px;
+}
+
+.need-more-section{
+    margin-top: 60px;
+    padding: 100px 0px;
+    padding-bottom: 120px;
+    background-color: #F6F6F9;
+}
+
+.help-options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+
+.help-option-item{
+    background: #FFFFFF;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-basis: 326px;
+    box-shadow: 0px 40px 30px rgba(0, 0, 0, 0.04);
+    padding: 25px 30px;
+    padding-top: 30px;
+}
+
+.help-option-item div:first-child{
+    margin-bottom: 10px;
+}
+
+.common-question-illustration,
+.video-illustration,
+.resource-illustration{
+    display: inline-flex;
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.common-question-illustration{
+    background: var(--light-green);
+}
+.video-illustration{
+    background: var(--light-green-2);
+}
+.resource-illustration{
+    background: var(--light-purple);
+}
+
+.need-more-section h3{
+    margin-bottom: 30px;
+}
+
+.need-more-section .short-desc{
+    margin-bottom: 40px;
+    max-width: 618px;
+    margin-left: auto;
+    margin-right: auto;
+}
