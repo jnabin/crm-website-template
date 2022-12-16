@@ -62,6 +62,15 @@ h4{
 .form-group-row label{
     margin-bottom: 10px;
 }
+input,
+select,
+textarea{
+    outline: 1px solid var(--border);
+    border-radius: 4px;
+    border: none;
+    height: 50px;
+    padding: 0px 15px;
+}
 .form-group-row input,
 .form-group-row select,
 .form-group-row textarea{
@@ -73,6 +82,11 @@ h4{
     height: 50px;
     padding: 0px 15px;
 } 
+input:focus,
+select:focus,
+textarea:focus{
+    outline: 1px solid var(--primary) !important;
+}
 .form-group-row input:focus,
 .form-group-row select:focus,
 .form-group-row textarea:focus{
@@ -436,6 +450,10 @@ footer .address-content{
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+}
+
+p.dark, a.dark, span.dark{
+    color: var(--dark);
 }
 
 .service-expansion-body-dual{

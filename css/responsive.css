@@ -300,6 +300,15 @@
     .chat-with-us{
         flex-basis: calc(50% - 12.5px);
     }
+
+    /* coming soon */
+    .coming-soon-body-content{
+        flex-wrap: wrap;
+    }
+
+    .coming-soon-details{
+        margin-top: 90px;
+    }
 }
 
 @media (min-width: 576px) {
