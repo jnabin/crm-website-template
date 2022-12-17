@@ -57,6 +57,7 @@ h1 .custom-color::after {
     display: inline-block;
     position: absolute;
     left: 13.7%;
+    z-index: 2;
     top: 2.6%;
 }
 
