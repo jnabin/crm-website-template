@@ -576,34 +576,7 @@ p.regular.light-green{
     max-width: 511px;
 }
 
-.recent-news-list{
-    margin-top: 60px;
-    display: flex;
-    justify-content: space-between;
-}
 
-.blog-type-btn button{
-    color: var(--bg-primary-dark);
-    line-height: 25.6px;
-    border: none;
-    padding: 3px 20px;
-    background-color: var(--light-green);
-    border-radius: 2px;
-}
-
-.recent-news-item{
-    border: 1px solid var(--border);
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    max-width: 395px;
-    gap: 15px;
-    border-radius: 4px;
-}
-
-.recent-news-item a i{
-    margin-left: 7px;
-}
 .service-item.request-demo-section{
     padding-top: 60px;
     background-color: var(--light-green-2);
