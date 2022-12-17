@@ -398,13 +398,19 @@ footer .address-content{
     transition: transform 0.2s ease-out;
 }
 
-.use-case button.pointer{
+.use-case button.pointer,
+.use-case a.pointer{
     transition: transform 0.2s ease-out;
 }
 
-.use-case button.pointer{
+.use-case button.pointer,
+.use-case a.pointer{
     background-color: transparent;
     padding: 15px 18px 13px 20px;
+}
+
+.use-case a.pointer{
+    display: inline-block;
 }
 
 .use-case button.pointer.show{
@@ -412,7 +418,8 @@ footer .address-content{
     border-radius: 4px;
 }
 
-.use-case .pointer:active{
+.use-case .pointer:active,
+.use-case a.pointer:active{
     transform: translateY(3px);
 }
 
