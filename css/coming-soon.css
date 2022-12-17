@@ -6,7 +6,7 @@
 
 .coming-soon-illustration{
     background-color: var(--primary);
-    flex-basis: 756px;
+    flex-basis: 40%;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -14,7 +14,7 @@
 }
 
 .coming-soon-content{
-    flex-basis: calc(100vw - 756px);
+    flex-basis: 60%;
     display: flex;
     align-items: center;
     flex-shrink: 0;

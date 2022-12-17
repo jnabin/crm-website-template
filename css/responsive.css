@@ -306,8 +306,45 @@
         flex-wrap: wrap;
     }
 
-    .coming-soon-details{
+    .coming-soon-content{
+        flex-basis: 100%;
+        margin-top: 34px;
+        order: 2;
+    }
+
+    .coming-soon-body-content{
+        height: auto;
+        max-height: none;
+        padding-bottom: 90px;
+    }
+
+    .coming-soon-illustration{
+        order: 1;
+        height: 400px;
         margin-top: 90px;
+        flex-basis: 100%;
+    }
+
+    .coming-soon-body-content h1 .custom-color::after {
+        bottom: -8px;
+        height: 10px;
+    }
+
+    .main-logo-c{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .main-logo-c {
+        max-width: 170px;
+    }
+
+    .coming-soon-details h1,
+    .coming-soon-details .short-bf{
+        text-align: center;
+    }
+
+    .coming-soon-details {
+        flex-basis: 583px;
     }
 }
 
@@ -477,5 +514,11 @@
 
     .help-options{
         flex-wrap: wrap;
+    }
+
+    /* for coming soon */
+    .coming-soon-content{
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
