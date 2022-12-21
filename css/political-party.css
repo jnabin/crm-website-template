@@ -1,0 +1,75 @@
+.index-header{
+    border-bottom: 1px solid var(--border);
+}
+
+.party-hero-section{
+    height: 714px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.party-hero-short-bf{
+    max-width: 553px;
+    margin-bottom: 33px;
+}
+.party-hero-wrapper h2{
+    max-width: 576px;
+    margin-bottom: 25px;
+}
+.party-hero-wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+}
+
+.party-hero-list-details{
+    list-style: none;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.party-hero-list-details li::before{
+    font-family: "Font Awesome 5 Free";
+    content: "\f00c";
+    font-weight: 900;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary);
+}
+
+.party-hero-illustration{
+    position: relative;
+}
+
+.party-hero-right-abs {
+    position: absolute;
+    top: 65%;
+    right: 22px;
+    left: -153px;
+}
+
+.party-dashborad-illustration{
+    position: relative;
+}
+
+.party-hero-mobile-dashboard {
+    position: absolute;
+    right: -94px;
+    top: 20%;
+    max-height: 375px;
+}
+
+.party-hero-feature-img{
+    max-width: 624px;
+}
