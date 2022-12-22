@@ -18,6 +18,7 @@
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
    <script src="./js/Translate.js"></script>
+   <script src="https://unpkg.com/scrollreveal"></script>
    <script>
       function load(){
          let userLang = navigator.language || navigator.userLanguage;
@@ -300,7 +301,7 @@
    <main class="main-content">
       <section class="party-hero-section">
          <div class="party-hero-wrapper container">
-            <div>
+            <div class="party-hero-wrapper-desc">
                <h2>#1 Best Tools for Political parti and candidate</h2>
                <p class="regular party-hero-short-bf">
                   Democratik is the best tool on the market when you want to manage your electoral campaign. With it you can import and manage your elector list then find and annotate your sympathizer to maximise your voter turnout.
@@ -317,7 +318,7 @@
                <img class="party-hero-feature-img" src="./resources/images/party-hero-feature-img.png" alt="" srcset="">
                <div class="party-hero-right-abs">
                   <div class="party-dashborad-illustration">
-                     <img src="./resources/images/party-hero-crm-dashboard.png" alt="" srcset="">
+                     <img class="party-hero-crm-dashboard-img" src="./resources/images/party-hero-crm-dashboard.png" alt="" srcset="">
                      <img class="party-hero-mobile-dashboard" src="./resources/images/party-hero-mobile-dashboard.png" alt="" srcset="">
                   </div>
                </div>
@@ -356,23 +357,23 @@
       </section>
       <section class="party-robot-call-section">
          <div class="party-robot-call-wrapper container">
-            <div class="party-robot-call-details">
+            <div class="party-robot-call-details reveal-ani-left">
                <h2>Robot call</h2>
                <p class="regular">
                   We can provide automated call to reach your elector in less than one hour with a message or even a question. After that we will provide you a report with the result and import the data collected directly into Democratik. 
                </p>
             </div>
-            <div class="robot-call-tab-illustration">
+            <div class="robot-call-tab-illustration reveal-ani-bottom">
                <img src="./resources/images/robot-call-tab.png" alt="" srcset="">
             </div>
          </div>
       </section>
       <section class="party-call-section">
          <div class="party-robot-call-wrapper container">
-            <div class="robot-call-tab-illustration">
+            <div class="robot-call-tab-illustration reveal-ani-bottom">
                <img src="./resources/images/party-call-center-illustration.png" alt="" srcset="">
             </div>
-            <div class="party-robot-call-details">
+            <div class="party-robot-call-details reveal-ani-left">
                <h2>Call center</h2>
                <p class="regular">
                   We have either a solution where you can run a predictive call center using your own staff or pay for having our 200 bilingual canadian agents making calls on your behalf.
@@ -382,13 +383,13 @@
       </section>
       <section class="party-data-pool-section">
          <div class="party-robot-call-wrapper container">
-            <div class="party-robot-call-details">
+            <div class="party-robot-call-details reveal-ani-bottom">
                <h2>Data pool</h2>
                <p class="regular">
                   We can provide data to add into your democratik account like voting results map or the last census. we have also the public available phone and the geocoding of all address you may have into your database. 
                </p>
             </div>
-            <div class="robot-call-tab-illustration">
+            <div class="robot-call-tab-illustration reveal-ani-left">
                <img src="./resources/images/party-data-pool-illustration.png" alt="" srcset="">
             </div>
          </div>
@@ -396,7 +397,7 @@
       <section class="party-key-features-section party-main-section-divider-p">
          <div class="party-key-features-wrapper container">
             <div class="party-key-features-header">
-               <h2>Key features to run Political parti and candidate</h2>
+               <h2 class="reveal-ani-left">Key features to run Political parti and candidate</h2>
             </div>
             <div class="party-key-features-list">
                <div class="party-key-features-item">
@@ -842,5 +843,13 @@
    <script src="./js/jquery-3.6.1.min.js"></script>
    <script src="./js/bootstrap.bundle.min.js"></script>
    <script src="./js/index.js"></script>
+   <script>
+      ScrollReveal().reveal('.party-hero-crm-dashboard-img', {delay: 300, origin: 'left'});
+      ScrollReveal().reveal('.reveal-ani-left', {delay: 300, origin: 'left'});
+      ScrollReveal().reveal('.party-hero-mobile-dashboard', {delay: 400, origin: 'bottom'});
+      ScrollReveal().reveal('.reveal-ani-bottom', {delay: 400, origin: 'bottom'});
+      ScrollReveal().reveal('.party-key-features-desc', {delay: 300, origin: 'bottom'});
+      ScrollReveal().reveal('.party-key-features-illustration', {delay: 400, origin: 'right'});
+   </script>
 </body>
 </html>

@@ -104,3 +104,10 @@ function reveal() {
   
   // To check the scroll position on page load
   reveal();
+
+  ScrollReveal({
+    reset: true,
+    distance: '50px',
+    duration: 1500,
+    delay: 400
+  });
