@@ -16,6 +16,24 @@
         right: -5vw;
     }
 }
+@media only screen and (max-width: 1315px) {
+    .party-hero-right-abs {
+        top: 65%;
+        right: 15px;
+        left: -70px;
+    }
+
+    .party-hero-mobile-dashboard {
+        position: absolute;
+        right: -66px;
+        top: 20%;
+        max-height: 300px;
+    }
+
+    .party-hero-feature-img {
+        max-width: 490px;
+    }
+}
 /*for tablet*/
 
 @media only screen and (max-width: 995px) {
@@ -372,6 +390,108 @@
 
     .most-common-question h2 {
         margin-bottom: 25px;
+    }
+
+    /* political party */
+    .party-hero-wrapper{
+        flex-wrap: wrap;
+    }
+    .party-hero-section {
+        height: 860px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    .party-hero-short-bf {
+        max-width: none;
+    }
+
+    .party-hero-feature-img{
+        display: none;
+    }
+    .party-hero-right-abs{
+        position:static;
+    }
+    .party-hero-mobile-dashboard {
+        max-height: 390px;
+        top: 17%;
+    }
+    .party-hero-crm-dashboard-img{
+        max-height: 450px;
+    }
+    .aliquam-request-demo-wrapper{
+        flex-wrap: wrap;
+        gap: 40px;
+        text-align: center;
+    }
+    .party-key-features-item{
+        flex-wrap: wrap;
+        gap: 30px;
+        padding: 55px 30px 33px;
+    }
+
+    .party-key-features-item:nth-child(even) .party-key-features-desc {
+        order: 1;
+    }
+    .party-key-features-item:nth-child(even) .party-key-features-illustration {
+        order: 2;
+    }
+    .parti-live-communication-wrapper{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .parti-live-communication-desc{
+        flex-basis: 100%;
+    }
+
+    .parti-live-communication-illustration{
+        flex-basis: 100%;
+    }
+
+    .potemtial-party-candidate-needs{
+        flex-wrap: wrap;
+    }
+
+    .democratic-solution{
+        flex-basis: 100%;
+    }
+
+    .solition-short-statistics ul{
+        flex-direction: row;
+    }
+
+    .solition-short-statistics ul li{
+        position: relative;
+    }
+
+    .solition-short-statistics ul li:first-child{
+        flex-basis: 248px;
+    }
+
+    .solition-short-statistics ul li:last-child{
+        flex-basis: 275px;
+    }
+
+    .solition-short-statistics ul li:first-child::before {
+        left: -30px;
+        top: 5px;
+    }
+
+    .solition-short-statistics ul li:last-child::before {
+        left: -30px;
+        top: 5px;
+    }
+
+    .democratic-solution h4.solution-title {
+        margin-bottom: 30px;
+    }
+
+    .get-ready-wrapper{
+        max-width: none;
+    }
+
+    .party-hero-mobile-dashboard {
+        right: -40px;
     }
 }
 @media (min-width: 576px) {

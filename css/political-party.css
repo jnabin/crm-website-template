@@ -52,6 +52,7 @@
 .solition-short-statistics ul li{
     display: block;
     padding-left: 10px;
+    position: relative;
 }
 
 .potemtial-party-candidate-needs-list ul li{
@@ -80,9 +81,10 @@
     content: "\f005";
     font-weight: 900;
     position: absolute;
-    left: 0;
+    left: -30px;
     display: inline-block;
     font-size: 25px;
+    top: 5px;
 }
 
 .solition-short-statistics ul li:last-child::before{
@@ -90,7 +92,8 @@
     content: "\f007";
     font-weight: 900;
     position: absolute;
-    left: 0;
+    left: -30px;
+    top: 5px;
     display: inline-block;
     font-size: 25px;
 }
