@@ -1,0 +1,115 @@
+.index-header{
+    border-bottom: 1px solid var(--border);
+}
+.search-blogs span{
+    position: relative;
+    display: inline-block;
+}
+
+.search-blogs span i{
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    font-size: 16px;
+    transform: translateY(-50%);
+}
+
+.search-blogs span input{
+    padding-left: 46px;
+    width: 368px;
+}
+.news-filter{
+    padding: 20px;
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.blog-category{
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 25px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.recent-news{
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 25px 20px;
+}
+.recent-blogs-list{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.recent-nes-item{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+p.date{
+    color: var(--body-font);
+}
+
+.recent-news-desc{
+    display: flex;
+    flex-basis: 239px;
+    gap: 5px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.recent-news-photo{
+    flex-basis: 80px;
+}
+
+.recent-news-photo img{
+    width: 80px;
+}
+
+.blog-details-main-section-divider{
+    margin-top: 90px;
+}
+
+.blog-details-main-section-divider-p{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.news-section-wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.blog-details-content{
+    flex-basis: 814px;
+}
+.news-filter-content{
+    flex-basis: 408px;
+}
+.blog-details-content h2{
+    margin-bottom: 20px;
+}
+.blog-feature-img{
+    margin-top: 35px;
+}
+.blog-feature-img img{
+    width: 100%;
+}
+.blog-primary-information{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    grid-area: 20px;
+    padding-top: 30px;
+    padding-bottom: 34px;
+    border-bottom: 1px solid var(--border);
+}
