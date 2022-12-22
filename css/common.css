@@ -608,3 +608,16 @@ a.service-expansion-item .ex-item-logo{
     align-items: center;
     justify-content: center;
 }
+.learn-more a:hover i {
+    padding-left: 13px;
+}
+.learn-more a i {
+    padding-left: 7px;
+}
+.learn-more a i {
+    transition: padding 0.3s ease-out;
+}
+
+a:hover{
+    color: var(--primary);
+}
