@@ -113,3 +113,41 @@ p.date{
     padding-bottom: 34px;
     border-bottom: 1px solid var(--border);
 }
+.deep-canvassing{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.deep-canvassing h4,
+.deep-canvassing-benefits h4{
+    margin-bottom: 25px;
+}
+
+.article-sub-figure{
+    text-align: center;
+}
+
+.article-sub-figure img{
+    max-width: 624px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.article-sub-figure p{
+    margin-top: 15px;
+    text-align: center;
+}
+
+h6.testmonial-article{
+    margin: 35px 0px;
+    padding: 50px 40px;
+    background-color: var(--white-200);
+    border-radius: 4px;
+}
+
+.long-lasting-effects{
+    margin-top: 40px;
+}
+
+.long-lasting-effects h5{
+    margin-bottom: 15px;
+}
