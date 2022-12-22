@@ -4,19 +4,21 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
+   <link rel="icon" type="image/x-icon" href="./resources/images/favicon.png">
+   <title>Democratik</title>
    <link rel="stylesheet" href="./css/bootstrap.min.css">
    <link rel="stylesheet" href="./css/variable.css">
    <link rel="stylesheet" href="./css/index.css">
-   <link rel="stylesheet" href="./css/common.css">
-   <link rel="stylesheet" href="./css/responsive.css">
    <link rel="stylesheet" href="./css/generic.css">
+   <link rel="stylesheet" href="./css/common.css">
    <link rel="stylesheet" href="./css/fontawesome/css/all.min.css">
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="stylesheet" href="./css/font-css/general-sans.css">
+   <link rel="stylesheet" href="./css/responsive.css">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
    <script src="./js/Translate.js"></script>
+   <script src="./js/scrollreveal.js"></script>
    <script>
       function load(){
          let userLang = navigator.language || navigator.userLanguage;
@@ -26,6 +28,7 @@
             currentLng = 'en';
          } else if(userLang.includes('fr')) {
             currentLng = 'fr';
+            //window.location.href = "/fr.html"
          }
          let attributeName = 'data-tag';
          translate.init(attributeName, currentLng);
@@ -34,22 +37,22 @@
    </script>
 </head>
 <body onload="load()">
-   <header class="index-header">
+   <header class="home index-header">
       <div class="nav-section">
          <nav class="container">
             <div class="d-flex justify-content-between align-items-center">
-               <div>
-                  <img src="./resources/images/logo.svg" alt="" srcset="">
+               <div class="main-cm-logo">
+                  <a href="/"><img src="./resources/images/logo.svg" alt="" srcset=""></a>
                </div>
                <div class="nav-dropdown-items">
                   <div class="use-case">
-                     <span class="pointer" data-bs-toggle="dropdown" aria-expanded="false">
+                     <button class="pointer" data-bs-toggle="dropdown" aria-expanded="false">
                         <span data-tag="nav-use-case">Use case</span>
                         <i class="fa-solid fa-chevron-down"></i>
-                     </span>
+                     </button>
                      <ul class="dropdown-menu">
                        <li>
-                        <a class="dropdown-item" href="#">
+                        <a class="dropdown-item" href="./coming-soon.html">
                            <div class="dropdown-item-image"><img src="./resources/images/Non-profit-icon.svg" alt="" srcset=""></div>
                            <div>
                               <p class="bold-nav-text">Non-profit</p>
@@ -58,7 +61,7 @@
                         </a>
                         </li>
                        <li>
-                        <a class="dropdown-item" href="#">
+                        <a class="dropdown-item" href="./political-party.html">
                            <div class="dropdown-item-image"><img src="./resources/images/Political-parti-icon.svg" alt="" srcset=""></div>
                            <div>
                               <p class="bold-nav-text">Political parti</p>
@@ -67,7 +70,7 @@
                         </a>
                         </li>
                        <li>
-                        <a class="dropdown-item" href="#">
+                        <a class="dropdown-item" href="./coming-soon.html">
                            <div class="dropdown-item-image"><img src="./resources/images/Elected-office-icon.svg" alt="" srcset=""></div>
                            <div>
                               <p class="bold-nav-text">Elected office</p>
@@ -78,34 +81,34 @@
                      </ul>
                   </div>
                   <div class="use-case services">
-                     <span class="pointer" data-bs-toggle="dropdown" aria-expanded="false">
+                     <button class="pointer" data-bs-toggle="dropdown" aria-expanded="false">
                         <span data-tag="nav-services">Services</span>
                         <i class="fa-solid fa-chevron-down"></i>
-                     </span>
+                     </button>
                      <div class="dropdown-menu custom-service-dropdown-menu">
                         <div class="service-left-options">
-                           <a class="dropdown-item" href="#">
+                           <a class="dropdown-item" href="./coming-soon.html">
                               <div class="dropdown-item-image"><img src="./resources/images/election-software.svg" alt="" srcset=""></div>
                               <div>
                                  <p class="bold-nav-text">Election software</p>
                                  <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
                               </div>
                            </a>
-                           <a class="dropdown-item" href="#">
+                           <a class="dropdown-item" href="./coming-soon.html">
                               <div class="dropdown-item-image"><img src="./resources/images/predictive-call.svg" alt="" srcset=""></div>
                               <div>
                                  <p class="bold-nav-text">Predictive call center</p>
                                  <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
                               </div>
                            </a>
-                           <a class="dropdown-item" href="#">
+                           <a class="dropdown-item" href="./coming-soon.html">
                               <div class="dropdown-item-image"><img src="./resources/images/nav-robot-call.svg" alt="" srcset=""></div>
                               <div>
                                  <p class="bold-nav-text">Robot call</p>
                                  <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
                               </div>
                            </a>
-                           <a class="dropdown-item" href="#">
+                           <a class="dropdown-item" href="./coming-soon.html">
                               <div class="dropdown-item-image"><img src="./resources/images/nav-crm-software.svg" alt="" srcset=""></div>
                               <div>
                                  <p class="bold-nav-text">CRM software</p>
@@ -114,21 +117,21 @@
                            </a>
                         </div>
                         <div class="service-right-options">
-                           <a class="dropdown-item" href="#">
+                           <a class="dropdown-item" href="./coming-soon.html">
                               <div class="dropdown-item-image"><img src="./resources/images/agent-calling.svg" alt="" srcset=""></div>
                               <div>
                                  <p class="bold-nav-text">Agent calling</p>
                                  <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
                               </div>
                            </a>
-                           <a class="dropdown-item" href="#">
+                           <a class="dropdown-item" href="./coming-soon.html">
                               <div class="dropdown-item-image"><img src="./resources/images/nav-signin.svg" alt="" srcset=""></div>
                               <div>
                                  <p class="bold-nav-text">Sign and printing</p>
                                  <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
                               </div>
                            </a>
-                           <a class="dropdown-item" href="#">
+                           <a class="dropdown-item" href="./coming-soon.html">
                               <div class="dropdown-item-image"><img src="./resources/images/data-pool.svg" alt="" srcset=""></div>
                               <div>
                                  <p class="bold-nav-text">Data pool</p>
@@ -138,15 +141,138 @@
                         </div>
                      </div>
                   </div>
-                  <div class="pricing">
-                     <span data-tag="nav-pricing">Pricing</span>
+                  <div class="use-case pricing pointer">
+                     <a class="pointer" href="./coming-soon.html" data-tag="nav-pricing">
+                        Pricing
+                     </a>
+                  </div>
+               </div>
+               <div class="tablet-nav-dropdown-items-wrapper" id="tabletNavDropdownItemsWrapper">
+                  <div class="tablet-nav-dropdown-items">
+                     <div class="tablet-use-case-section">
+                        <div class="expansion-controll">
+                           <span>Use Case</span>
+                           <span class="float-end">
+                              <i class="fa-solid fa-chevron-down"></i>
+                           </span>
+                        </div>
+                        <div class="service-expansion-body">
+                           <a class="service-expansion-item" href="./coming-soon.html">
+                              <div class="ex-item-logo">
+                                 <img src="./resources/images/Non-profit-icon.svg" alt="" srcset="">
+                              </div>
+                              <div class="ex-item-name">
+                                 <p class="bold-nav-text">Non-profit</p>
+                                 <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                              </div>
+                           </a>
+                           <a class="service-expansion-item" href="./coming-soon.html">
+                              <div class="ex-item-logo">
+                                 <img src="./resources/images/Political-parti-icon.svg" alt="" srcset="">
+                              </div>
+                              <div class="ex-item-name">
+                                 <p class="bold-nav-text">Political parti</p>
+                                 <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                              </div>
+                           </a>
+                           <a class="service-expansion-item" href="./coming-soon.html">
+                              <div class="ex-item-logo">
+                                 <img src="./resources/images/Elected-office-icon.svg" alt="" srcset="">
+                              </div>
+                              <div class="ex-item-name">
+                                 <p class="bold-nav-text">Elected office</p>
+                                 <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="tablet-service-section">
+                        <div class="expansion-controll">
+                           <span>Services</span>
+                           <span class="float-end">
+                              <i class="fa-solid fa-chevron-down"></i>
+                           </span>
+                        </div>
+                        <div class="service-expansion-body-dual">
+                           <div class="service-expansion-body-dual-left">
+                              <a class="service-expansion-item">
+                                 <div class="ex-item-logo">
+                                    <img src="./resources/images/Non-profit-icon.svg" alt="" srcset="">
+                                 </div>
+                                 <div class="ex-item-name">
+                                    <p class="bold-nav-text">Non-profit</p>
+                                    <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                                 </div>
+                              </a>
+                              <a class="service-expansion-item">
+                                 <div class="ex-item-logo">
+                                    <img src="./resources/images/Political-parti-icon.svg" alt="" srcset="">
+                                 </div>
+                                 <div class="ex-item-name">
+                                    <p class="bold-nav-text">Political parti</p>
+                                    <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                                 </div>
+                              </a>
+                              <a class="service-expansion-item">
+                                 <div class="ex-item-logo">
+                                    <img src="./resources/images/Elected-office-icon.svg" alt="" srcset="">
+                                 </div>
+                                 <div class="ex-item-name">
+                                    <p class="bold-nav-text">Elected office</p>
+                                    <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                                 </div>
+                              </a>
+                              <a class="service-expansion-item">
+                                 <div class="ex-item-logo">
+                                    <img src="./resources/images/Elected-office-icon.svg" alt="" srcset="">
+                                 </div>
+                                 <div class="ex-item-name">
+                                    <p class="bold-nav-text">Elected office</p>
+                                    <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                                 </div>
+                              </a>
+                           </div>
+                           <div class="service-expansion-body-dual-right">
+                              <a class="service-expansion-item">
+                                 <div class="ex-item-logo">
+                                    <img src="./resources/images/Non-profit-icon.svg" alt="" srcset="">
+                                 </div>
+                                 <div class="ex-item-name">
+                                    <p class="bold-nav-text">Non-profit</p>
+                                    <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                                 </div>
+                              </a>
+                              <a class="service-expansion-item">
+                                 <div class="ex-item-logo">
+                                    <img src="./resources/images/Political-parti-icon.svg" alt="" srcset="">
+                                 </div>
+                                 <div class="ex-item-name">
+                                    <p class="bold-nav-text">Political parti</p>
+                                    <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                                 </div>
+                              </a>
+                              <a class="service-expansion-item">
+                                 <div class="ex-item-logo">
+                                    <img src="./resources/images/Elected-office-icon.svg" alt="" srcset="">
+                                 </div>
+                                 <div class="ex-item-name">
+                                    <p class="bold-nav-text">Elected office</p>
+                                    <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                                 </div>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <a class="d-block">
+                        <span>Pricing</span>
+                     </a>
                   </div>
                </div>
                <div class="other-nav-tool">
                   <div class="get-demo">
-                     <button>
+                     <a href="./demo.html">
                         <span data-tag="nav-get-demo">Get a demo</span>
-                     </button>
+                     </a>
                   </div>
                   <div class="select-language">
                      <span class="cursor" data-bs-toggle="dropdown" aria-expanded="false">
@@ -167,25 +293,41 @@
                         </li>
                      </ul>
                   </div>
+                  <div class="expand-menu" id="expandMenu">
+                     <img src="./resources/images/menu.svg" alt="" srcset="">
+                  </div>
                </div>
             </div>
          </nav>
       </div>
-      <div class="hero-section">
+      <div class="hero-section reveal">
          <div class="container">
             <h1>
                <span data-tag="hero-title-1">All your needs for your </span> <span class="custom-color" data-tag="hero-organization">organization,</span>
                <span data-tag="hero-title-2"> in one and the same place.</span>
+
+               <span class="voter-animation">
+                  <img src="./resources/images/voter-her0.svg" alt="" srcset="">
+               </span>
+               <span class="elector-animation">
+                  <img src="./resources/images/elector-hero.svg" alt="" srcset="">
+               </span>
             </h1>
             <p class="hero-short-brief" data-tag="hero-sub-brief">
                Since 2012, we have supported hundreds of agents of change by offering them all the tools necessary for the success of their commitment.
             </p>
             <div class="request-demo">
-               <button data-tag="request-demo">Request a demo</button>
+               <a href="./demo.html" data-tag="request-demo">Request a demo</a>
             </div>
          </div>
          <div class="container hero-images">
-            <img src="./resources/images/hero-section-dashboard.png" alt="" srcset="">
+            <span class="candidate-animation">
+               <img src="./resources/images/candidate-hero.svg" alt="" srcset="">
+            </span>
+            <span class="no-profit-animation">
+               <img src="./resources/images/no-profit-hero.svg" alt="" srcset="">
+            </span>
+            <img class="hero-main-dh-img" src="./resources/images/hero-section-dashboard.png" alt="" srcset="">
             <img class="campaign-image" src="./resources/images/campaign.svg" alt="" srcset="">
             <div class="mobile-frame">
                <div class="mobile-gif">
@@ -205,7 +347,7 @@
             <div class="vertical-line">
                <span></span>
             </div>
-            <div class="brand-list align-self-center">
+            <div class="brand-list align-self-center" id="brandListScroll">
                <img src="./resources/images/npd-brand.svg" alt="npd" srcset="">
                <img src="./resources/images/bloc-brand.svg" alt="bloc" srcset="">
                <img src="./resources/images/montreal-brand.svg" alt="project montreal" srcset="">
@@ -268,6 +410,12 @@
                      <a href="/">Learn More<i class="fa-solid fa-arrow-right"></i></a>
                   </div>
                </div>
+               <div class="service-item request-demo-section">
+                  <img src="./resources/images/book-demo.svg" alt="" srcset="">
+                  <div class="request-demo text-center">
+                     <a href="./demo.html" data-tag="request-demo">Request a demo</a>
+                  </div>
+               </div>
             </div>
          </div>
       </section>
@@ -321,10 +469,110 @@
          </div>
       </section>
       <section class="features">
-         <div class="container feature-content">
+         <div class="container header-text">
             <h2>All the <span class="custom-color">features</span> you need to create, manage and grow your organization.</h2>
-            <div class="feature-tabs">
-               <div class="tab-header">
+         </div>
+         <div class="container sticky-wrapper">
+            <div class="tab-body-item">
+               <div class="active-members-dashboard">
+                  <img src="./resources/images/active-members.png" alt="" srcset="">
+               </div>
+               <div class="service-desc">
+                  <img width="80" src="./resources/images/powerful-database.svg" alt="" srcset="">
+                  <h3>Powerfull contact database</h3>
+                  <p class="regular">Lorem ipsum dolor sit amet consectetur. Pharetra egestas quis diam nullam amet feugiat sit mauris. A massa enim sed vitae pellentesque cras aliquet. Cras semper cras quis at sit.</p>
+                  <div class="request-demo text-start">
+                     <a href="./demo.html" data-tag="request-demo">Request a demo</a>
+                  </div>
+               </div>
+            </div>
+            <div class="tab-body-item">
+               <div class="active-members-dashboard">
+                  <img src="./resources/images/mobile-app.png" alt="" srcset="">
+               </div>
+               <div class="service-desc">
+                  <img width="80" src="./resources/images/mobile-application.svg" alt="" srcset="">
+                  <h3>Mobile application</h3>
+                  <p class="regular">Lorem ipsum dolor sit amet consectetur. Pharetra egestas quis diam nullam amet feugiat sit mauris. A massa enim sed vitae pellentesque cras aliquet. Cras semper cras quis at sit.</p>
+                  <div class="request-demo text-start">
+                     <a href="./demo.html" data-tag="request-demo">Request a demo</a>
+                  </div>
+               </div>
+            </div>
+            <div class="tab-body-item">
+               <div class="active-members-dashboard">
+                  <img src="./resources/images/active-members.png" alt="" srcset="">
+               </div>
+               <div class="service-desc">
+                  <img width="80" src="./resources/images/robot-call.svg" alt="" srcset="">
+                  <h3>Robotcall</h3>
+                  <p class="regular">Lorem ipsum dolor sit amet consectetur. Pharetra egestas quis diam nullam amet feugiat sit mauris. A massa enim sed vitae pellentesque cras aliquet. Cras semper cras quis at sit.</p>
+                  <div class="request-demo text-start">
+                     <a href="./demo.html" data-tag="request-demo">Request a demo</a>
+                  </div>
+               </div>
+            </div>
+            <div class="tab-body-item">
+               <div class="active-members-dashboard">
+                  <img src="./resources/images/SMS-broadcast.png" alt="" srcset="">
+               </div>
+               <div class="service-desc">
+                  <img width="80" src="./resources/images/sms-broadcast.svg" alt="" srcset="">
+                  <h3>SMS broadcast</h3>
+                  <p class="regular">Lorem ipsum dolor sit amet consectetur. Pharetra egestas quis diam nullam amet feugiat sit mauris. A massa enim sed vitae pellentesque cras aliquet. Cras semper cras quis at sit.</p>
+                  <div class="request-demo text-start">
+                     <a href="./demo.html" data-tag="request-demo">Request a demo</a>
+                  </div>
+               </div>
+            </div>
+            <div class="tab-body-item">
+               <div class="active-members-dashboard">
+                  <img src="./resources/images/active-members.png" alt="" srcset="">
+               </div>
+               <div class="service-desc">
+                  <img width="80" src="./resources/images/call-center.svg" alt="" srcset="">
+                  <h3>Call center</h3>
+                  <p class="regular">Lorem ipsum dolor sit amet consectetur. Pharetra egestas quis diam nullam amet feugiat sit mauris. A massa enim sed vitae pellentesque cras aliquet. Cras semper cras quis at sit.</p>
+                  <div class="request-demo text-start">
+                     <a href="./demo.html" data-tag="request-demo">Request a demo</a>
+                  </div>
+               </div>
+            </div>
+            <div class="tab-body-item">
+               <div class="active-members-dashboard">
+                  <img src="./resources/images/fund-raising.png" alt="" srcset="">
+               </div>
+               <div class="service-desc">
+                  <img width="80" src="./resources/images/fund-raising.svg" alt="" srcset="">
+                  <h3>Fundraising</h3>
+                  <p class="regular">Lorem ipsum dolor sit amet consectetur. Pharetra egestas quis diam nullam amet feugiat sit mauris. A massa enim sed vitae pellentesque cras aliquet. Cras semper cras quis at sit.</p>
+                  <div class="request-demo text-start">
+                     <a href="./demo.html" data-tag="request-demo">Request a demo</a>
+                  </div>
+               </div>
+            </div>
+            <div class="tab-body-item">
+               <div class="active-members-dashboard">
+                  <img src="./resources/images/membership.png" alt="" srcset="">
+               </div>
+               <div class="service-desc">
+                  <img width="80" src="./resources/images/membership.svg" alt="" srcset="">
+                  <h3>Membership</h3>
+                  <p class="regular">Lorem ipsum dolor sit amet consectetur. Pharetra egestas quis diam nullam amet feugiat sit mauris. A massa enim sed vitae pellentesque cras aliquet. Cras semper cras quis at sit.</p>
+                  <div class="request-demo text-start">
+                     <a href="./demo.html" data-tag="request-demo">Request a demo</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+          <!-- <div class="feature-tabs">
+               <div class="tab-header hide-scroll">
+                   <span class="arrow-left">
+                     <i class="fa-solid fa-arrow-left"></i>
+                  </span>
+                  <span class="arrow-right">
+                     <i class="fa-solid fa-arrow-right"></i>
+                  </span> 
                   <div class="active">
                      <img src="./resources/images/powerful-database.svg" alt="" srcset="">
                      <span class="tab-name">Powerfull database</span>
@@ -365,7 +613,7 @@
                         <h3>Powerfull contact database</h3>
                         <p class="regular">Lorem ipsum dolor sit amet consectetur. Pharetra egestas quis diam nullam amet feugiat sit mauris. A massa enim sed vitae pellentesque cras aliquet. Cras semper cras quis at sit.</p>
                         <div class="request-demo text-start">
-                           <button data-tag="request-demo">Request a demo</button>
+                           <a href="./demo.html" data-tag="request-demo">Request a demo</a>
                         </div>
                      </div>
                   </div>
@@ -378,7 +626,7 @@
                         <h3>Mobile application</h3>
                         <p class="regular">Lorem ipsum dolor sit amet consectetur. Pharetra egestas quis diam nullam amet feugiat sit mauris. A massa enim sed vitae pellentesque cras aliquet. Cras semper cras quis at sit.</p>
                         <div class="request-demo text-start">
-                           <button data-tag="request-demo">Request a demo</button>
+                           <a href="./demo.html" data-tag="request-demo">Request a demo</a>
                         </div>
                      </div>
                   </div>
@@ -391,7 +639,7 @@
                         <h3>Robotcall</h3>
                         <p class="regular">Lorem ipsum dolor sit amet consectetur. Pharetra egestas quis diam nullam amet feugiat sit mauris. A massa enim sed vitae pellentesque cras aliquet. Cras semper cras quis at sit.</p>
                         <div class="request-demo text-start">
-                           <button data-tag="request-demo">Request a demo</button>
+                           <a href="./demo.html" data-tag="request-demo">Request a demo</a>
                         </div>
                      </div>
                   </div>
@@ -404,7 +652,7 @@
                         <h3>SMS broadcast</h3>
                         <p class="regular">Lorem ipsum dolor sit amet consectetur. Pharetra egestas quis diam nullam amet feugiat sit mauris. A massa enim sed vitae pellentesque cras aliquet. Cras semper cras quis at sit.</p>
                         <div class="request-demo text-start">
-                           <button data-tag="request-demo">Request a demo</button>
+                           <a href="./demo.html" data-tag="request-demo">Request a demo</a>
                         </div>
                      </div>
                   </div>
@@ -417,7 +665,7 @@
                         <h3>Call center</h3>
                         <p class="regular">Lorem ipsum dolor sit amet consectetur. Pharetra egestas quis diam nullam amet feugiat sit mauris. A massa enim sed vitae pellentesque cras aliquet. Cras semper cras quis at sit.</p>
                         <div class="request-demo text-start">
-                           <button data-tag="request-demo">Request a demo</button>
+                           <a href="./demo.html" data-tag="request-demo">Request a demo</a>
                         </div>
                      </div>
                   </div>
@@ -430,7 +678,7 @@
                         <h3>Fundraising</h3>
                         <p class="regular">Lorem ipsum dolor sit amet consectetur. Pharetra egestas quis diam nullam amet feugiat sit mauris. A massa enim sed vitae pellentesque cras aliquet. Cras semper cras quis at sit.</p>
                         <div class="request-demo text-start">
-                           <button data-tag="request-demo">Request a demo</button>
+                           <a href="./demo.html" data-tag="request-demo">Request a demo</a>
                         </div>
                      </div>
                   </div>
@@ -443,13 +691,12 @@
                         <h3>Membership</h3>
                         <p class="regular">Lorem ipsum dolor sit amet consectetur. Pharetra egestas quis diam nullam amet feugiat sit mauris. A massa enim sed vitae pellentesque cras aliquet. Cras semper cras quis at sit.</p>
                         <div class="request-demo text-start">
-                           <button data-tag="request-demo">Request a demo</button>
+                           <a href="./demo.html" data-tag="request-demo">Request a demo</a>
                         </div>
                      </div>
                   </div>
                </div>
-            </div>
-         </div>
+            </div> -->
       </section>
       <section class="feature-list">
          <div class="feature-list-content container">
@@ -515,7 +762,7 @@
                   <p class="regular light-green">Get ready today</p>
                   <h3 class="m-t-15">Change the way you run an election campaign forever.</h3>
                   <div class="request-demo text-start">
-                     <button data-tag="request-demo">Request a demo</button>
+                     <a href="./demo.html" data-tag="request-demo">Request a demo</a>
                   </div>
                </div>
             </div>
@@ -563,7 +810,7 @@
                </div>
             </div>
             <div class="request-demo p-t-20">
-               <button>View all article</button>
+               <a href="./blogs.html">View all article</a>
             </div>
          </div>
       </section>
@@ -616,17 +863,17 @@
                </div>
                <div>
                   <p class="regular">
-                     <a href="/">Non-profit</a>
+                     <a href="./coming-soon.html">Non-profit</a>
                   </p>
                </div>
                <div>
                   <p class="regular">
-                     <a href="/">Political parti</a>
+                     <a href="./political-party.html">Political parti</a>
                   </p>
                </div>
                <div>
                   <p class="regular">
-                     <a href="/">Elected office</a>
+                     <a href="./coming-soon.html">Elected office</a>
                   </p>
                </div>
             </div>
@@ -636,37 +883,37 @@
                </div>
                <div>
                   <p class="regular">
-                     <a href="/">Election software</a>
+                     <a href="./coming-soon.html">Election software</a>
                   </p>
                </div>
                <div>
                   <p class="regular">
-                     <a href="/">Predictive call center</a>
+                     <a href="./coming-soon.html">Predictive call center</a>
                   </p>
                </div>
                <div>
                   <p class="regular">
-                     <a href="/">Robotcall</a>
+                     <a href="./coming-soon.html">Robotcall</a>
                   </p>
                </div>
                <div>
                   <p class="regular">
-                     <a href="/">CRM software</a>
+                     <a href="./coming-soon.html">CRM software</a>
                   </p>
                </div>
                <div>
                   <p class="regular">
-                     <a href="/">Agent calling</a>
+                     <a href="./coming-soon.html">Agent calling</a>
                   </p>
                </div>
                <div>
                   <p class="regular">
-                     <a href="/">Sign and printing</a>
+                     <a href="./coming-soon.html">Sign and printing</a>
                   </p>
                </div>
                <div>
                   <p class="regular">
-                     <a href="/">Data pool</a>
+                     <a href="./coming-soon.html">Data pool</a>
                   </p>
                </div>
             </div>
@@ -676,27 +923,27 @@
                </div>
                <div>
                   <p class="regular">
-                     <a href="/">Our company</a>
+                     <a href="./coming-soon.html">Our company</a>
                   </p>
                </div>
                <div>
                   <p class="regular">
-                     <a href="/">Our team</a>
+                     <a href="./coming-soon.html">Our team</a>
                   </p>
                </div>
                <div>
                   <p class="regular">
-                     <a href="/">Security</a>
+                     <a href="./coming-soon.html">Security</a>
                   </p>
                </div>
                <div>
                   <p class="regular">
-                     <a href="/">New room</a>
+                     <a href="./coming-soon.html">New room</a>
                   </p>
                </div>
                <div>
                   <p class="regular">
-                     <a href="/">GDPR</a>
+                     <a href="./coming-soon.html">GDPR</a>
                   </p>
                </div>
             </div>
@@ -706,43 +953,43 @@
                </div>
                <div>
                   <p class="regular">
-                     <a href="/">Help & Resources</a>
+                     <a href="./coming-soon.html">Help & Resources</a>
                   </p>
                </div>
                <div>
                   <p class="regular">
-                     <a href="/">FAQ</a>
+                     <a href="./faq.html">FAQ</a>
                   </p>
                </div>
                <div>
                   <p class="regular">
-                     <a href="/">Video tutorial</a>
+                     <a href="./coming-soon.html">Video tutorial</a>
                   </p>
                </div>
                <div>
                   <p class="regular">
-                     <a href="/">Democratik API</a>
+                     <a href="./coming-soon.html">Democratik API</a>
                   </p>
                </div>
                <div>
                   <p class="regular">
-                     <a href="/">Blog</a>
+                     <a href="./coming-soon.html">Blog</a>
                   </p>
                </div>
                <div>
                   <p class="regular">
-                     <a href="/">Documentation</a>
+                     <a href="./coming-soon.html" target="_self">Documentation</a>
                   </p>
                </div>
                <div>
                   <p class="regular">
-                     <a href="/">Contact us</a>
+                     <a href="./contact-us.html">Contact us</a>
                   </p>
                </div>
             </div>
          </div>
          <div class="copy-right-section">
-            <div>
+            <div class="copyright-left-section">
                <p class="regular">Democratik &copy; 2022 All Rights Reserved.</p>
             </div>
             <div class="follow-option">
