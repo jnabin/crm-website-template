@@ -544,6 +544,18 @@
         --p: 16px;
         --button: 16px;
     }
+    h1{
+        line-height: 38.4px !important;
+    }
+    h2{
+        line-height: 31.2px !important;
+    }
+    h5{
+        line-height: 28px !important;
+    }
+    h3{
+        line-height: 30px !important;
+    }
     .recent-news-item{
         max-width: 100%
     }
