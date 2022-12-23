@@ -117,7 +117,7 @@ h1, h2, h3, h4, h5, h6{
 }
 .nav-dropdown-items{
     display: flex;
-    gap: 30px;
+    gap: 5px;
 }
 .nav-dropdown-items i{
     font-size: 13px;
@@ -125,6 +125,7 @@ h1, h2, h3, h4, h5, h6{
 .nav-dropdown-items .use-case .dropdown-menu{
     max-width: 360px !important;
 }
+
 .nav-dropdown-items .use-case.services .dropdown-menu{
     columns: 2;
     -webkit-columns: 2;
@@ -645,4 +646,7 @@ a.service-expansion-item .ex-item-logo{
 
 p.regular.light-green{
     color: var(--light-green);
+}
+.form-group-row textarea {
+    padding: 12px 18px;
 }
