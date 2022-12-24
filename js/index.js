@@ -31,23 +31,23 @@ for(let i=0; i< tabHeaderNodes.length; i++) {
 // }
 
 // window.onresize = updateTabIndicator;
-showBrandListLoop();
+// showBrandListLoop();
 
-function showBrandListLoop() {
-    let $elem=$('#brandListScroll');
-    let newScrollLeft = $elem.scrollLeft(),
-        width=$elem.width(),
-        scrollWidth=$elem.get(0).scrollWidth;
+// function showBrandListLoop() {
+//     let $elem=$('#brandListScroll');
+//     let newScrollLeft = $elem.scrollLeft(),
+//         width=$elem.width(),
+//         scrollWidth=$elem.get(0).scrollWidth;
 
-    if (newScrollLeft+width==scrollWidth || (scrollWidth - (newScrollLeft+width) < 1)) {
-        document.getElementById('brandListScroll').scrollLeft = 0;
-    } else {
-        document.getElementById('brandListScroll').scrollLeft += 50;
-    }
-    setTimeout(() => {
-        showBrandListLoop();
-    }, 1000);
-}
+//     if (newScrollLeft+width==scrollWidth || (scrollWidth - (newScrollLeft+width) < 1)) {
+//         document.getElementById('brandListScroll').scrollLeft = 0;
+//     } else {
+//         document.getElementById('brandListScroll').scrollLeft += 50;
+//     }
+//     setTimeout(() => {
+//         showBrandListLoop();
+//     }, 1000);
+// }
 
 let coll = document.getElementsByClassName("expansion-controll");
 let k;

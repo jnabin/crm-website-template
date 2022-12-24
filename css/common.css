@@ -267,7 +267,7 @@ img{
 }
 
 .footer{
-    margin-top: 120px;
+    margin-top: 146px;
     background-color: var(--dark);
 }
 
@@ -541,7 +541,6 @@ a.service-expansion-item .ex-item-logo{
     display: flex;
     flex-direction: column;
     max-width: 395px;
-    gap: 15px;
     border-radius: 4px;
 }
 
@@ -557,6 +556,17 @@ a.service-expansion-item .ex-item-logo{
     padding-left: 13px;
 }
 
+.blog-type-btn{
+    margin-top: 20px;
+}
+
+.recent-news-item h5{
+    margin-top: 12px;
+}
+.blog-details-link{
+    margin-top: 27px;
+}
+
 .blog-type-btn button{
     color: var(--bg-primary-dark);
     line-height: 25.6px;
@@ -568,7 +578,7 @@ a.service-expansion-item .ex-item-logo{
 
 .request-demo{
     text-align: center;
-    margin-top: 25px;
+    margin-top: 54px;
 }
 
 .request-demo a{
@@ -585,11 +595,11 @@ a.service-expansion-item .ex-item-logo{
 
 .testimonial-item{
     display: flex;
-    gap: 40px;
+    gap: 76px;
     max-width: 1053px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 60px;
+    margin-top: 73px;
     align-items: center;
 }
 
@@ -617,7 +627,7 @@ a.service-expansion-item .ex-item-logo{
     gap: 15px;
     position: absolute;
     bottom: 0;
-    left: 435px;
+    left: 469px;
 }
 
 .slider-button button{
@@ -644,12 +654,13 @@ a.service-expansion-item .ex-item-logo{
     max-width: 1053px;
     margin-left: auto;
     margin-right: auto;
-    background-image: url('..//resources/images/color-ful-bg.svg');
+    background-image: url('../resources/images/color-ful-bg.svg');
     width: 100%;
+    background-position: center;
     height: 350px;
     display: flex;
     align-items: center;
-    padding: 0 70px;
+    padding: 0 84px;
 }
 .get-ready-wrapper h3{
     color: white;
@@ -657,6 +668,10 @@ a.service-expansion-item .ex-item-logo{
 
 .get-ready-body{
     max-width: 511px;
+}
+
+.get-ready-body .request-demo{
+    margin-top: 28px;
 }
 
 p.regular.light-green{
@@ -679,4 +694,27 @@ a.dropdown-item{
 }
 a.dropdown-item:hover{
     background-color: var(--white-200) !important;
+}
+.footer-body-item p a{
+    transition: all 0.4s ease-in-out;
+    display: inline-block;
+    position: relative;
+}
+
+.footer-body-item p a:hover{
+    color: var(--primary) !important;
+}
+
+.footer-body-item p a::after {
+    transition: all 0.3s ease-in-out;
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1px;
+    top: 100%;
+    background-color: var(--primary);
+    left: 0;
+}
+.footer-body-item p a:hover::after{
+    width: 100%;
 }

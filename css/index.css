@@ -199,17 +199,17 @@ h2 .custom-color::after{
 .main-content{
     display: flex;
     flex-direction: column;
-    gap: 100px;
+    gap: 125px;
     margin-top: 20px;
 }
 
 .brand-section{
-    margin-top: 80px;
+    margin-top: 100px;
 }
 
 .brand-container{
     display: flex;
-    gap: 30px;
+    gap: 36px;
     border-top: 1px solid var(--border);
     border-bottom: 1px solid var(--border);
     height: 120px;
@@ -224,16 +224,42 @@ h2 .custom-color::after{
 .mobile-border{
     width: 244px;
 }
+.brand-list-loop-wrapper{
+    overflow: hidden;
+    position: relative;
+    flex-grow: 1;
+    height: 100%;
+}
 
 .brand-list{
     display: flex;
     justify-content: space-between;
-    flex-grow: 1;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none; 
+    overflow: hidden;
+    gap: 75.76px;
+    position: absolute;
+    align-items: center;
+    top: 50%;
+    transform: translateY(-50%);
+    align-items: center;
+    left: 100%;
+    width: 100%;
+    animation: autoLoop 24s linear infinite;
+    white-space: nowrap;
 }
+
+.brand-list-2 {
+    animation-delay: 12s;
+    padding-left: 75.76px;
+}
+
+@keyframes autoLoop {
+    0% {
+      left: 100%;
+    }
+    100% {
+      left: -100%
+    }
+  }
 
 .brand-list::-webkit-scrollbar {
     display: none;
@@ -274,8 +300,52 @@ a{
     padding: 22px;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    border-radius: 4px;
 }
+.service-item-illustartion{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 23px;
+}
+
+.service-item-illustartion img:first-child{
+    width: 100%;
+}
+
+.service-list .service-item h5{
+    margin-bottom: 12px;
+}
+
+.service-detail-link{
+    margin-top: 19px;
+}
+
+.service-item-illustartion img:last-child{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+.why-choose-us{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.service-item-illustartion img:last-child{
+    transition: transform 0.5s ease-out;
+}
+
+.service-item img:last-child:hover{
+    transform: scale(1.1);
+}
+
+/* .elected-office .service-item-illustartion{
+    background-image: url('../resources/images/elected-office-service-bg.svg');
+    background-position: center;
+} */
 
 .service-list .service-item div a i{
     padding-left: 6px;
@@ -292,9 +362,10 @@ a{
 }
 
 .why-choose{
+    border-radius: 4px;
     background-color: var(--bg-primary-dark);
     color: white !important;
-    padding: 40px 50px 53px;
+    padding: 70px 60px 74px 60px;
 }
 
 .why-choose h3, .why-choose div, .why-choose p, .why-choose h6{
@@ -302,7 +373,7 @@ a{
 }
 
 .why-choose-options{
-    margin-top: 60px;
+    margin-top: 49px;
     display: flex;
     gap: 50px;
     flex-wrap: wrap;
@@ -321,8 +392,8 @@ a{
 
 .why-choose-item .desc-icon{
     display: inline-flex;
-    width: 75px;
-    height: 75px;
+    width: 70px;
+    height: 70px;
     align-items: center;
     justify-content: center;
     background-color: var(--light-red);
@@ -485,7 +556,7 @@ a{
     align-items: center;
     gap: 50px;
     max-width: 1272px;
-    height: 600px;
+    height: 570px;
     max-height: calc(100vh - 310.2px);
     margin-left: auto;
     margin-right: auto;
@@ -505,7 +576,7 @@ a{
 }
 
 .active-members-dashboard img{
-    height: 600px;
+    height: 570px;
     max-height: calc(100vh - 310.2px);
 }
 
@@ -515,23 +586,35 @@ a{
 }
 
 .service-desc h3{
-    margin-top: 23px;
+    margin-top: 19px;
     margin-bottom: 16px;
+}
+
+.service-desc p.regular{
+    padding-bottom: 2px;
 }
 
 .feature-list-content{
     background-color: var(--white-200);
     border-radius: 4px;
-    padding: 35px;
+    padding: 65px 70px;
     position: relative;
     display: flex;
     gap: 45px;
     align-items: center;
 }
 
+section.get-ready{
+    margin-top: 15px;
+}
+
+section.feature-list{
+    margin-top: 15px;
+}
+
 .feature-list-content h2{
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 24px;
 }
 
 
@@ -546,22 +629,6 @@ a{
 
 .features-list .feature-list-shadow img{
     max-height: 100%;
-}
-
-.get-ready-wrapper{
-    max-width: 1053px;
-    margin-left: auto;
-    margin-right: auto;
-    background-image: url('..//resources/images/color-ful-bg.svg');
-    width: 100%;
-    height: 350px;
-    display: flex;
-    align-items: center;
-    padding: 0 70px;
-}
-
-.get-ready-wrapper h3{
-    color: white;
 }
 
 p.regular.light-green{
@@ -593,10 +660,6 @@ p.regular.light-green{
     top: 428px;
 }
 
-.service-item img{
-    transition: transform 0.5s ease-out;
-}
-
 .service-list .service-item div a i,
 .recent-news-item a i{
     transition: padding 0.3s ease-out;
@@ -605,10 +668,6 @@ p.regular.light-green{
 .service-list .service-item div a:hover i,
 .recent-news-item a:hover i{
     padding-left: 13px;
-}
-
-.service-item img:hover{
-    transform: scale(1.1);
 }
 
 .reveal.active .voter-animation, 
