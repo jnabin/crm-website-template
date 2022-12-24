@@ -11,10 +11,29 @@
     .voter-animation{
         left: -5vw;
     }
+
+    /* .tab-body-item-wrapper{
+        height: calc(100vh - 270px);
+        top: 270px;
+    }
+
+    .tab-body-item,
+    .active-members-dashboard img{
+        max-height: calc(100vh - 270px);
+    } */
     
     .elector-animation{
         right: -5vw;
     }
+
+    /* .tab-body-item-wrapper:first-child{
+        margin-top: 270px;
+    }
+
+    .sticky-wrapper{
+        position: sticky;
+        top: 270px;
+    } */
 }
 @media only screen and (max-width: 1315px) {
     .party-hero-right-abs {
@@ -186,6 +205,7 @@
     .tab-body-item{
         gap: 24px;
         max-height: 331px;
+        padding-right: 5px;
     }
     .tab-body-item .service-desc img{
         display: none;
@@ -632,7 +652,15 @@
     }
 
     .hero-section {
+        height: 580px;
+    }
+
+    .hero-section {
         padding-top: 70px;
+    }
+
+    .home.index-header {
+        height: 730px;
     }
 
     .select-language{
