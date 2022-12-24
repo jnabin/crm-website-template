@@ -19,18 +19,18 @@ for(let i=0; i< tabHeaderNodes.length; i++) {
     });
 }
 
-function updateTabIndicator() {
-    let activeTabHeader = document.querySelector(".tab-header > div.active");
-    let activeTabBody = document.querySelector(".tab-body > div.active");
+// function updateTabIndicator() {
+//     let activeTabHeader = document.querySelector(".tab-header > div.active");
+//     let activeTabBody = document.querySelector(".tab-body > div.active");
 
-    let leftHeaderPosition = activeTabHeader.getBoundingClientRect().left;
-    let leftBodyPosition = activeTabBody.getBoundingClientRect().left;
-    let actualHeaderLeftPosition = leftHeaderPosition - leftBodyPosition;
-    tabIndicator.style.left = `${actualHeaderLeftPosition}px`;
-    tabIndicator.style.width = `${activeTabHeader.offsetWidth}px`;
-}
+//     let leftHeaderPosition = activeTabHeader.getBoundingClientRect().left;
+//     let leftBodyPosition = activeTabBody.getBoundingClientRect().left;
+//     let actualHeaderLeftPosition = leftHeaderPosition - leftBodyPosition;
+//     tabIndicator.style.left = `${actualHeaderLeftPosition}px`;
+//     tabIndicator.style.width = `${activeTabHeader.offsetWidth}px`;
+// }
 
-window.onresize = updateTabIndicator;
+// window.onresize = updateTabIndicator;
 showBrandListLoop();
 
 function showBrandListLoop() {
@@ -78,9 +78,7 @@ function reveal() {
       let windowHeight = window.innerHeight;
       console.log(windowHeight, "windowheight");
       let elementTop = reveals[i].getBoundingClientRect().top;
-      console.log(elementTop, "elementTop");
       let elementVisible = 1055;
-      console.log(windowHeight - elementVisible);
 
       if (elementTop <= -50 && elementTop >= -1050) {
         reveals[i].classList.add("active");

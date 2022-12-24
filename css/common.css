@@ -201,14 +201,19 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .nav-section{
-    height: 70px;
+    height: 80px;
     display: flex;
     align-items: center;
 }
 
-/* a:hover{
-    color: transparent;
-} */
+a:hover{
+    color: inherit;
+}
+
+.nav-dropdown-items button.pointer,
+.nav-dropdown-items .pointer{
+    font-weight: 500;
+}
 
 .other-nav-tool .get-demo a{
     background-color: var(--primary);
@@ -229,7 +234,6 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .select-language{
-    font-size: 20px;
     background-color: var(--white-200);
     border-radius: 4px;
     width: 50px;
@@ -238,6 +242,14 @@ h1, h2, h3, h4, h5, h6{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.select-language span{
+    font-size: 20px !important;
+}
+
+.select-language span i{
+    font-size: 20px !important;
 }
 
 .expand-menu{
@@ -563,6 +575,7 @@ a.service-expansion-item .ex-item-logo{
     background-color: var(--primary);
     padding: 17px 30px;
     border-radius: 4px;
+    font-weight: 500;
     display: inline-block;
 }
 
