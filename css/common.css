@@ -299,6 +299,10 @@ img{
     border-right: none !important;
 }
 
+button.pointer i{
+    margin-left: 3px;
+}
+
 .footer-content .top-section .enter-email input:focus{
     border-color: var(--primary);
     outline: none !important;
