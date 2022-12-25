@@ -528,6 +528,10 @@
     .party-hero-mobile-dashboard {
         right: -40px;
     }
+    /* blog-list-page */
+    .all-news-content-wrapper{
+        flex-wrap: wrap;
+    }
 
     /* blog detail page */
     .news-section-wrapper{
@@ -535,6 +539,13 @@
     }
 
     .news-filter-content {
+        flex-basis: 100%;
+    }
+    .news-filter-content{
+        flex-basis: 100%;
+    }
+
+    .blog-list-content{
         flex-basis: 100%;
     }
 
@@ -576,6 +587,9 @@
     .tab-body-item{
         height: 331px;
         padding-left: 24px;
+    }
+    .article-sub-figure img{
+        max-width: 100%;
     }
 }
 

@@ -130,11 +130,12 @@ h1, h2, h3, h4, h5, h6{
     columns: 2;
     -webkit-columns: 2;
     -moz-columns: 2;
-    max-width: 600px !important;
+    max-width: 717px !important;
     list-style-position: inside;
 }
 .custom-service-dropdown-menu.show{
     display: flex;
+    gap: 17px;
 }
 .nav-dropdown-items .dropdown-menu{
     border: 1px solid var(--border) !important;
@@ -189,6 +190,7 @@ h1, h2, h3, h4, h5, h6{
 .service-left-options, .service-right-options{
     display: flex;
     flex-direction: column;
+    flex-basis: 340px;
 }
 .pointer{
     cursor: pointer;

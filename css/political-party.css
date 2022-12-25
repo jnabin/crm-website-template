@@ -145,18 +145,6 @@
     max-width: 624px;
 }
 
-.brand-list{
-    display: flex;
-    justify-content: space-between;
-    flex-grow: 1;
-    overflow-x: auto;
-    gap: 40px;
-    scroll-behavior: smooth;
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none; 
-    transition: all 0.5s ease-in-out;
-}
-
 .brand-list::-webkit-scrollbar {
     display: none;
 }
@@ -413,3 +401,36 @@ p.regular.light-green{
 .get-ready-body{
     max-width: 511px;
 }
+.brand-list-loop-wrapper{
+    overflow: hidden;
+    position: relative;
+    flex-grow: 1;
+    height: 45px;
+}
+.brand-list{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    gap: 75.76px;
+    position: absolute;
+    align-items: center;
+    top: 50%;
+    transform: translateY(-50%);
+    align-items: center;
+    left: 100%;
+    width: 100%;
+    animation: autoLoop 24s linear infinite;
+    white-space: nowrap;
+}
+.brand-list-2 {
+    animation-delay: 12s;
+    padding-left: 75.76px;
+}
+@keyframes autoLoop {
+    0% {
+      left: 100%;
+    }
+    100% {
+      left: -100%
+    }
+  }
