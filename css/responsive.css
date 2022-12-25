@@ -606,11 +606,19 @@
         --p: 16px;
         --button: 16px;
     }
+    .testimonial h2 span.custom-color::after {
+        top: 21px;
+        bottom: auto;
+        height: 10px;
+    }
     h1{
         line-height: 38.4px !important;
     }
     h2{
         line-height: 31.2px !important;
+    }
+    h2 span {
+        line-height: inherit;
     }
     h5{
         line-height: 28px !important;
@@ -626,7 +634,19 @@
     }
 
     .features h2 .custom-color::after {
-        bottom: 14px;
+        bottom: auto;
+        top: 19px;
+        height: 11px;
+    }
+
+    .hero-section h1 .custom-color::after {
+        bottom: -7px;
+        height: 15px;
+    }
+
+    h2 .custom-color::after {
+        bottom: auto;
+        top: 19px;
         height: 11px;
     }
 
