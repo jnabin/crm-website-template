@@ -274,8 +274,8 @@ img{
 .footer-content .top-section{
     display: flex;
     justify-content: space-between;
-    padding-top: 60px;
-    padding-bottom: 55px;
+    padding-top: 70px;
+    padding-bottom: 51px;
     border-bottom: 1px solid #2A3650;
 
 }
@@ -295,6 +295,14 @@ img{
     color: var(--body-font);
     outline: none;
     text-align: center;
+    transition: all 0.4s ease;
+    border-right: none !important;
+}
+
+.footer-content .top-section .enter-email input:focus{
+    border-color: var(--primary);
+    outline: none !important;
+    border-right: none !important;
 }
 
 .footer-content .top-section .enter-email .subscribe{
@@ -315,8 +323,8 @@ img{
 }
 
 footer .body-section{
-    margin-top: 55px;
-    margin-bottom: 55px;
+    margin-top: 61.5px;
+    margin-bottom: 37px;
     display: flex;
     gap: 20px;
     justify-content: space-between;
@@ -330,7 +338,11 @@ footer.footer p.regular, footer.footer p.regular a{
     display: flex;
     gap: 20px;
     align-items: center;
-    padding-top: 15px;
+    padding-top: 18.36px;
+}
+
+.mail-section, .phone-section {
+    padding-top: 17px;
 }
 
 .address-section i{
@@ -361,11 +373,11 @@ footer.footer p.regular, footer.footer p.regular a{
 .footer-body-item{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 18px;
 }
 
 .footer-body-item .section-title{
-    padding-bottom: 20px;
+    padding-bottom: 6.5px;
 }
 
 .footer-body-item .section-title .primary-title{
@@ -387,7 +399,7 @@ footer .address-content{
 
 .follow-option{
     display: flex;
-    gap: 15px;
+    gap: 12px;
     align-items: center;
 }
 
@@ -401,6 +413,10 @@ footer .address-content{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.follow-option div:first-child{
+    margin-right: 3px;
 }
 
 .tablet-nav-dropdown-items-wrapper{
