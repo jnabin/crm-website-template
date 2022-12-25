@@ -3,17 +3,22 @@
 }
 
 .demo-body-content{
-    margin-top: 90px;
+    margin-top: 120px;
     display: flex;
     justify-content: space-between;
-    gap: 70px;
+    gap: 78px;
     align-items: center;
 }
 
 .offered-items{
+    margin-top: 19px;
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.users-comment-section{
+    margin-top: 30px;
 }
 
 .offer-item{
@@ -33,18 +38,19 @@
 .comment-content{
     background: #F6F6F9;
     border-radius: 4px;
-    padding: 20px 20px;
+    padding: 22px 30px;
 }
 .comment-text{
     font-weight: 400;
     font-size: 18px;
     line-height: 28.8px;
     color: var(--dark);
-    margin-bottom: 25px;
+    margin-bottom: 21px;
 }
 
 .user-details{
     display: flex;
+    border-radius: 4px;
     flex: 1;
     align-items: center;
     justify-content: space-between;
@@ -83,10 +89,14 @@
     flex-basis: 677px;
 }
 
-.contact-form .form-content{
+.contact-form .form-content {
     background: #F6F6F9;
-    padding: 35px 30px;
+    padding: 61px 40px;
     border-radius: 4px;
+}
+
+.contact-form .form-content .form-group-row:last-child {
+    margin-bottom: 0px;
 }
 
 .contact-form .form-content .form-group-row{
@@ -123,7 +133,7 @@
 .basic-demo-info{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 12px;
     flex-basis: 514px;
 }
 
