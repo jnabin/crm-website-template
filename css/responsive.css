@@ -35,11 +35,34 @@
         top: 270px;
     } */
 }
+@media only screen and (max-width: 1400px){
+    .elected-office-dashboard-illustrations img:first-child{
+        max-width: 692px;
+    }
+    .elected-office-dashboard-illustrations img:last-child{
+        max-height: 380px;
+    }
+    .elected-office-hero-wrapper{
+        min-height: 655px;
+    }
+}
 @media only screen and (max-width: 1315px) {
     .party-hero-right-abs {
         top: 65%;
         right: 15px;
         left: -70px;
+    }
+    .elected-office-hero-wrapper{
+        min-height: 630px;
+    }
+    .elected-office-dashboard-illustrations img:first-child{
+        max-width: 660px;
+    }
+    .elected-office-dashboard-illustrations img:last-child{
+        max-height: 360px;
+    }
+    .elected-office-dashboard{
+        right: -7px;
     }
 
     .party-hero-mobile-dashboard {
@@ -51,6 +74,17 @@
 
     .party-hero-feature-img {
         max-width: 490px;
+    }
+}
+@media only screen and (max-width: 1150px){
+    .elected-office-dashboard-illustrations img:first-child{
+        max-width: 560px;
+    }
+    .elected-office-dashboard-illustrations img:last-child{
+        max-height: 320px;
+    }
+    .elected-office-hero-wrapper{
+        min-height: 570px;
     }
 }
 /*for tablet*/
@@ -554,6 +588,37 @@
     }
     .blog-details-content {
         flex-basis: 100%;
+    }
+    /* elected office */
+    .elected-office-hero-wrapper{
+        flex-wrap: wrap;
+        gap: 0px;
+    }
+    .e-o-h-right-item{
+        flex-basis: 100%;
+        order: 1;
+    }
+    .e-o-h-left-item{
+        order: 2;
+        flex-basis: 100%;
+    }
+    .e-o-h-left-item img{
+        display: none;
+    }
+    .elected-office-dashboard{
+        position: static;
+    }
+    .elected-office-dashboard-illustrations{
+        max-width: calc(100% - 100px);
+    }
+    .elected-office-dashboard-illustrations img:last-child {
+        max-height: 90%;
+    }
+    .elected-office-dashboard-illustrations img:first-child {
+        max-width: 100%;
+    }
+    .elected-office-hero-wrapper {
+        min-height: none;
     }
 }
 @media (min-width: 576px) {

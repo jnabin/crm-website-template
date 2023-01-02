@@ -1,0 +1,73 @@
+.index-header{
+    border-bottom: 1px solid var(--border);
+}
+
+.section-divider-gap{
+    margin-top: 140px;
+}
+.elected-office-hero-section{
+    margin-top: 120px;
+}
+.elected-office-hero-wrapper{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    gap: 58px;
+    justify-content: space-between;
+}
+.e-o-hero-list-details{
+    list-style: none;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+.e-o-hero-list-details li::before{
+    font-family: "Font Awesome 5 Free";
+    content: "\f00c";
+    font-weight: 900;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary);
+}
+.e-o-h-left-item{
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+    flex-basis: 646px;
+}
+
+.e-o-h-right-item{
+    flex-basis: 566px;
+    position: relative;
+}
+.e-o-h-right-item .hero-title{
+    margin-bottom: 13px;
+}
+.elected-office-dashboard{
+    position: absolute;
+    bottom: -40px;
+    display: flex;
+    margin-top: 45px;
+    right: 50px;
+}
+.elected-office-dashboard-illustrations{
+    position: relative;
+}
+.elected-office-dashboard-illustrations img:last-child{
+    position: absolute;
+    right: -38px;
+    max-height: 403px;
+    top: 40px;
+}
+.elected-office-dashboard-illustrations img:first-child{
+    max-width: 732px;
+}

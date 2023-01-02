@@ -4,12 +4,12 @@
 
 .party-hero-section{
     height: 714px;
-    margin-top: 90px;
+    margin-top: 114px;
     margin-bottom: 90px;
 }
 
 .party-main-section-divider{
-    margin-top: 90px;
+    margin-top: 140px;
 }
 
 .party-main-section-divider-p{
@@ -154,7 +154,7 @@
 }
 
 h5.brand-list-header{
-    margin-bottom: 50px;
+    margin-bottom: 56px;
 }
 
 .party-brand-list-section{
@@ -167,7 +167,7 @@ h5.brand-list-header{
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    padding: 70px 0px;
+    padding: 88px 0px;
 }
 
 .aliquam-request-demo-wrapper{
@@ -195,10 +195,8 @@ h5.brand-list-header{
 
 .party-robot-call-section,
 .party-call-section,
-.party-data-pool-section,
-.parti-live-communication-wrapper,
-.parti-create-email-campaign-section{
-    padding: 80px 0px;
+.party-data-pool-section{
+    padding: 140px 0px 103px 0px;
 }
 
 .party-robot-call-section{
@@ -217,7 +215,7 @@ h5.brand-list-header{
     display: flex;
     gap: 30px;
     align-items: center;
-    gap: 50px;
+    gap: 66px;
     justify-content: center;
 }
 
@@ -244,7 +242,13 @@ h5.brand-list-header{
     display: flex;
     flex-direction: column;
     gap: 55px;
-    margin-top: 50px;
+    margin-top: 56px;
+}
+
+.parti-live-communication-wrapper,
+.parti-create-email-campaign-section{
+    padding-top: 140px;
+    padding-bottom: 140px;
 }
 
 .party-key-features-section{
@@ -258,7 +262,7 @@ h5.brand-list-header{
     align-items: center;
     gap: 50px;
     justify-content: space-between;
-    padding: 65px 60px 40px;
+    padding: 82px 70px;
 }
 
 .party-key-features-desc{
@@ -327,12 +331,12 @@ h5.brand-list-header{
 
 .potemtial-party-candidate-needs{
     display: flex;
-    gap: 30px;
+    gap: 24px;
 }
 
 .democratic-solution{
     background-color: var(--primary);
-    padding: 50px 40px;
+    padding: 64px 40px 80px 40px;
     flex-basis: 408px;
     display: flex;
     align-items: center;
