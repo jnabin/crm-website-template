@@ -611,6 +611,10 @@ a.service-expansion-item .ex-item-logo{
     display: inline-block;
 }
 
+.request-demo.white a{
+    background-color: white;
+}
+
 .testimonial h2 span.custom-color::after{
     bottom: 3px;
 }

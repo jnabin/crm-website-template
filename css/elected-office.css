@@ -71,3 +71,16 @@
 .elected-office-dashboard-illustrations img:first-child{
     max-width: 732px;
 }
+.e-o-quick-demo-iilustration-section{
+    background-color: var(--primary);
+    padding-bottom: 69px;
+}
+.ask-someone-about-demo{
+    margin-top: 22px;
+    max-width: 710px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.request-demo.white{
+    margin-top: 12.44px;
+}
