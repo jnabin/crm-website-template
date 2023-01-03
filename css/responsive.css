@@ -1,3 +1,4 @@
+
 /* for desktop */
 @media only screen and (min-width: 995px) {
     .tablet-nav-dropdown-items-wrapper{
@@ -205,7 +206,16 @@
     .brand-list img {
         max-width: 120px;
     }
-
+    .french-hero-content{
+        flex-wrap: wrap;
+    }
+    .f-h-c-left
+    {
+        flex-basis: 100%;
+    }
+    .f-h-c-right{
+        display: none;
+    }
     .brand-list{
         gap: 50px;
     }
@@ -639,6 +649,10 @@
 @media (min-width: 1400px){
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
         max-width: 1320px !important;
+    }
+    .nav-section.fr .container,
+    .french-hero-content.container{
+        max-width: 1420px !important;
     }
 }
 
