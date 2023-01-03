@@ -618,6 +618,17 @@ a.service-expansion-item .ex-item-logo{
 .testimonial h2 span.custom-color::after{
     bottom: 3px;
 }
+h2 .custom-color::after{
+    content: '';
+    position: absolute;
+    display: inline-block;
+    bottom: -2px;
+    z-index: -1;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    background-color: var(--primary);
+}
 
 .testimonial-item{
     display: flex;

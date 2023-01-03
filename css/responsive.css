@@ -630,6 +630,13 @@
     .elected-office-hero-wrapper {
         min-height: none;
     }
+    .e-o-handle-organise-section-wrapper{
+        flex-wrap: wrap;
+    }
+    .handle-organise-left,
+    .handle-organise-right{
+        flex-basis: 100%;
+    }
 }
 @media (min-width: 576px) {
     .container, .container-sm {
