@@ -20,6 +20,7 @@ p.regular.small{
 }
 .default-flex-section-wrapper{
     display: flex;
+    align-items: center;
 }
 .submit-form{
     background-color: var(--primary);
@@ -52,6 +53,7 @@ button{
 }
 h1, h1 span{
     font-size: var(--h1);
+    font-weight: 600;
 }
 h2, h2 span{
     font-size: var(--h2);

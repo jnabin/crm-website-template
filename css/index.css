@@ -151,6 +151,11 @@ h2 .custom-color::after{
     right: -8vw;
 }
 
+.elector-animation img{
+    width: 66px;
+    height: 66px;
+}
+
 .request-demo{
     text-align: center;
     margin-top: 23px;

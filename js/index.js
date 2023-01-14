@@ -4,6 +4,16 @@ let tabBody = document.querySelector(".tab-body");
 let tabIndicator = document.querySelector(".tab-indicator");
 let tabHeaderNodes = document.querySelectorAll(".tab-header > div");
 let tabBodyNodes = document.querySelectorAll(".tab-body > div");
+const dataPoolDetails1 = document.querySelector(".first-01");
+const dataPoolDetails2 = document.querySelector(".second-02");
+const dataPoolDetails3 = document.querySelector(".third-03");
+const scrollElement = document.querySelector(".data-pool-hero-section");
+let zoom = 1;
+let zoom2 = 1;
+let zoom3 = 1;
+let translate2 = 0;
+let translate3 = 0;
+let lastScrollTop = 0;
 
 for(let i=0; i< tabHeaderNodes.length; i++) {
     tabHeaderNodes[i].addEventListener("click", () => {
@@ -98,7 +108,28 @@ function reveal() {
     );
   };
   
-  window.addEventListener("scroll", reveal);
+  window.addEventListener("scroll", () => {
+    reveal();
+    // dataPoolDetails1.style.scale = 160 - +window.pageYOffset/12+'%';
+    // console.log(window.pageYOffset);
+
+  });
+
+  // scrollElement.addEventListener("scroll", () => {
+  //   let st = $(this).scrollTop();
+
+  //   if(st == 0) {
+  //     dataPoolDetails1.style.transform = `scale(1)`;
+  //     zoom = 1;
+  //   }
+  //   else if (st > lastScrollTop && zoom >= 0.7+0.01){
+  //     dataPoolDetails1.style.transform = `scale(${zoom -= 0.01})`; 
+  //   } else if((zoom + 0.01) <= 1) {
+  //     dataPoolDetails1.style.transform = `scale(${zoom += 0.01})`; 
+  //   }
+  //   lastScrollTop = st;
+  // })
   
   // To check the scroll position on page load
   reveal();
+  console.log($(this).scrollTop());
