@@ -720,6 +720,24 @@
     
     }
 
+    /* predictive call center*/
+    .predictive-call-hero-wrapper{
+        flex-wrap: wrap;
+    }
+    .predictive-call-hero-wrapper .content,
+    .predictive-call-hero-wrapper .illustration{
+        flex-basis: 100%;
+    }
+    .how-predictive-call-center-works-cards{
+        flex-wrap: wrap;
+    }
+    .list-of-importance{
+        grid-template-columns: auto auto;
+    }
+    .call-center-tools{
+        flex-wrap: wrap;
+    }
+
     /* default */
     .default-flex-section-wrapper .left,
     .default-flex-section-wrapper .right{
