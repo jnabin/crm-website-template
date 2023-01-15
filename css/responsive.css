@@ -669,6 +669,57 @@
         padding: 100px 0px;
     }
 
+    /* data-pool */
+    .second-section-options{
+        flex-wrap: wrap;
+    }
+    .second-section-options .left-option,
+    .second-section-options .right-option{
+        flex-basis: 100%;
+    }
+    .democratic-datapool-history-wrapper{
+        grid-template-columns: auto auto;
+    }
+    .why-it-is-important-wrapper-card .options{
+        flex-wrap: wrap;
+    }
+    .what-people-says-contaent .illustration{
+        display: none;
+    }
+
+    .data-pool-top-wrapper .default-flex-section-wrapper{
+        flex-wrap: nowrap;
+    }
+    .data-pool-top-wrapper .default-flex-section-wrapper .left{
+        flex-basis: 328px;
+    }
+    .data-pool-top-wrapper .default-flex-section-wrapper .right{
+        flex-basis: 302px;
+    }
+    .data-pool-wrapper .default-flex-section-wrapper{
+        flex-wrap: nowrap;
+    }
+    .data-pool-wrapper .default-flex-section-wrapper .left{
+        flex-basis: 328px;
+    }
+    .data-pool-wrapper .default-flex-section-wrapper .right{
+        flex-basis: 302px;
+    }
+    .what-people-says-section-wrapper .illustration{
+        display: none;
+    }
+    .canada-census-image img {
+        max-width: 100%;
+    }
+    .brand-list span{
+        width: 160px;
+        flex-basis: 160px;
+        min-width: 160px;
+        border-radius: 37.5px;
+        height: 58px;
+    
+    }
+
     /* default */
     .default-flex-section-wrapper .left,
     .default-flex-section-wrapper .right{

@@ -773,3 +773,10 @@ a.dropdown-item:hover{
 .footer-body-item p a:hover::after{
     width: 100%;
 }
+.request-quote a{
+    display: inline-block;
+    padding: 17px 25px;
+    background-color: var(--primary);
+    color: var(--dark);
+    border-radius: 4px;
+}

@@ -47,4 +47,306 @@
     position: relative;
     top: 311px;
 }
+.data-pool-second-section{
+    margin-top: 129px;
+}
+.data-pool-second-section h2{
+    max-width: 888px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+}
+.second-div-options{
+    display: flex;
+    gap: 37px;
+}
+.data-pool-second-section-wrapper .left-option{
+    flex-basis: 725px;
+    background: #D6FFD8;
+    border: 1px solid #2A5339;
+    border-radius: 4px;
+    padding: 58px 63px 58px 60px;
+}
+.data-pool-second-section-wrapper .left-option h3{
+    margin-top: 27.21px;
+    margin-bottom: 14px;
+}
+.data-pool-second-section-wrapper .right-option{
+    flex-basis: 510px;
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+}
+a.start-now-btn{
+    display: inline-flex;
+    align-items: center;
+    gap: 14px;
+    margin-top: 33px;
+    cursor: pointer;
+}
+a.start-now-btn img{
+    transition: all 0.5s ease;
+}
+a.start-now-btn:hover img{
+    transform: rotate(45deg);
+}
+.start-now-btn .arrow-up-left{
+    display: inline-flex;
+    background: #FFEFEB;
+    border: 1px solid #1C2436;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.save-money,
+.all-data-place{
+    border: 1px solid #2A5339;
+    border-radius: 4px;
+}
+.all-data-place{
+    background: #FFF7D6;
+    padding: 46px 173px 47px 60px;
+}
+.save-money{
+    padding: 47px 163px 47px 60px;
+}
+.save-money .percentage,
+.all-data-place .percentage{
+    font-weight: 600;
+    font-size: 68px;
+    line-height: 68px;
+    color: var(--dark);
+    margin-bottom: 11px;
+}
+.second-section-options{
+    display: flex;
+    gap: 37px;
+    align-items: center;
+}
+.canada-census-section{
+    margin-top: 130px;
+}
+.canada-census-p{
+    max-width: 714px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 17px;
+    margin-bottom: 56px;
+}
+.canada-census-image img{
+    max-width: 844px;
+}
+.trust-acquired-section{
+    margin-top: 130px;
+}
+.trust-acquired-section h2{
+    margin-bottom: 54px;
+    max-width: 730px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.brand-list-loop-wrapper{
+    overflow: hidden;
+    position: relative;
+    flex-grow: 1;
+    height: 101.48px;
+}
+.brand-list{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    gap: 17.44px;
+    position: absolute;
+    align-items: center;
+    top: 50%;
+    transform: translateY(-50%);
+    align-items: center;
+    left: 100%;
+    width: 100%;
+    animation: autoLoop 24s linear infinite;
+    white-space: nowrap;
+}
+.brand-list.next, .brand-list-3{
+    animation: autoLoopright 24s linear infinite;
+}
+.brand-list-2 {
+    animation-delay: 12s;
+    padding-left: 17.44px;
+    padding-right: 17.44px;
+}
+.brand-list-3{
+    animation-delay: 12s;
+    padding-left: 17.44px;
+    padding-right: 17.44px;
+}
+.brand-list span{
+    display: inline-flex;
+    width: 276px;
+    flex-basis: 276px;
+    min-width: 276px;
+    background: #FFEFEB;
+    border: 0.922572px solid #1C2436;
+    border-radius: 64.5801px;
+    height: 101px;
+    align-items: center;
+    justify-content: center;
 
+}
+.brand-list span.pinkish{
+    background-color: var(--light-purple);
+}
+.brand-list span.orange{
+    background-color: var(--light-orange);
+}
+.brand-list span.green{
+    background-color: var(--light-green);
+}
+.brand-list span.green-2{
+    background-color: var(--light-green-2);
+}
+.brand-list span.light-red{
+    background-color: var(--light-red);
+}
+.brand-list-loop-wrapper.first-row{
+    margin-bottom: 38.52px;
+}
+@keyframes autoLoop {
+    0% {
+      left: 100%;
+    }
+    100% {
+      left: -100%
+    }
+  }
+
+@keyframes autoLoopright {
+    0% {
+      left: -100%;
+    }
+    100% {
+      left: 100%
+    }
+  }
+  .democratic-datapool-history-section{
+    background-color: var(--white-200);
+    padding: 140px 0px;
+    margin-top: 133.52px;
+  }
+  .democratic-datapool-history-wrapper{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 24px;
+    row-gap: 24px;
+  }
+  .data-pool-history-card{
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 37px 50px 47px 50px;
+  }
+  .h2-plus-span{
+    color: var(--primary);
+  }
+  .data-pool-history-card h2{
+    margin-bottom: 10px;
+  }
+  .why-it-is-important-section{
+    margin-top: 168px;
+  }
+  .why-it-is-important-wrapper-card{
+    padding: 82px;
+    border: 1px solid #2A5339;
+    border-radius: 4px;
+    max-width: 1056px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .why-it-is-important-wrapper-card h3{
+    margin-bottom: 52px;
+  }
+  .why-it-is-important-wrapper-card .options{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+  }
+  .why-it-is-important-wrapper-card .options .options-item{
+    flex-basis: 211px;
+    text-align: center;
+  }
+  .why-it-is-important-wrapper-card .options .options-item .illustration{
+    margin-bottom: 12px;
+  }
+  .why-it-is-important-wrapper-card .options .options-item h5{
+    margin-bottom: 7px;
+  }
+
+  .request-quote{
+    text-align: center;
+    margin-top: 64px;
+  }
+  .slider-action{
+    margin-top: 45px;
+    display: inline-flex;
+    gap: 15px;
+  }
+  .slider-action button{
+    background-color: transparent;
+    border: 0.8px solid #E8E7EE;
+    border-radius: 3.2px;
+    color: var(--border);
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .what-people-says-section{
+    margin-top: 169.16px;
+}
+.what-people-says-section-wrapper{
+    position: relative;
+    background-color: var(--bg-primary-dark);
+}
+.what-people-says-section-wrapper .illustration{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    max-height: 500px;
+}
+.what-people-says-section-wrapper .illustration img{
+    max-height: 100%;
+}
+.what-people-says-contaent h2{
+    color: white;
+    margin-bottom: 36px;
+}
+.what-people-says-contaent p.big{
+    color: var(--border);
+}
+.what-people-says-contaent p.big{
+    font-weight: 400;
+}
+.what-people-says-contaent p.refer-actor{
+    font-weight: 500;
+    margin-top: 26px;
+}
+p.refer-actor .hr-line{
+    display: inline-block;
+    width: 50px;
+    height: 1px;
+    background-color: var(--primary);
+    margin-left: 8px;
+}
+.what-people-says-contaent{
+    max-width: 548px;
+    padding-top: 80.4px;
+    padding-bottom: 71px;
+    margin-left: 120px;
+}
+
+.recent-news-section{
+    margin-top: 130px;
+}
