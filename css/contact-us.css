@@ -165,17 +165,3 @@
     margin-left: auto;
     margin-right: auto;
 }
-#my-canvas{
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    z-index: 100000;
-    pointer-events: none;
-    visibility: hidden;
-    top: 0;
-    left: 0;
-    transition: all 0.2s ease;
-}
-#my-canvas.active{
-    visibility: visible;
-}
