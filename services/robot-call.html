@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="icon" type="image/x-icon" href="../resources/images/favicon.png">
+   <title>Sign and printing</title>
+   <link rel="stylesheet" href="../css/bootstrap.min.css">
+   <link rel="stylesheet" href="../css/variable.css">
+   <link rel="stylesheet" href="../css/robot-call.css">
+   <link rel="stylesheet" href="../css/common.css">
+   <link rel="stylesheet" href="../css/responsive.css">
+   <link rel="stylesheet" href="../css/generic.css">
+   <link rel="stylesheet" href="../css/fontawesome/css/all.min.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="stylesheet" href="../css/font-css/general-sans.css">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+   <script src="../js/Translate.js"></script>
+   <script src="../js/scrollreveal.js"></script>
+   <!-- <script src="../js/gsap.min.js"></script>
+   <script src="../js/ScrollTrigger.min.js"></script> -->
+   <script>
+      function load(){
+         let userLang = navigator.language || navigator.userLanguage;
+         let translate = new Translate();
+         let currentLng = 'en';
+         if(userLang.includes('en')) {
+            currentLng = 'en';
+         } else if(userLang.includes('fr')) {
+            currentLng = 'fr';
+         }
+         let attributeName = 'data-tag';
+         translate.init(attributeName, currentLng);
+         translate.process(); 
+      }
+   </script>
+</head>
+<body onload="load()">
+   <header class="index-header">
+      <div class="nav-section">
+         <nav class="container">
+            <div class="d-flex justify-content-between align-items-center">
+               <div class="main-cm-logo">
+                <a href="/"><img src="../resources/images/logo.svg" alt="" srcset=""></a>
+               </div>
+               <div class="nav-dropdown-items">
+                  <div class="use-case">
+                     <button class="pointer" data-bs-toggle="dropdown" aria-expanded="false">
+                        <span data-tag="nav-use-case">Use case</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                     </button>
+                     <ul class="dropdown-menu">
+                       <li>
+                        <a class="dropdown-item" href="#">
+                           <div class="dropdown-item-image"><img src="../resources/images/Non-profit-icon.svg" alt="" srcset=""></div>
+                           <div>
+                              <p class="bold-nav-text">Non-profit</p>
+                              <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                           </div>
+                        </a>
+                        </li>
+                       <li>
+                        <a class="dropdown-item" href="../use-case/political-party.html">
+                           <div class="dropdown-item-image"><img src="../resources/images/Political-parti-icon.svg" alt="" srcset=""></div>
+                           <div>
+                              <p class="bold-nav-text">Political parti</p>
+                              <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                           </div>
+                        </a>
+                        </li>
+                       <li>
+                        <a class="dropdown-item" href="../use-case/elected-office.html">
+                           <div class="dropdown-item-image"><img src="../resources/images/Elected-office-icon.svg" alt="" srcset=""></div>
+                           <div>
+                              <p class="bold-nav-text">Elected office</p>
+                              <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                           </div>
+                        </a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="use-case services">
+                     <button class="pointer active" data-bs-toggle="dropdown" aria-expanded="false">
+                        <span data-tag="nav-services">Services</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                     </button>
+                     <div class="dropdown-menu custom-service-dropdown-menu">
+                        <div class="service-left-options">
+                           <a class="dropdown-item" href="#">
+                              <div class="dropdown-item-image"><img src="../resources/images/election-software.svg" alt="" srcset=""></div>
+                              <div>
+                                 <p class="bold-nav-text">Election software</p>
+                                 <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                              </div>
+                           </a>
+                           <a class="dropdown-item" href="./predictive-call-center.html">
+                              <div class="dropdown-item-image"><img src="../resources/images/predictive-call.svg" alt="" srcset=""></div>
+                              <div>
+                                 <p class="bold-nav-text">Predictive call center</p>
+                                 <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                              </div>
+                           </a>
+                           <a class="dropdown-item active" href="#">
+                              <div class="dropdown-item-image"><img src="../resources/images/nav-robot-call.svg" alt="" srcset=""></div>
+                              <div>
+                                 <p class="bold-nav-text">Robot call</p>
+                                 <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                              </div>
+                           </a>
+                           <a class="dropdown-item" href="#">
+                              <div class="dropdown-item-image"><img src="../resources/images/nav-crm-software.svg" alt="" srcset=""></div>
+                              <div>
+                                 <p class="bold-nav-text">CRM software</p>
+                                 <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                              </div>
+                           </a>
+                        </div>
+                        <div class="service-right-options">
+                           <a class="dropdown-item" href="./agent-calling.html">
+                              <div class="dropdown-item-image"><img src="../resources/images/agent-calling.svg" alt="" srcset=""></div>
+                              <div>
+                                 <p class="bold-nav-text">Agent calling</p>
+                                 <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                              </div>
+                           </a>
+                           <a class="dropdown-item" href="./sign-printing.html">
+                              <div class="dropdown-item-image"><img src="../resources/images/nav-signin.svg" alt="" srcset=""></div>
+                              <div>
+                                 <p class="bold-nav-text">Sign and printing</p>
+                                 <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                              </div>
+                           </a>
+                           <a class="dropdown-item" href="#">
+                              <div class="dropdown-item-image"><img src="../resources/images/data-pool.svg" alt="" srcset=""></div>
+                              <div>
+                                 <p class="bold-nav-text">Data pool</p>
+                                 <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="use-case pricing pointer">
+                     <button class="pointer" data-tag="nav-pricing">Pricing</button>
+                  </div>
+               </div>
+               <div class="tablet-nav-dropdown-items-wrapper" id="tabletNavDropdownItemsWrapper">
+                  <div class="tablet-nav-dropdown-items">
+                     <div class="tablet-use-case-section">
+                        <div class="expansion-controll">
+                           <span>Use Case</span>
+                           <span class="float-end">
+                              <i class="fa-solid fa-chevron-down"></i>
+                           </span>
+                        </div>
+                        <div class="service-expansion-body">
+                           <a class="service-expansion-item">
+                              <div class="ex-item-logo">
+                                 <img src="../resources/images/Non-profit-icon.svg" alt="" srcset="">
+                              </div>
+                              <div class="ex-item-name">
+                                 <p class="bold-nav-text">Non-profit</p>
+                                 <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                              </div>
+                           </a>
+                           <a class="service-expansion-item">
+                              <div class="ex-item-logo">
+                                 <img src="../resources/images/Political-parti-icon.svg" alt="" srcset="">
+                              </div>
+                              <div class="ex-item-name">
+                                 <p class="bold-nav-text">Political parti</p>
+                                 <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                              </div>
+                           </a>
+                           <a class="service-expansion-item">
+                              <div class="ex-item-logo">
+                                 <img src="../resources/images/Elected-office-icon.svg" alt="" srcset="">
+                              </div>
+                              <div class="ex-item-name">
+                                 <p class="bold-nav-text">Elected office</p>
+                                 <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="tablet-service-section">
+                        <div class="expansion-controll">
+                           <span>Services</span>
+                           <span class="float-end">
+                              <i class="fa-solid fa-chevron-down"></i>
+                           </span>
+                        </div>
+                        <div class="service-expansion-body-dual">
+                           <div class="service-expansion-body-dual-left">
+                              <a class="service-expansion-item">
+                                 <div class="ex-item-logo">
+                                    <img src="../resources/images/Non-profit-icon.svg" alt="" srcset="">
+                                 </div>
+                                 <div class="ex-item-name">
+                                    <p class="bold-nav-text">Non-profit</p>
+                                    <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                                 </div>
+                              </a>
+                              <a class="service-expansion-item">
+                                 <div class="ex-item-logo">
+                                    <img src="../resources/images/Political-parti-icon.svg" alt="" srcset="">
+                                 </div>
+                                 <div class="ex-item-name">
+                                    <p class="bold-nav-text">Political parti</p>
+                                    <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                                 </div>
+                              </a>
+                              <a class="service-expansion-item">
+                                 <div class="ex-item-logo">
+                                    <img src="../resources/images/Elected-office-icon.svg" alt="" srcset="">
+                                 </div>
+                                 <div class="ex-item-name">
+                                    <p class="bold-nav-text">Elected office</p>
+                                    <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                                 </div>
+                              </a>
+                              <a class="service-expansion-item">
+                                 <div class="ex-item-logo">
+                                    <img src="../resources/images/Elected-office-icon.svg" alt="" srcset="">
+                                 </div>
+                                 <div class="ex-item-name">
+                                    <p class="bold-nav-text">Elected office</p>
+                                    <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                                 </div>
+                              </a>
+                           </div>
+                           <div class="service-expansion-body-dual-right">
+                              <a class="service-expansion-item">
+                                 <div class="ex-item-logo">
+                                    <img src="../resources/images/Non-profit-icon.svg" alt="" srcset="">
+                                 </div>
+                                 <div class="ex-item-name">
+                                    <p class="bold-nav-text">Non-profit</p>
+                                    <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                                 </div>
+                              </a>
+                              <a class="service-expansion-item">
+                                 <div class="ex-item-logo">
+                                    <img src="../resources/images/Political-parti-icon.svg" alt="" srcset="">
+                                 </div>
+                                 <div class="ex-item-name">
+                                    <p class="bold-nav-text">Political parti</p>
+                                    <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                                 </div>
+                              </a>
+                              <a class="service-expansion-item">
+                                 <div class="ex-item-logo">
+                                    <img src="../resources/images/Elected-office-icon.svg" alt="" srcset="">
+                                 </div>
+                                 <div class="ex-item-name">
+                                    <p class="bold-nav-text">Elected office</p>
+                                    <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                                 </div>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <a class="d-block">
+                        <span>Pricing</span>
+                     </a>
+                  </div>
+               </div>
+               <div class="other-nav-tool">
+                  <div class="get-demo">
+                     <a href="../demo.html">
+                        <span data-tag="nav-get-demo">Get a demo</span>
+                     </a>
+                  </div>
+                  <div class="select-language">
+                     <span class="cursor" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-globe"></i>
+                     </span>
+                     <ul class="dropdown-menu">
+                        <li>
+                           <a class="dropdown-item" href="">
+                              <img class="m-r-10" src="../resources/images/canada-flag.svg" alt="" srcset="">
+                              English
+                           </a>
+                        </li>
+                        <li>
+                           <a class="dropdown-item" href="">
+                              <img class="m-r-10" src="../resources/images/french-flag.svg" alt="" srcset="">
+                              French
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="expand-menu" id="expandMenu">
+                     <img src="../resources/images/menu.svg" alt="" srcset="">
+                  </div>
+               </div>
+            </div>
+         </nav>
+      </div>
+   </header>
+   <main class="main-content">
+        <section class="robot-call-hero-section">
+            <div class="container">
+                <div class="robot-call-hero-wrapper">
+                    <div class="left">
+                        <div>
+                            <span class="automated-calls">Automated calls</span>
+                        </div>
+                        <h1>
+                            500 calls per minute
+                        </h1>
+                        <p class="regular">
+                            Send pre-recorded messages quickly to all your contacts for only $0.039 / call
+                        </p>
+                        <div class="request-demo text-start">
+                            <a href="../demo.html" data-tag="request-demo">Request a demo</a>
+                         </div>
+                    </div>
+                    <div class="right">
+                        <img src="../resources/images/robot-call-hero-illustration.png" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="effective-affordable-section">
+            <div class="effective-affordable-wrapper container">
+                <h2 class="text-center">
+                    Effective  and affordable
+                </h2>
+                <div class="effective-affordable-cards">
+                    <div class="card-item">
+                        <div class="illus-section light-green-2-bg">
+                           <img src="../resources/images/plan-broadcast.svg" alt="" srcset="">
+                        </div>
+                        <h6>Plan the broadcast</h6>
+                        <p class="regular">
+                           Broadcast at a specific date and time.
+                        </p>
+                    </div>
+                    <div class="card-item">
+                        <div class="illus-section light-red-bg">
+                           <img src="../resources/images/join-contacts.svg" alt="" srcset="">
+                        </div>
+                        <h6>Join your contacts</h6>
+                        <p class="regular">
+                           Quickly reach your contacts at 500 calls per minute.
+                        </p>
+                    </div>
+                    <div class="card-item">
+                     <div class="illus-section light-purple-bg">
+                        <img src="../resources/images/measure-results.svg" alt="" srcset="">
+                     </div>
+                     <h6>Measure results</h6>
+                     <p class="regular">
+                        See voicemails, replies, wrong numbers and more with detailed delivery results.
+                     </p>
+                 </div>
+                 <div class="card-item">
+                  <div class="illus-section light-green-bg">
+                     <img src="../resources/images/detect-voiceall.svg" alt="" srcset="">
+                  </div>
+                  <h6>Detect voicemail boxes</h6>
+                  <p class="regular">
+                     Our application recognizes voicemail and will leave your message after the beep.
+                  </p>
+              </div>
+                </div>
+            </div>
+        </section>
+        <section class="automated-call-section dark-green-bg">
+         <img class="abs-img" src="../resources/images/illustartion-pattern.svg" alt="" srcset="">
+            <div class="automated-call-wrapper container">
+               <div class="auto-call-label text-center">
+                  <h6>Automated your calls</h6>
+               </div>
+               <h2 class="text-center">5 easy steps</h2>
+               <div class="easy-steps">
+                  <div class="easy-step-grid-item">
+                     <div class="top-section">
+                        <span class="step-no">1</span>
+                        <img src="../resources/images/chevrons-right.svg" alt="" srcset="">
+                     </div>
+                     <h5>Schedule your operation</h5>
+                     <p>
+                        You can click here to file in your informations and select the moment you want to launch your calls. We will get back to you via email to confirm the details.
+                     </p>
+                  </div>
+                  <div class="easy-step-grid-item">
+                     <div class="top-section">
+                        <span class="step-no">2</span>
+                        <img src="../resources/images/chevrons-right.svg" alt="" srcset="">
+                     </div>
+                     <h5>Prepare your message</h5>
+                     <p>
+                        Have your text prepared and your audio recorded so you can send it over when we contact you. If you're unsure what your message should contain, you can click here for all the informations.
+                     </p>
+                  </div>
+                  <div class="easy-step-grid-item">
+                     <div class="top-section">
+                        <span class="step-no">3</span>
+                        <img src="../resources/images/chevrons-right.svg" alt="" srcset="">
+                     </div>
+                     <h5>Who will you be calling?</h5>
+                     <p>
+                        Have a list ready of all the phone numbers you want to call. We will be running a duplicate check on it to avoid multiple calls to the same number.
+                     </p>
+                  </div>
+                  <div class="easy-step-grid-item">
+                     <div class="top-section">
+                        <span class="step-no">4</span>
+                        <img src="../resources/images/chevrons-right.svg" alt="" srcset="">
+                     </div>
+                     <h5>Statistics and result</h5>
+                     <p>
+                        A detailed report of your results will be sent to you. Responses will be automatically imported into your Democratik database or provided to you in CSV.
+                     </p>
+                  </div>
+                  <div class="easy-step-grid-item">
+                     <div class="top-section">
+                        <span class="step-no">5</span>
+                        <img src="../resources/images/chevrons-right.svg" alt="" srcset="">
+                     </div>
+                     <h5>Test and launch</h5>
+                     <p>
+                        Once we have everything ready for launch, we will reach out to you to test the call as it will be sent out. If the quality as as you wished, we will then be launching it on the moment you reserved.
+                     </p>
+                  </div>
+                  <div class="easy-step-grid-item">
+                     <div>
+                        <h3>If you need any help contact us</h3>
+                        <div class="request-demo text-start mt-0">
+                           <a href="../contact-us.html" data-tag="request-demo">Contact us</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+        </section>
+        <section class="perfect-for-all-needs-section">
+            <div class="perfect-for-all-needs-wrapper container">
+               <h2 class="text-center">Perfect for all your needs</h2>
+               <div class="grid-cards">
+                  <div class="grid-item">
+                     <div class="illus-content">
+                        <span>
+                           <img src="../resources/images/voting-intention.svg" alt="" srcset="">
+                        </span>
+                     </div>
+                     <div class="content">
+                        <h6>
+                           Voting intention
+                        </h6>
+                        <p>
+                           Ask your voters who they plan to vote for in the next election.
+                        </p>
+                     </div>
+                  </div>
+                  <div class="grid-item">
+                     <div class="illus-content">
+                        <span>
+                           <img src="../resources/images/public-message.svg" alt="" srcset="">
+                        </span>
+                     </div>
+                     <div class="content">
+                        <h6>
+                           Public message
+                        </h6>
+                        <p>
+                           Send a short public service announcement to all your constituents. 
+                        </p>
+                     </div>
+                  </div>
+                  <div class="grid-item">
+                     <div class="illus-content">
+                        <span>
+                           <img src="../resources/images/survey.svg" alt="" srcset="">
+                        </span>
+                     </div>
+                     <div class="content">
+                        <h6>
+                           Survey
+                        </h6>
+                        <p>
+                           Send a multiple-choice poll to your entire population.
+                        </p>
+                     </div>
+                  </div>
+                  <div class="grid-item">
+                     <div class="illus-content">
+                        <span>
+                           <img src="../resources/images/check-attendance.svg" alt="" srcset="">
+                        </span>
+                     </div>
+                     <div class="content">
+                        <h6>
+                           Check for attendance
+                        </h6>
+                        <p>
+                           Holding an event? Send out an invitation and ask your callees if they will be attending.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+        </section>
+        <section class="robot-call-price-section">
+            <div class="robot-call-price-wrapper container">
+               <div class="robot-call-price-info">
+                  <h2 class="text-center">
+                     Robot call Price
+                  </h2>
+                  <p class="s-brief text-center">
+                     At Democratik, each automated call is supervised by a qualified agent. Our agent will accompany you from booking your automated call to delivering your broadcast report. 
+                  </p>
+                  <div class="robot-call-price-card">
+                     <div class="left">
+                        <div class="price">
+                           <h3>$0.039</h3>
+                           <h6>/call + $150</h6>
+                        </div>
+                        <p class="regular">
+                           We offer you the best price in Canada for automated calls supervised by an agent: $150 setup fee and $0.039 per call dialed.
+                        </p>
+                        <div class="h-line"></div>
+                        <div class="amount-of-calls">
+                           <p class="big" style="font-weight: 400;">
+                              Amount of calls
+                           </p>
+                           <input placeholder="Ex. 10,000" class="w-100" type="text">
+                        </div>
+                        <button class="w-100 get-estimate">
+                           Get an estimate
+                        </button>
+                     </div>
+                     <div class="right">
+                        <div class="title">
+                           <span class="big">
+                              Total Estimate
+                           </span>
+                        </div>
+                        <div class="estimate">
+                           <div class="top">
+                              <div class="estimate-row">
+                                 <span class="regular">Amount of calls</span>
+                                 <span class="regular data">10,000</span>
+                              </div>
+
+                              <div class="estimate-row">
+                                 <span class="regular">Per call Price</span>
+                                 <span class="regular data">$0.039 CAD</span>
+                              </div>
+                              <div class="estimate-row">
+                                 <span class="regular">Total call price</span>
+                                 <span class="regular data">$390 CAD</span>
+                              </div>
+                           </div>
+                           <div class="bottom">
+                              <div class="estimate-row">
+                                 <span class="regular">Setup config</span>
+                                 <span class="regular data">$150 CAD</span>
+                              </div>
+                              <div class="estimate-row">
+                                 <select>
+                                    <option>Minus taxes</option>
+                                 </select>
+                                 <span class="regular data">$10 CAD</span>
+                              </div>
+                           </div>
+                           <div class="h-line"></div>
+                           <div class="total-price">
+                              <div class="estimate-row">
+                                 <span class="regular">Total Price</span>
+                                 <h6>$550 USD</h6>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+        </section>
+        <section class="faq-section">
+         <div class="faq-wrapper container">
+             <div class="extra-wrapper">
+                 <h2 class="text-center">Frequently asked questions (FAQ)</h2>
+                 <div class="faq-expandable-list">
+                     <div class="faq-expandable-item">
+                         <div class="faq-expandable-item-header">
+                             <h6>Ac viverra augue molestie vestibulum sed id nec id.</h6>
+                             <div class="expand-toggle">
+                                 <i class="fa-solid fa-plus expand"></i>
+                                 <i class="fa-solid fa-minus c-collapse"></i>
+                             </div>
+                         </div>
+                         <div class="expansion-body">
+                             <p class="regular">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec potenti nullam quis aliquam aliquet. Vestibulum, viverra ut orci orci scelerisque vestibulum.</p>
+                         </div>
+                     </div>
+                     <div class="faq-expandable-item">
+                         <div class="faq-expandable-item-header">
+                             <h6>Biverra augue molestie vestibulum sed id nec id.</h6>
+                             <div class="expand-toggle">
+                                 <i class="fa-solid fa-plus expand"></i>
+                                 <i class="fa-solid fa-minus c-collapse"></i>
+                             </div>
+                         </div>
+                         <div class="expansion-body">
+                             <p class="regular">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec potenti nullam quis aliquam aliquet. Vestibulum, viverra ut orci orci scelerisque vestibulum.</p>
+                         </div>
+                     </div>
+                     <div class="faq-expandable-item">
+                         <div class="faq-expandable-item-header">
+                             <h6>Riverra augue molestie vestibulum sed id nec id.</h6>
+                             <div class="expand-toggle">
+                                 <i class="fa-solid fa-plus expand"></i>
+                                 <i class="fa-solid fa-minus c-collapse"></i>
+                             </div>
+                         </div>
+                         <div class="expansion-body">
+                             <p class="regular">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec potenti nullam quis aliquam aliquet. Vestibulum, viverra ut orci orci scelerisque vestibulum.</p>
+                         </div>
+                     </div>
+                     <div class="faq-expandable-item">
+                         <div class="faq-expandable-item-header">
+                             <h6>Piverra augue molestie vestibulum sed id nec id.</h6>
+                             <div class="expand-toggle">
+                                 <i class="fa-solid fa-plus expand"></i>
+                                 <i class="fa-solid fa-minus c-collapse"></i>
+                             </div>
+                         </div>
+                         <div class="expansion-body">
+                             <p class="regular">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec potenti nullam quis aliquam aliquet. Vestibulum, viverra ut orci orci scelerisque vestibulum.</p>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+      </section>
+      <section class="testimonial">
+         <div class="testimonial-content container">
+            <h2 class="text-center">
+               What users <span class="custom-color">love about</span> Democratik
+            </h2>
+            <div class="testmonials">
+               <div class="testimonial-item position-relative">
+                  <div class="actor-image">
+                     <img src="../resources/images/alexandre-foisy.png" alt="" srcset="">
+                  </div>
+                  <div class="review-details">
+                     <div class="ratings">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                     </div>
+                     <h5>
+                        “Election campaigns are among the most defining moments of a person's life. We put all our expertise at your disposal to make this big step, new for some, a pleasant and memorable experience. »
+                     </h5>
+                     <div>
+                        <h6>Alexandre Foisy</h6>
+                        <p class="regular">General director</p>
+                     </div>
+                     <div class="slider-button">
+                        <button>
+                           <span><i class="fa-solid fa-chevron-left"></i></span>
+                        </button>
+                        <button>
+                           <span>
+                              <i class="fa-solid fa-chevron-right"></i>
+                           </span>
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="get-ready">
+         <div class="get-ready-content container">
+            <div class="get-ready-wrapper">
+               <div class="get-ready-body">
+                  <p class="regular light-green">Get ready today</p>
+                  <h3 class="m-t-15">Change the way you run an election campaign forever.</h3>
+                  <div class="request-demo text-start">
+                     <a href="../demo.html" data-tag="request-demo">Request a demo</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+   </main>
+   <footer class="footer">
+      <div class="container footer-content">
+         <div class="top-section">
+            <div class="enter-email">
+               <input type="email" name="" id="" placeholder="Enter your email">
+               <button class="subscribe">Subscribe</button>
+            </div>
+            <div class="download-option">
+               <img src="../resources/images/google-play.svg" alt="" srcset="">
+               <img src="../resources/images/app-store.svg" alt="" srcset="">
+            </div>
+         </div>
+         <div class="body-section">
+            <div class="footer-body-item address-content">
+               <div class="footer-logo">
+                  <img src="../resources/images/footer-logo.svg" alt="" srcset="">
+               </div>
+               <div class="address-section">
+                  <div class="icon-content">
+                     <i class="fa-solid fa-location-dot"></i>
+                  </div>
+                  <p class="regular">
+                     2535 Boul. of the Thousand Islands, Laval, Quebec, Canada H7J 1E6
+                  </p>
+               </div>
+               <div class="mail-section">
+                  <div class="icon-content">
+                     <i class="fa-solid fa-envelope"></i>
+                  </div>
+                  <p class="regular">
+                     <a href="mailto:info@democratik.org">info@democratik.org</a>
+                  </p>
+               </div>
+               <div class="phone-section">
+                  <div class="icon-content">
+                     <i class="fa-solid fa-phone"></i>
+                  </div>
+                  <p class="regular">
+                     <a href="tel:514-600-0191">514-600-0191</a>
+                  </p>
+               </div>
+            </div>
+            <div class="footer-body-item">
+               <div class="section-title">
+                  <span class="primary-title">Use Cases</span>
+               </div>
+               <div>
+                  <p class="regular">
+                     <a href="../coming-soon.html">Non-profit</a>
+                  </p>
+               </div>
+               <div>
+                  <p class="regular">
+                     <a href="../coming-soon.html">Political parti</a>
+                  </p>
+               </div>
+               <div>
+                  <p class="regular">
+                     <a href="../coming-soon.html">Elected office</a>
+                  </p>
+               </div>
+            </div>
+            <div class="footer-body-item">
+               <div class="section-title">
+                  <span class="primary-title">Services</span>
+               </div>
+               <div>
+                  <p class="regular">
+                     <a href="../coming-soon.html">Election software</a>
+                  </p>
+               </div>
+               <div>
+                  <p class="regular">
+                     <a href="../coming-soon.html">Predictive call center</a>
+                  </p>
+               </div>
+               <div>
+                  <p class="regular">
+                     <a href="../coming-soon.html">Robotcall</a>
+                  </p>
+               </div>
+               <div>
+                  <p class="regular">
+                     <a href="../coming-soon.html">CRM software</a>
+                  </p>
+               </div>
+               <div>
+                  <p class="regular">
+                     <a href="../coming-soon.html">Agent calling</a>
+                  </p>
+               </div>
+               <div>
+                  <p class="regular">
+                     <a href="../coming-soon.html">Sign and printing</a>
+                  </p>
+               </div>
+               <div>
+                  <p class="regular">
+                     <a href="../coming-soon.html">Data pool</a>
+                  </p>
+               </div>
+            </div>
+            <div class="footer-body-item">
+               <div class="section-title">
+                  <span class="primary-title">Company</span>
+               </div>
+               <div>
+                  <p class="regular">
+                     <a href="../coming-soon.html">Our company</a>
+                  </p>
+               </div>
+               <div>
+                  <p class="regular">
+                     <a href="../coming-soon.html">Our team</a>
+                  </p>
+               </div>
+               <div>
+                  <p class="regular">
+                     <a href="../coming-soon.html">Security</a>
+                  </p>
+               </div>
+               <div>
+                  <p class="regular">
+                     <a href="../coming-soon.html">New room</a>
+                  </p>
+               </div>
+               <div>
+                  <p class="regular">
+                     <a href="../coming-soon.html">GDPR</a>
+                  </p>
+               </div>
+            </div>
+            <div class="footer-body-item">
+               <div class="section-title">
+                  <span class="primary-title">Resources</span>
+               </div>
+               <div>
+                  <p class="regular">
+                     <a href="../coming-soon.html">Help & Resources</a>
+                  </p>
+               </div>
+               <div>
+                  <p class="regular">
+                     <a href="../faq.html">FAQ</a>
+                  </p>
+               </div>
+               <div>
+                  <p class="regular">
+                     <a href="../coming-soon.html">Video tutorial</a>
+                  </p>
+               </div>
+               <div>
+                  <p class="regular">
+                     <a href="../coming-soon.html">Democratik API</a>
+                  </p>
+               </div>
+               <div>
+                  <p class="regular">
+                     <a href="../coming-soon.html">Blog</a>
+                  </p>
+               </div>
+               <div>
+                  <p class="regular">
+                     <a href="../coming-soon.html" target="_self">Documentation</a>
+                  </p>
+               </div>
+               <div>
+                  <p class="regular">
+                     <a href="../contact-us.html">Contact us</a>
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div class="copy-right-section">
+            <div class="copyright-left-section">
+               <p class="regular">Democratik &copy; 2022 All Rights Reserved.</p>
+            </div>
+            <div class="follow-option">
+               <div>
+                  <p class="regular">Follow Us</p>
+               </div>
+               <div class="social-media-logo">
+                  <span class="regular"><i class="fa-brands fa-facebook-f"></i></span>
+               </div>
+               <div class="social-media-logo">
+                  <span class="regular"><i class="fa-brands fa-linkedin-in"></i></span>
+               </div>
+               <div class="social-media-logo">
+                  <span class="regular"><i class="fa-brands fa-twitter"></i></span>
+               </div>
+               <div class="social-media-logo">
+                  <span class="regular"><i class="fa-brands fa-instagram"></i></span>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <script src="../js/jquery-3.6.1.min.js"></script>
+   <script src="../js/bootstrap.bundle.min.js"></script>
+   <script src="../js/faq.js"></script>
+   <script>
+    //     ScrollReveal({
+    //         reset: false,
+    //         distance: '100px',
+    //         duration: 1600,
+    //         delay: 400
+    //     });
+    //   ScrollReveal().reveal('.elected-office-dashboard-illustrations img:first-child', {delay: 300, origin: 'left'});
+    //   ScrollReveal().reveal('.elected-office-dashboard-illustrations img:last-child', {delay: 300, origin: 'bottom'});
+    //   ScrollReveal().reveal('.get-in-touch-left', {delay: 300, origin: 'left'});
+    //   ScrollReveal().reveal('.handle-organise-left', {delay: 300, origin: 'left'});
+    //   ScrollReveal().reveal('.get-in-touch-right', {delay: 400, origin: 'bottom'});
+    //   ScrollReveal().reveal('.handle-organise-right', {delay: 400, origin: 'bottom'});
+    //   ScrollReveal().reveal('.e-o-management-features', {delay: 400, origin: 'bottom'});
+
+
+
+    // --- ORANGE PANEL ---
+
+   </script>
+</body>
+</html>

@@ -794,3 +794,85 @@ a.dropdown-item:hover{
 #my-canvas.active{
     visibility: visible;
 }
+.hero-wrapper .request-demo{
+    margin-top: 36px;
+}
+.light-green-2-bg{
+    background-color: var(--light-green-2);
+}
+.light-red-bg{
+    background-color: var(--light-red);
+}
+.light-purple-bg{
+    background-color: var(--light-purple);
+}
+.light-green-bg{
+    background-color: var(--light-green);
+}
+.dark-green-bg{
+    background-color: var(--bg-primary-dark);
+}
+.h-line{
+    height: 1px;
+    width: 100%;
+    background-color: var(--border);
+}
+
+.faq-wrapper h2{
+    margin-bottom: 60px;
+}
+.faq-expandable-list{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 25px;
+}
+.expand-toggle i{
+    font-size: 14px;
+    cursor: pointer;
+}
+.faq-expandable-item-header{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.faq-expandable-item{
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 22.5px 27px;
+    overflow: hidden;
+    transition: height 0.3s ease-out;
+}
+.faq-expandable-item-header .expand-toggle .expand{
+    display: inline-block;
+}
+
+.faq-expandable-item-header .expand-toggle .c-collapse{
+    display: none;
+}
+
+.faq-expandable-item.expanded .faq-expandable-item-header .expand-toggle .c-collapse{
+    display: inline-block;
+}
+.faq-expandable-item.expanded .faq-expandable-item-header .expand-toggle .expand{
+    display: none;
+}
+
+.faq-expandable-item.expanded{
+    background: #F6F6F9;
+    height: auto;
+}
+.expansion-body{
+    display: none;
+    margin-top: 20px;
+}
+
+.faq-expandable-item.expanded .expansion-body{
+    display: block;
+}
+.faq-wrapper .extra-wrapper{
+    max-width: 769px;
+    margin-left: auto;
+    margin-right: auto;
+}
