@@ -130,3 +130,62 @@ h1 .custom-color::after {
 .follow-us-fb i{
     font-size: 20px;
 }
+.more-info-dialogue-container{
+    position: fixed;
+    background: rgba(28, 36, 54, 0.7);
+    backdrop-filter: blur(2.5px);
+    z-index: 1000;
+    display: flex;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    bottom: 0;
+    width: 0vw;
+    height: 0vh;
+    justify-content: center;
+    align-items: center;
+}
+.more-info-dialogue-container.active{
+    height: 100vh;
+    width: 100vw;
+}
+body.dialogue-active{
+    max-height: 100vh;
+    overflow-y: hidden;
+}
+.more-info-dialogue{
+    flex-basis: 624px;
+    padding: 28px 30px 35px 30px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    position: relative;
+}
+span#closeDialogue{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 17px;
+    line-height: 17px;
+}
+.popup-heading{
+    display: flex;
+    justify-content: space-between;
+}
+.popup-heading h6{
+    margin-bottom: 4px;
+}
+.popup-heading .title{
+    flex-basis: 432px;
+}
+.popup-heading .close-window{
+    flex-basis: 20px;
+    text-align: end;
+}
+.popup-body{
+    margin-top: 33px;
+}

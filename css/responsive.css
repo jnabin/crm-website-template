@@ -1173,4 +1173,9 @@
     .form-group-row{
         flex-wrap: wrap;
     }
+
+    /* coming soon */
+    .more-info-dialogue{
+        flex-basis: 396px;
+    }
 }
