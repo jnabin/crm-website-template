@@ -1,0 +1,288 @@
+.index-header{
+    border-bottom: 1px solid var(--border);
+}
+.crm-software-hero-section{
+    background-color: var(--white-200);
+}
+.crm-software-hero-wrapper{
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 84px;
+    align-items: center;
+}
+.crm-software-hero-wrapper .left{
+    flex-basis: 432px;
+}
+.crm-software-hero-wrapper .right{
+    flex-grow: 1;
+}
+.world-top-band-label > span{
+    display: inline-block;
+    background: #FFFFFF;
+    border: 1px solid #E8E7EE;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #1C2436;
+    padding: 15px 40px 15px 20px;
+}
+
+.world-top-band-label span img{
+    margin-right: 10px;
+}
+.crm-software-hero-wrapper .left h1{
+    margin-top: 32px;
+    margin-bottom: 23px;
+}
+.crm-software-hero-wrapper .right .trusted-by-leaders{
+    background: #D6FFD8;
+    border-top: 1px solid var(--bg-primary-dark);
+    padding: 82px 0px 83px 67px;
+}
+.crm-software-hero-wrapper .right .trusted-by-leaders h6{
+    margin-bottom: 33px;
+}
+.crm-software-hero-wrapper .right .illustration-section{
+    background-color: white;
+    height: 640px;
+    position: relative;
+}
+.crm-software-hero-wrapper .right .illustration-section .sun-illus{
+    top: 30%;
+    left: 35%;
+    position: relative;
+    max-height: 232px;
+    display: inline-block;
+}
+.crm-software-hero-wrapper .right .illustration-section .sun-illus img{
+    max-height: 100%;
+}
+.crm-software-hero-wrapper .right .illustration-section .sun-illus img:first-child{
+    animation-name: spin;
+    animation-duration: 11s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.crm-software-hero-wrapper .right .illustration-section .sun-illus img:last-child{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 84px;
+}
+.brand-list-loop-wrapper{
+    overflow: hidden;
+    position: relative;
+    flex-grow: 1;
+    height: 34px;
+}
+.brand-list{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    gap: 46px;
+    position: absolute;
+    align-items: center;
+    top: 50%;
+    transform: translateY(-50%);
+    align-items: center;
+    left: 100%;
+    width: 100%;
+    animation: autoLoop 20s linear infinite;
+    white-space: nowrap;
+}
+.brand-list-2 {
+    animation-delay: 10s;
+    padding-left: 46px;
+}
+.brand-list img{
+    height: 34px;
+}
+@keyframes autoLoop {
+    0% {
+      left: 100%;
+    }
+    100% {
+      left: -100%
+    }
+  }
+
+  @keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+  }
+
+  .c-s-h-vector-1,
+  .c-s-h-vector-2,
+  .c-s-h-vector-3,
+  .slight-green-circle,
+  .switch-illustration{
+    position: absolute;
+  }
+
+  .c-s-h-vector-1{
+    top: 10%;
+    left: 9%;
+    animation-name: rightTranslate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    transition: all 0.5s ease;
+    animation-direction: alternate;
+  }
+  .c-s-h-vector-2{
+    top: 10%;
+    right: 13%;
+    animation-name: leftTranslate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    transition: all 0.5s ease;
+    animation-direction: alternate;
+  }
+  @keyframes rightTranslate {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(120px);
+    }
+  }
+  @keyframes leftTranslate {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-150px);
+    }
+  }
+  .c-s-h-vector-3{
+    top: 67%;
+    left: 9%;
+  }
+
+  .slight-green-circle{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 1px solid var(--bg-primary-dark);
+    background-color: var(--light-green);
+    top: 47%;
+    right: 8%;
+  }
+  .switch-illustration{
+    display: inline-block;
+    top: 75%;
+    right: 29%;
+  }
+
+  .switch-illustration .recta{
+    position: relative;
+    display: inline-block;
+    width: 70.57px;
+    box-sizing: border-box;
+    height: 56px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+    background-color: var(--light-green-2);
+    border: 1px solid var(--bg-primary-dark);
+    animation-name: leftRightBorderToggle;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transition: all 0.5s ease;
+    animation-direction: alternate;
+  }
+
+  .switch-toggle{
+    position: absolute;
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: #C2D854;
+    border: 1px solid var(--bg-primary-dark);
+    left: 50%;
+    top: -1px;
+    animation-name: leftRightTranslate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transition: all 0.5s ease;
+    animation-direction: alternate;
+  }
+  @keyframes leftRightTranslate {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+  }
+
+  @keyframes leftRightBorderToggle {
+    0% {
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-left-radius: 35px;
+        border-bottom-left-radius: 35px;
+    }
+    100% {
+        border-top-right-radius: 35px;
+        border-bottom-right-radius: 35px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+  }
+  .customize-democratic-section{
+    margin-top: 117px;
+  }
+  .customize-democratic-section .top-title-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+  }
+  .customize-democratic-section .top-title-content .left{
+    flex-basis: 613px;
+  }
+  .customize-democratic-section .top-title-content .right{
+    flex-basis: 445px;
+  }
+  .customize-democratic-section .dashboard{
+    margin-top: 20px;
+    position: relative;
+    z-index: 2;
+  }
+  .main-ds{
+    position: relative;
+    z-index: 2;
+  }
+  .c-s-illus-1,
+  .c-s-illus-2{
+    position: absolute;
+    animation-name: spin;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  .c-s-illus-1{
+    top: 34px;
+    right: -6px;
+    z-index: 3;
+  }
+
+  .c-s-illus-2{
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+  }
