@@ -496,3 +496,86 @@ img.feature-4-dashboard{
   margin-top: 42px;
   margin-bottom: 10px;
 }
+.kind-words-section{
+  padding: 140px 0px 140px 0px;
+}
+.kind-words-wrapper h2{
+  margin-bottom: 60.15px;
+}
+.all-kinds-grid{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 36px;
+}
+.all-kinds-grid .grid-item{
+  padding: 40px 32.76px 43px 40px;
+  background-color: white;
+  border-radius: 4px;
+}
+.top-label{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 45px;
+}
+.bottom-label{
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  margin-top: 46px;
+}
+.top-label .ratings{
+  display: inline-flex;
+  gap: 4px;
+  font-size: 20px;
+  color: #FFBA2E;
+}
+.bottom-label .right .fs-14{
+  font-size: 14px;
+}
+.use-case-wrapper h2{
+  max-width: 653px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.use-case-grid{
+ display: flex;
+ gap: 36px;
+ justify-content: space-between;
+  margin-top: 50px;
+}
+.use-case-grid .grid-item{
+  padding: 55px 10px 0px 10px;
+  border-radius: 4px;
+  flex-basis: 400px;
+}
+.use-case-grid .grid-item h6 .dark-circle{
+  display: inline-block;
+  background-color: var(--dark);
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+}
+.use-case-grid .grid-item:first-child{
+  background-color: var(--light-red);
+}
+.use-case-grid .grid-item:nth-child(2){
+  background-color: var(--light-orange);
+}
+.use-case-grid .grid-item:nth-child(3){
+  background-color: var(--light-green-2);
+}
+.use-case-grid .grid-item .custom-text{
+  margin-bottom: 66px;
+  text-align: center;
+  margin-top: 30px;
+}
+.use-case-section{
+  margin-top: 132px;
+}
+.get-ready{
+  margin-top: 140px;
+}
+.faq-section{
+  margin-top: 130px;
+}
