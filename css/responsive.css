@@ -804,10 +804,164 @@
         margin-top: 80px;
     }
 
+    /* crm software */
+    .crm-software-hero-wrapper{
+        flex-wrap: wrap;
+        gap: 81px;
+        padding-top: 80px;
+    }
+
+    .crm-software-hero-wrapper .left{
+        text-align: center;
+    }
+
+    .crm-software-hero-wrapper .left .request-demo.text-start{
+        text-align: center !important;
+    }
+
+    .crm-software-hero-wrapper .right .trusted-by-leaders {
+        padding: 40px 0px 47px 30px;
+    }
+
+    .crm-software-hero-wrapper .right .trusted-by-leaders h6 {
+        margin-bottom: 21px;
+    }
+
+    .crm-software-hero-wrapper .left,
+    .crm-software-hero-wrapper .right{
+        flex-basis: 100%;
+    }
+
+    .crm-software-hero-wrapper .illustration-section{
+        display: none;
+    }
+    .crm-software-hero-wrapper {
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 0px !important;
+    }
+    .crm-software-hero-wrapper .left h1 {
+        margin-top: 17px;
+        margin-bottom: 15px;
+    }
+    .hero-wrapper .request-demo {
+        margin-top: 26px;
+    }
+    .customize-democratic-section {
+        margin-top: 71px;
+    }
+    .customize-democratic-section .top-title-content {
+        flex-wrap: wrap;
+        text-align: center;
+        gap: 15px;
+        max-width: 523px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .customize-democratic-section .top-title-content .left,
+    .customize-democratic-section .top-title-content .right{
+        flex-basis: 100%;
+    }
+    .customize-democratic-section .dashboard {
+        margin-top: 0px;
+    }
+    .customize-democratic-wrapper .request-demo {
+        margin-top: 16px;
+    }
+    .c-s-illus-2 {
+        width: 89px;
+    }
+    .c-s-illus-1 {
+        width: 89px;
+    }
+    img.feature-1-dashboard {
+        max-width: 271px;
+    }
+    img.feature-2-dashboard {
+        max-width: 242px;
+    }
+    img.feature-1-donut {
+        max-width: 243px;
+    }
+    img.feature-3-dashboard {
+        max-width: 244px;
+    }
+    img.feature-4-dashboard {
+        max-width: 184px;
+    }
+    .collect-account-info-wrapper .grid-options {
+        grid-template-columns: auto auto;
+        column-gap: 23px;
+        row-gap: 23px;
+    }
+    .collect-account-info-section{
+        padding-top: 80px;
+        padding-bottom: 81px;
+    }
+    .collect-account-info-wrapper h2 {
+        margin-bottom: 23px;
+    }
+    .collect-account-info-wrapper .container-wrapper{
+        gap: 33px;
+        justify-content: space-between;
+    }
+    .collect-account-info-wrapper .container-wrapper .left {
+        flex-basis: 391px;
+        padding: 31px 7px 40px 30px;
+    }
+    .collect-account-info-wrapper .container-wrapper .right {
+        flex-basis: 294px;
+    }
+    .collect-account-info-wrapper .container-wrapper .left .request-demo {
+        margin-top: 26px;
+    }
+    .collect-account-info-wrapper .container-wrapper {
+        padding: 52px 30px 53px 30px;
+    }
+    .kind-words-section {
+        padding: 89.5px 0px 80px 0px;
+    }
+    .kind-words-wrapper h2 {
+        margin-bottom: 40px;
+    }
+    .all-kinds-grid {
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+    .use-case-section {
+        margin-top: 82px;
+    }
+    .use-case-grid {
+        display: flex;
+        gap: 19px;
+        justify-content: space-between;
+        margin-top: 40px;
+    }
+    .grid-item div.text-center img{
+        max-width: 117px;
+    }
+    .use-case-grid .grid-item .custom-text {
+        margin-bottom: 52px;
+        margin-top: 17px;
+        font-size: 22px;
+        line-height: 30.8px;
+    }
+    .faq-section {
+        margin-top: 70px;
+    }
+
+
+
     /* default */
     .default-flex-section-wrapper .left,
     .default-flex-section-wrapper .right{
         flex-basis: 100%;
+    }
+    .custom-text {
+        font-size: 22px;
+        line-height: 30.8px;
     }
     .footer {
         margin-top: 80px;
@@ -837,10 +991,18 @@
     .container, .container-sm {
         max-width: calc(100% - 48px) !important;
     }
+
+    .crm-software-hero-container{
+        max-width: calc(100% - 48px) !important;
+    }
 }
 @media (min-width: 992px) {
     .container, .container-sm {
         max-width: 90% !important;
+    }
+
+    .crm-software-hero-container{
+        max-width: calc(100vw - calc(calc(100vw - 90%)/2));
     }
 }
 @media (min-width: 1400px){
