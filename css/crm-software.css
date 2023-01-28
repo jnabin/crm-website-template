@@ -555,6 +555,7 @@ img.feature-4-dashboard{
   width: 14px;
   height: 14px;
   border-radius: 50%;
+  margin-right: 8px;
 }
 .use-case-grid .grid-item:first-child{
   background-color: var(--light-red);
