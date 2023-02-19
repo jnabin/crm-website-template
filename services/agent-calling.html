@@ -37,123 +37,200 @@
 </head>
 <body onload="load()">
    <header class="index-header">
-      <div class="nav-section">
-         <nav class="container">
-            <div class="d-flex justify-content-between align-items-center">
-               <div class="main-cm-logo">
-                <a href="/"><img src="../resources/images/logo.svg" alt="" srcset=""></a>
+      <nav class="container">
+         <div class="d-flex justify-content-between align-items-center">
+            <div class="main-cm-logo">
+             <a href="/"><img src="../resources/images/logo.svg" alt="" srcset=""></a>
+            </div>
+            <div class="nav-dropdown-items">
+               <div class="use-case">
+                  <button class="pointer" data-bs-toggle="dropdown" aria-expanded="false">
+                     <span data-tag="nav-use-case">Use case</span>
+                     <i class="fa-solid fa-chevron-down"></i>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                     <a class="dropdown-item" href="../use-case/non-profit.html">
+                        <div class="dropdown-item-image"><img src="../resources/images/Non-profit-icon.svg" alt="" srcset=""></div>
+                        <div>
+                           <p class="bold-nav-text">Non-profit</p>
+                           <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                        </div>
+                     </a>
+                     </li>
+                    <li>
+                     <a class="dropdown-item" href="../political-party.html">
+                        <div class="dropdown-item-image"><img src="../resources/images/Political-parti-icon.svg" alt="" srcset=""></div>
+                        <div>
+                           <p class="bold-nav-text">Political parti</p>
+                           <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                        </div>
+                     </a>
+                     </li>
+                    <li>
+                     <a class="dropdown-item" href="../use-case/elected-office.html">
+                        <div class="dropdown-item-image"><img src="../resources/images/Elected-office-icon.svg" alt="" srcset=""></div>
+                        <div>
+                           <p class="bold-nav-text">Elected office</p>
+                           <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                        </div>
+                     </a>
+                     </li>
+                  </ul>
                </div>
-               <div class="nav-dropdown-items">
-                  <div class="use-case">
-                     <button class="pointer" data-bs-toggle="dropdown" aria-expanded="false">
-                        <span data-tag="nav-use-case">Use case</span>
-                        <i class="fa-solid fa-chevron-down"></i>
-                     </button>
-                     <ul class="dropdown-menu">
-                       <li>
-                        <a class="dropdown-item" href="#">
-                           <div class="dropdown-item-image"><img src="../resources/images/Non-profit-icon.svg" alt="" srcset=""></div>
+               <div class="use-case services">
+                  <button class="pointer active" data-bs-toggle="dropdown" aria-expanded="false">
+                     <span data-tag="nav-services">Services</span>
+                     <i class="fa-solid fa-chevron-down"></i>
+                  </button>
+                  <div class="dropdown-menu custom-service-dropdown-menu">
+                     <div class="service-left-options">
+                        <a class="dropdown-item" href="./election-software.html">
+                           <div class="dropdown-item-image"><img src="../resources/images/election-software.svg" alt="" srcset=""></div>
                            <div>
+                              <p class="bold-nav-text">Election software</p>
+                              <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                           </div>
+                        </a>
+                        <a class="dropdown-item" href="./predictive-call-center.html">
+                           <div class="dropdown-item-image"><img src="../resources/images/predictive-call.svg" alt="" srcset=""></div>
+                           <div>
+                              <p class="bold-nav-text">Predictive call center</p>
+                              <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                           </div>
+                        </a>
+                        <a class="dropdown-item" href="./robot-call.html">
+                           <div class="dropdown-item-image"><img src="../resources/images/nav-robot-call.svg" alt="" srcset=""></div>
+                           <div>
+                              <p class="bold-nav-text">Robot call</p>
+                              <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                           </div>
+                        </a>
+                        <a class="dropdown-item" href="./crm-software.html">
+                           <div class="dropdown-item-image"><img src="../resources/images/nav-crm-software.svg" alt="" srcset=""></div>
+                           <div>
+                              <p class="bold-nav-text">CRM software</p>
+                              <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="service-right-options">
+                        <a class="dropdown-item active" href="#">
+                           <div class="dropdown-item-image"><img src="../resources/images/agent-calling.svg" alt="" srcset=""></div>
+                           <div>
+                              <p class="bold-nav-text">Agent calling</p>
+                              <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                           </div>
+                        </a>
+                        <a class="dropdown-item" href="./sign-printing.html">
+                           <div class="dropdown-item-image"><img src="../resources/images/nav-signin.svg" alt="" srcset=""></div>
+                           <div>
+                              <p class="bold-nav-text">Sign and printing</p>
+                              <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                           </div>
+                        </a>
+                        <a class="dropdown-item" href="./data-pool.html">
+                           <div class="dropdown-item-image"><img src="../resources/images/data-pool.svg" alt="" srcset=""></div>
+                           <div>
+                              <p class="bold-nav-text">Data pool</p>
+                              <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                           </div>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="use-case pricing pointer">
+                  <a class="pointer" href="../coming-soon.html" data-tag="nav-pricing">
+                     Pricing
+                  </a>
+               </div>
+            </div>
+            <div class="tablet-nav-dropdown-items-wrapper" id="tabletNavDropdownItemsWrapper">
+               <div class="tablet-nav-dropdown-items">
+                  <div class="tablet-use-case-section">
+                     <div class="expansion-controll">
+                        <span>Use Case</span>
+                        <span class="float-end">
+                           <i class="fa-solid fa-chevron-down"></i>
+                        </span>
+                     </div>
+                     <div class="service-expansion-body">
+                        <a class="service-expansion-item" href="../use-case/non-profit.html">
+                           <div class="ex-item-logo">
+                              <img src="../resources/images/Non-profit-icon.svg" alt="" srcset="">
+                           </div>
+                           <div class="ex-item-name">
                               <p class="bold-nav-text">Non-profit</p>
                               <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
                            </div>
                         </a>
-                        </li>
-                       <li>
-                        <a class="dropdown-item" href="../political-party.html">
-                           <div class="dropdown-item-image"><img src="../resources/images/Political-parti-icon.svg" alt="" srcset=""></div>
-                           <div>
+                        <a class="service-expansion-item" href="../use-case/political-party.html">
+                           <div class="ex-item-logo">
+                              <img src="../resources/images/Political-parti-icon.svg" alt="" srcset="">
+                           </div>
+                           <div class="ex-item-name">
                               <p class="bold-nav-text">Political parti</p>
                               <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
                            </div>
                         </a>
-                        </li>
-                       <li>
-                        <a class="dropdown-item" href="#">
-                           <div class="dropdown-item-image"><img src="../resources/images/Elected-office-icon.svg" alt="" srcset=""></div>
-                           <div>
+                        <a class="service-expansion-item" href="../use-case/elected-office.html">
+                           <div class="ex-item-logo">
+                              <img src="../resources/images/Elected-office-icon.svg" alt="" srcset="">
+                           </div>
+                           <div class="ex-item-name">
                               <p class="bold-nav-text">Elected office</p>
                               <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
                            </div>
                         </a>
-                        </li>
-                     </ul>
-                  </div>
-                  <div class="use-case services">
-                     <button class="pointer active" data-bs-toggle="dropdown" aria-expanded="false">
-                        <span data-tag="nav-services">Services</span>
-                        <i class="fa-solid fa-chevron-down"></i>
-                     </button>
-                     <div class="dropdown-menu custom-service-dropdown-menu">
-                        <div class="service-left-options">
-                           <a class="dropdown-item" href="#">
-                              <div class="dropdown-item-image"><img src="../resources/images/election-software.svg" alt="" srcset=""></div>
-                              <div>
-                                 <p class="bold-nav-text">Election software</p>
-                                 <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
-                              </div>
-                           </a>
-                           <a class="dropdown-item" href="#">
-                              <div class="dropdown-item-image"><img src="../resources/images/predictive-call.svg" alt="" srcset=""></div>
-                              <div>
-                                 <p class="bold-nav-text">Predictive call center</p>
-                                 <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
-                              </div>
-                           </a>
-                           <a class="dropdown-item" href="#">
-                              <div class="dropdown-item-image"><img src="../resources/images/nav-robot-call.svg" alt="" srcset=""></div>
-                              <div>
-                                 <p class="bold-nav-text">Robot call</p>
-                                 <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
-                              </div>
-                           </a>
-                           <a class="dropdown-item" href="#">
-                              <div class="dropdown-item-image"><img src="../resources/images/nav-crm-software.svg" alt="" srcset=""></div>
-                              <div>
-                                 <p class="bold-nav-text">CRM software</p>
-                                 <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
-                              </div>
-                           </a>
-                        </div>
-                        <div class="service-right-options">
-                           <a class="dropdown-item active" href="#">
-                              <div class="dropdown-item-image"><img src="../resources/images/agent-calling.svg" alt="" srcset=""></div>
-                              <div>
-                                 <p class="bold-nav-text">Agent calling</p>
-                                 <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
-                              </div>
-                           </a>
-                           <a class="dropdown-item" href="#">
-                              <div class="dropdown-item-image"><img src="../resources/images/nav-signin.svg" alt="" srcset=""></div>
-                              <div>
-                                 <p class="bold-nav-text">Sign and printing</p>
-                                 <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
-                              </div>
-                           </a>
-                           <a class="dropdown-item" href="#">
-                              <div class="dropdown-item-image"><img src="../resources/images/data-pool.svg" alt="" srcset=""></div>
-                              <div>
-                                 <p class="bold-nav-text">Data pool</p>
-                                 <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
-                              </div>
-                           </a>
-                        </div>
                      </div>
                   </div>
-                  <div class="use-case pricing pointer">
-                     <button class="pointer" data-tag="nav-pricing">Pricing</button>
-                  </div>
-               </div>
-               <div class="tablet-nav-dropdown-items-wrapper" id="tabletNavDropdownItemsWrapper">
-                  <div class="tablet-nav-dropdown-items">
-                     <div class="tablet-use-case-section">
-                        <div class="expansion-controll">
-                           <span>Use Case</span>
-                           <span class="float-end">
-                              <i class="fa-solid fa-chevron-down"></i>
-                           </span>
+                  <div class="tablet-service-section">
+                     <div class="expansion-controll">
+                        <span>Services</span>
+                        <span class="float-end">
+                           <i class="fa-solid fa-chevron-down"></i>
+                        </span>
+                     </div>
+                     <div class="service-expansion-body-dual">
+                        <div class="service-expansion-body-dual-left">
+                           <a class="service-expansion-item">
+                              <div class="ex-item-logo">
+                                 <img src="../resources/images/Non-profit-icon.svg" alt="" srcset="">
+                              </div>
+                              <div class="ex-item-name">
+                                 <p class="bold-nav-text">Non-profit</p>
+                                 <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                              </div>
+                           </a>
+                           <a class="service-expansion-item">
+                              <div class="ex-item-logo">
+                                 <img src="../resources/images/Political-parti-icon.svg" alt="" srcset="">
+                              </div>
+                              <div class="ex-item-name">
+                                 <p class="bold-nav-text">Political parti</p>
+                                 <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                              </div>
+                           </a>
+                           <a class="service-expansion-item">
+                              <div class="ex-item-logo">
+                                 <img src="../resources/images/Elected-office-icon.svg" alt="" srcset="">
+                              </div>
+                              <div class="ex-item-name">
+                                 <p class="bold-nav-text">Elected office</p>
+                                 <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                              </div>
+                           </a>
+                           <a class="service-expansion-item">
+                              <div class="ex-item-logo">
+                                 <img src="../resources/images/Elected-office-icon.svg" alt="" srcset="">
+                              </div>
+                              <div class="ex-item-name">
+                                 <p class="bold-nav-text">Elected office</p>
+                                 <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                              </div>
+                           </a>
                         </div>
-                        <div class="service-expansion-body">
+                        <div class="service-expansion-body-dual-right">
                            <a class="service-expansion-item">
                               <div class="ex-item-logo">
                                  <img src="../resources/images/Non-profit-icon.svg" alt="" srcset="">
@@ -183,120 +260,43 @@
                            </a>
                         </div>
                      </div>
-                     <div class="tablet-service-section">
-                        <div class="expansion-controll">
-                           <span>Services</span>
-                           <span class="float-end">
-                              <i class="fa-solid fa-chevron-down"></i>
-                           </span>
-                        </div>
-                        <div class="service-expansion-body-dual">
-                           <div class="service-expansion-body-dual-left">
-                              <a class="service-expansion-item">
-                                 <div class="ex-item-logo">
-                                    <img src="../resources/images/Non-profit-icon.svg" alt="" srcset="">
-                                 </div>
-                                 <div class="ex-item-name">
-                                    <p class="bold-nav-text">Non-profit</p>
-                                    <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
-                                 </div>
-                              </a>
-                              <a class="service-expansion-item">
-                                 <div class="ex-item-logo">
-                                    <img src="../resources/images/Political-parti-icon.svg" alt="" srcset="">
-                                 </div>
-                                 <div class="ex-item-name">
-                                    <p class="bold-nav-text">Political parti</p>
-                                    <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
-                                 </div>
-                              </a>
-                              <a class="service-expansion-item">
-                                 <div class="ex-item-logo">
-                                    <img src="../resources/images/Elected-office-icon.svg" alt="" srcset="">
-                                 </div>
-                                 <div class="ex-item-name">
-                                    <p class="bold-nav-text">Elected office</p>
-                                    <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
-                                 </div>
-                              </a>
-                              <a class="service-expansion-item">
-                                 <div class="ex-item-logo">
-                                    <img src="../resources/images/Elected-office-icon.svg" alt="" srcset="">
-                                 </div>
-                                 <div class="ex-item-name">
-                                    <p class="bold-nav-text">Elected office</p>
-                                    <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
-                                 </div>
-                              </a>
-                           </div>
-                           <div class="service-expansion-body-dual-right">
-                              <a class="service-expansion-item">
-                                 <div class="ex-item-logo">
-                                    <img src="../resources/images/Non-profit-icon.svg" alt="" srcset="">
-                                 </div>
-                                 <div class="ex-item-name">
-                                    <p class="bold-nav-text">Non-profit</p>
-                                    <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
-                                 </div>
-                              </a>
-                              <a class="service-expansion-item">
-                                 <div class="ex-item-logo">
-                                    <img src="../resources/images/Political-parti-icon.svg" alt="" srcset="">
-                                 </div>
-                                 <div class="ex-item-name">
-                                    <p class="bold-nav-text">Political parti</p>
-                                    <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
-                                 </div>
-                              </a>
-                              <a class="service-expansion-item">
-                                 <div class="ex-item-logo">
-                                    <img src="../resources/images/Elected-office-icon.svg" alt="" srcset="">
-                                 </div>
-                                 <div class="ex-item-name">
-                                    <p class="bold-nav-text">Elected office</p>
-                                    <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
-                                 </div>
-                              </a>
-                           </div>
-                        </div>
-                     </div>
-                     <a class="d-block">
-                        <span>Pricing</span>
-                     </a>
                   </div>
-               </div>
-               <div class="other-nav-tool">
-                  <div class="get-demo">
-                     <a href="../demo.html">
-                        <span data-tag="nav-get-demo">Get a demo</span>
-                     </a>
-                  </div>
-                  <div class="select-language">
-                     <span class="cursor" data-bs-toggle="dropdown" aria-expanded="false">
-                        <i class="fa-solid fa-globe"></i>
-                     </span>
-                     <ul class="dropdown-menu">
-                        <li>
-                           <a class="dropdown-item" href="">
-                              <img class="m-r-10" src="../resources/images/canada-flag.svg" alt="" srcset="">
-                              English
-                           </a>
-                        </li>
-                        <li>
-                           <a class="dropdown-item" href="">
-                              <img class="m-r-10" src="../resources/images/french-flag.svg" alt="" srcset="">
-                              French
-                           </a>
-                        </li>
-                     </ul>
-                  </div>
-                  <div class="expand-menu" id="expandMenu">
-                     <img src="../resources/images/menu.svg" alt="" srcset="">
-                  </div>
+                  <a class="d-block">
+                     <span>Pricing</span>
+                  </a>
                </div>
             </div>
-         </nav>
-      </div>
+            <div class="other-nav-tool">
+               <div class="get-demo">
+                  <a href="../demo.html">
+                     <span data-tag="nav-get-demo">Get a demo</span>
+                  </a>
+               </div>
+               <div class="select-language">
+                  <span class="cursor" data-bs-toggle="dropdown" aria-expanded="false">
+                     <i class="fa-solid fa-globe"></i>
+                  </span>
+                  <ul class="dropdown-menu">
+                     <li>
+                        <a class="dropdown-item" href="">
+                           <img class="m-r-10" src="../resources/images/canada-flag.svg" alt="" srcset="">
+                           English
+                        </a>
+                     </li>
+                     <li>
+                        <a class="dropdown-item" href="">
+                           <img class="m-r-10" src="../resources/images/french-flag.svg" alt="" srcset="">
+                           French
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="expand-menu" id="expandMenu">
+                  <img src="../resources/images/menu.svg" alt="" srcset="">
+               </div>
+            </div>
+         </div>
+      </nav>
    </header>
    <main class="main-content">
        <section class="a-c-hero-section">
