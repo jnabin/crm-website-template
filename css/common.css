@@ -888,3 +888,12 @@ a.dropdown-item:hover{
     color: var(--dark);
     font-weight: 500;
 }
+.hide-scroll-bar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .hide-scroll-bar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
