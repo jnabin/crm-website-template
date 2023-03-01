@@ -485,6 +485,7 @@ p.busy-signal.answer{
 .trusted-industry-wrapper .labels .h-line{
     flex-grow: 1;
     height: 1px;
+    width: auto;
     background-color: var(--border);
 }
 .brand-list-loop-wrapper{
