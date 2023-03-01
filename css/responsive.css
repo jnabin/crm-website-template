@@ -1125,6 +1125,10 @@
         height: 11px;
     }
 
+    .service-expansion-body-dual{
+        flex-wrap: wrap;
+    }
+
     .service-list .service-item {
         flex-basis: 100%;
     }

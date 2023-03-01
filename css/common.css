@@ -452,7 +452,6 @@ footer .address-content{
 .tablet-nav-dropdown-items-wrapper{
     width: 0;
     z-index: 10;
-    height: 100vh;
     overflow-y: auto;
     top: 70px;
     position: absolute;
@@ -573,6 +572,7 @@ a.service-expansion-item{
 a.service-expansion-item .ex-item-logo{
     width: 54px;
     height: 54px;
+    flex-shrink: 0;
 }
 
 .recent-news-list{
