@@ -1,0 +1,132 @@
+.login-container{
+    height: 100vh;
+    display: flex;
+}
+
+.login-container .left{
+    flex-basis: 972px;
+    flex-grow: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container .right{
+    flex-basis: 948px;
+    flex-grow: 1;
+    background-color: var(--primary);
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.login-hero-border{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0px;
+    z-index: 3;
+    height: 100%;
+    max-height: 100%;
+}
+.login-box .login-tite{
+    margin-bottom: 49px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.login-box input{
+    margin-top: 13px;
+    margin-bottom: 15px;
+    display: block;
+    min-width: 387px;
+}
+.continue-login{
+    padding: 17px 139px;
+    background-color: var(--primary);
+    font-weight: 500;
+    line-height: 16px;
+    font-size: 16px;
+    display: inline-block;
+    color: var(--dark);
+}
+.login-box .sign-up-mesg{
+    display: none;
+}
+.sign-up-mesg{
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 387px;
+}
+
+.sign-up-mesg p a{
+    text-decoration: underline !important;
+    color: var(--bg-primary-dark);
+    padding-left: 7px;
+}
+.right-inner-content{
+    padding-left: 100px;
+    padding-top: 150px;
+    padding-bottom: 90px;
+    display: flex;
+    height: 100%;
+    position: relative;
+    z-index: 5;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.right-inner-content .top .switch{
+    background: rgba(255, 255, 255, 0.4);
+    height: 46px;
+    display: inline-flex;
+    padding: 8px;
+    padding-right: 19px;
+    gap: 11px;
+    align-items: center;
+}
+.right-inner-content .top .switch span:first-child{
+    background: #FFFFFF;
+    color: var(--dark);
+    padding: 7px 15px;
+    line-height: 16px;
+}
+
+.right-inner-content .top h1{
+    max-width: 293px;
+    margin-top: 22px;
+}
+
+.recomendation{
+    max-width: 425px;
+}
+
+.quote-right{
+    text-align: right;
+    margin-bottom: 10px;
+}
+p.quote-text{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: var(--dark);
+}
+
+.quote-persion{
+    display: flex;
+    align-items: center;
+    margin-top: 23px;
+    gap: 9.83px;
+}
+
+.quote-persion .button-text{
+    line-height: 16px;
+    margin-bottom: 1px;
+}
+p.pod-name{
+    line-height: 22.4px;
+    font-size: 14px;
+    color: var(--dark);
+}

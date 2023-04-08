@@ -94,6 +94,7 @@
     .hero-images{
         width: 100%;
     }
+    
     .reveal.active .voter-animation, 
     .reveal.active .elector-animation{
         top: 35px;
@@ -981,7 +982,10 @@
         margin-bottom: 6px;
     }
 
-
+    /* login page */
+    .login-container .right{
+        display: none;
+    }
 
     /* default */
     .default-flex-section-wrapper .left,
@@ -1014,6 +1018,7 @@
         display: none;
     }
 }
+
 @media (min-width: 576px) {
     .container, .container-sm {
         max-width: calc(100% - 48px) !important;
@@ -1380,5 +1385,34 @@
     /* coming soon */
     .more-info-dialogue{
         flex-basis: 396px;
+    }
+
+    /* login ui */
+    .login-container{
+        padding: 0px 16px;
+    }
+
+    .login-box input{
+        width: 100%;
+        min-width: auto;
+    }
+
+    .login-box .continue-login{
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .sign-up-mesg{
+        display: none !important;
+    }
+
+    .login-box .sign-up-mesg{
+        display: block !important;
+        position: static;
+        transform: none;
+        min-width: 100%;
+        margin-top: 20px;
     }
 }

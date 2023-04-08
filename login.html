@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="./resources/images/favicon.png">
+        <title>Login</title>
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/variable.css">
+        <link rel="stylesheet" href="./css/login.css">
+        <link rel="stylesheet" href="./css/generic.css">
+        <link rel="stylesheet" href="./css/common.css">
+        <link rel="stylesheet" href="./css/fontawesome/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="stylesheet" href="./css/font-css/general-sans.css">
+        <link rel="stylesheet" href="./css/responsive.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+        <script src="./js/Translate.js"></script>
+        <script>
+           function load(){
+              let userLang = navigator.language || navigator.userLanguage;
+              let translate = new Translate();
+              let currentLng = 'en';
+              if(userLang.includes('en')) {
+                 currentLng = 'en';
+              } else if(userLang.includes('fr')) {
+                 currentLng = 'fr';
+                 window.location.href = "/fr"
+              }
+              let attributeName = 'data-tag';
+              translate.init(attributeName, currentLng);
+              translate.process(); 
+           }
+        </script>
+     </head>
+<body id="mainBody">
+    <div class="login-container">
+        <div class="left">
+            <div class="login-box">
+                <div class="login-tite">
+                    <h4>Log in to</h4>
+                    <a href="/"><img src="./resources/images/logo.svg" alt="" srcset=""></a>
+                </div>
+                <p class="button-text">
+                    Email or Cell phone<span class="primary-text-color">*</span>
+                </p>
+                <input type="email" placeholder="Enter your email or call phone">
+                <a class="continue-login">Continue login</a>
+                <div class="sign-up-mesg">
+                    <p class="regular">
+                        Don't have an Democratik account?
+                        <a>Sign up</a>
+                    </p>
+                </div>
+            </div>
+            <div class="sign-up-mesg">
+                <p class="regular">
+                    Don't have an Democratik account?
+                    <a>Sign up</a>
+                </p>
+            </div>
+        </div>
+        <div class="right">
+            <div class="right-inner-content">
+                <div class="top">
+                    <span class="switch">
+                        <span>New</span>
+                        <span>Dolor sit amet.</span>
+                    </span>
+                    <h1>
+                        Welcome Back !
+                    </h1>
+                </div>
+                <div class="recomendation">
+                    <div class="quote-right">
+                        <i class="fa-solid fa-quote-right fa-3x"></i>
+                    </div>
+                    <p class="quote-text">
+                        “Lorem ipsum dolor sit amet consectetur. Volutpat condimentum purus curabitur malesuada imperdiet sit. 
+                    </p>
+                    <div class="quote-persion">
+                        <span>
+                            <img src="./resources/images/login-quote-person.svg" alt="" srcset="">
+                        </span>
+                        <div>
+                            <p class="button-text">
+                                Alexandre Foisy
+                            </p>
+                            <p class="regular pod-name">General director</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img class="login-hero-border" src="./resources/images/login-hero-border.svg" alt="" srcset="">
+        </div>
+    </div>
+</body>
+</html>
