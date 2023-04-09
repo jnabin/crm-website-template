@@ -1047,7 +1047,7 @@
         padding-top: 25px;
     }
 
-    .portal-wrapper .right .top-button{
+    .portal-wrapper .right .top-section{
         margin-bottom: 42px;
     }
 
@@ -1531,7 +1531,7 @@
         padding-top: 25px;
     }
 
-    .portal-wrapper .right .top-button{
+    .portal-wrapper .right .top-section{
         margin-bottom: 40px;
     }
 
@@ -1542,5 +1542,10 @@
 
     .portal-wrapper .donation-section {
         margin-top: 41px;
+    }
+
+    .portal-wrapper .current-plan .current-plan-content .right-content {
+        flex-direction: row;
+        gap: 16px;
     }
 }
