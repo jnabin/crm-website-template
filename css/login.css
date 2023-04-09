@@ -15,10 +15,17 @@
 .login-container .right{
     flex-basis: 948px;
     flex-grow: 1;
-    background-color: var(--primary);
+    background-color: var(--client);
     width: 100%;
     height: 100%;
     position: relative;
+}
+#conitueLogin,
+#submitCode {
+    color: white !important;
+}
+.login-container .right .top h1{
+    color: white !important;
 }
 
 .login-hero-border{
@@ -52,7 +59,7 @@
 .continue-login-code {
     padding: 17px 139px;
     width: 100%;
-    background-color: var(--primary);
+    background-color: var(--client);
     font-weight: 500;
     line-height: 16px;
     font-size: 16px;
