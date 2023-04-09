@@ -900,3 +900,28 @@ a.dropdown-item:hover{
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
   }
+
+  .fancy-scrollbar::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  .fancy-scrollbar.thin::-webkit-scrollbar {
+    width: 8px !important;
+    height: 8px !important;
+  }
+
+  .body-font{
+    color: var(--body-font);
+  }
+  
+  .fancy-scrollbar::-webkit-scrollbar-track {
+    background: rgba(245, 245, 250, 0.4);
+    overflow: auto;
+  }
+  
+  .fancy-scrollbar::-webkit-scrollbar-thumb {
+    background: #979797;
+    overflow: auto;
+    border-radius: 100px;
+  }

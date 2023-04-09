@@ -20,6 +20,12 @@
     height: 100%;
     position: relative;
 }
+.login-tite a img{
+    height: 22px;
+}
+#submitCode #secondCount{
+    line-height: 16px;
+}
 #conitueLogin,
 #submitCode {
     color: white !important;
@@ -62,6 +68,7 @@
     background-color: var(--client);
     font-weight: 500;
     line-height: 16px;
+    text-align: center;
     font-size: 16px;
     display: inline-block;
     color: var(--dark);

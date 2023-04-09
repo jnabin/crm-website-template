@@ -987,6 +987,79 @@
         display: none;
     }
 
+    /* portal page */
+    .portal-wrapper{
+        flex-direction: column;
+    }
+
+    .portal-wrapper .left .date-location-details {
+        margin-top: 12px;
+    }
+
+    .RSVP {
+        margin-top: 21px;
+    }
+
+    .portal-wrapper .left{
+        flex-grow: initial;
+        flex-basis: initial;
+        padding-left: 30px;
+        padding-top: 40px;
+        height: initial;
+        overflow-y: initial;
+        padding-bottom: 49px;
+    }
+
+    .portal-wrapper .right{
+        flex-basis: initial;
+        flex-grow: initial;
+        height: initial;
+        overflow-y: initial;
+    }
+
+    .portal-wrapper .right {
+        flex-basis: initial;
+        flex-grow: initial;
+        height: initial;
+        padding: 42px 30px 60px 30px;
+    }
+
+    .future-event-box {
+        padding-top: 30px;
+    }
+
+    .future-event-box .future-event-content {
+        padding-top: 25px;
+    }
+
+    .main-site-logo{
+        display: none;
+    }
+
+    body.portal-body{
+        overflow-y: auto;
+    }
+    .portal-wrapper{
+        overflow-y: auto;
+    }
+
+    .portal-wrapper .future-event-box .future-event-content {
+        padding-top: 25px;
+    }
+
+    .portal-wrapper .right .top-button{
+        margin-bottom: 42px;
+    }
+
+    .portal-wrapper .current-plan .current-plan-content {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+
+    .portal-wrapper .donation-section {
+        margin-top: 42px;
+    }
+
     /* default */
     .default-flex-section-wrapper .left,
     .default-flex-section-wrapper .right{
@@ -1415,5 +1488,59 @@
         transform: none;
         min-width: 100%;
         margin-top: 20px;
+    }
+
+    /* portal ui */
+    .portal-wrapper .right .top-button{
+        flex-direction: column;
+        gap: 16px;
+        display: inline-flex;
+    }
+
+    .portal-wrapper .right .top-button button{
+        padding: 15px 30px;
+    }
+
+    .portal-wrapper .current-plan .current-plan-content{
+        flex-direction: column;
+        gap: 20px;
+        align-items: start;
+        justify-content: initial;
+    }
+
+    .portal-wrapper .current-plan .current-plan-content .left-content,
+    .portal-wrapper .current-plan .current-plan-content .right-content {
+        flex-basis: initial;
+    }
+
+    .portal-wrapper .left{
+        padding: 30px 16px 36px 16px;
+    }
+
+    .portal-wrapper .right{
+        padding: 29px 16px 60px 16px;
+    }
+    .portal-wrapper .date-location-details {
+        margin-top: 9px;
+    }
+    .portal-wrapper .RSVP{
+        margin-top: 25px;
+    }
+
+    .portal-wrapper .future-event-box .future-event-content {
+        padding-top: 25px;
+    }
+
+    .portal-wrapper .right .top-button{
+        margin-bottom: 40px;
+    }
+
+    .portal-wrapper .current-plan .current-plan-content {
+        padding-top: 16px;
+        padding-bottom: 40px;
+    }
+
+    .portal-wrapper .donation-section {
+        margin-top: 41px;
     }
 }
