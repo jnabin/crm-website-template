@@ -1,0 +1,375 @@
+.index-header{
+    border-bottom: 1px solid var(--border);
+}
+.testimonial{
+    margin-top: 128px;
+}
+.non-profit-hero-section{
+    margin-top: 120px;
+}
+.non-profit-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+}
+.non-profit-wrapper .left{
+    flex-basis: 529px;
+    position: relative;
+}
+.non-profit-wrapper .right{
+    flex-basis: 624px;
+    position: relative;
+}
+.non-profit-goal{
+    position: absolute;
+    right: 55%;
+    top: 60%;
+    background: #FFFFFF;
+    box-shadow: -14px 20px 40px rgba(204, 204, 204, 0.25);
+    border-radius: 4px;
+    padding: 13px 19px 20px 20px;
+    width: 351px;
+}
+.non-profit-goal .top-label{
+    display: flex;
+    justify-content: space-between;
+    gap: 66px;
+}
+.non-profit-wrapper .left .request-demo {
+    margin-top: 33px;
+}
+.non-profit-wrapper .left h2{
+    margin-bottom: 12px;
+}
+.drop-option-toggler{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: var(--white-200);
+    cursor: pointer;
+}
+.raised-data{
+    margin-top: 10px;
+    font-size: 14px !important;
+    line-height: 21px !important;
+    color: var(--body-font) !important;
+    font-weight: 500;
+}
+.raised-data .progress-bar{
+    position: relative;
+    background-color: var(--border);
+    width: 100%;
+    height: 8px;
+    border-radius: 20px;
+    margin-top: 7px;
+}
+
+.raised-data .progress-bar::before{
+    content: '';
+    position: absolute;
+    width: 160px;
+    border-radius: 20px;
+    left: 0;
+    height: 100%;
+    background-color: var(--primary);
+}
+.total-illus{
+    text-align: center;
+    margin-top: 25px;
+    position: relative;
+}
+
+.total-illus .day-4-7{
+    background-color: var(--primary);
+    display: inline-block;
+    position: absolute;
+    border-radius: 20px 16px 20px 0px;
+    color: white;
+    font-size: 12px;
+    line-height: 21px;
+    padding: 5px 17px;
+    left: 68%;
+    top: -10px;
+}
+.total-illus .raised-amount{
+    display: inline-block;
+    position: absolute;
+    background: #2558E7;
+    border-radius: 20px 16px 0px 20px;
+    color: white;
+    font-size: 12px;
+    line-height: 21px;
+    padding: 5px 12px 5px 16px;
+    right: 59%;
+    top: 48%;
+    white-space: nowrap;
+}
+.discover-all-in-one-solutions-section{
+    margin-top: 200px;
+    padding-top: 129px;
+    background-color: var(--white-200);
+}
+.discover-all-in-one-wrapper h2{
+    max-width: 813px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 66px;
+}
+.non-profit-solution-item{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1056px;
+    justify-content: space-between;
+    gap: 84px;
+    align-items: center;
+}
+.non-profit-solution-item .left{
+    flex-basis: 507px;
+}
+.non-profit-solution-item .right{
+    flex-basis: 465px;
+}
+.non-profit-solution-item:nth-child(even) .left {
+    order: 2;
+    flex-basis: 503px;
+}
+.non-profit-solution-item:nth-child(even) .right {
+    order: 1;
+    flex-basis: 492px;
+}
+.non-profit-donation-list-details{
+    list-style: none;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    margin-top: 20px;
+}
+.non-profit-donation-list-details li{
+    padding-left: 10px;
+}
+.non-profit-donation-list-details li::before{
+    font-family: "Font Awesome 5 Free";
+    content: "\f00c";
+    font-weight: 900;
+    border-radius: 2px;
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary);
+}
+.non-profit-solution-item h3{
+    margin-bottom: 15px;
+}
+.non-profit-solution-item p.recommendation{
+    padding-left: 20px;
+    position: relative;
+    margin-top: 32px;
+}
+.non-profit-solutions{
+    display: flex;
+    flex-direction: column;
+    gap: 140px;
+}
+.non-profit-solution-item p.recommendation::before{
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 100%;
+    background-color: var(--primary);
+    display: inline-block;
+    left: 0;
+}
+.non-profit-solution-item:last-child .request-demo{
+    margin-top: 32px;
+}
+
+.non-profit-features{
+    background-color: var(--light-green);
+    padding-bottom: 80px;
+}
+
+.feature-content{
+    padding-bottom: 80px;
+}
+
+.non-profit-features .header-text{
+    position: absolute;
+    top: -174.2px;
+    left: 0;
+    right: 0;
+}
+
+.non-profit-features h2{
+    bottom: 1.5px;
+    margin-top: 27px;
+    margin-bottom: 20px;
+}
+.feature-tabs{
+    position: relative;
+    margin-top: 60px;
+}
+
+.sticky-wrapper{
+    position: sticky;
+    top: 0px;
+}
+.tab-body-item-wrapper {
+    height: calc(100vh);
+    position: sticky;
+    top: 0px;
+    display: flex;
+    align-items: center;
+}
+.tab-body-item {
+    display: flex;
+    align-items: center;
+    gap: 38px;
+    max-width: 1272px;
+    height: 570px;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    position: sticky;
+    padding: 54px 105px 65px 66px;
+    border-radius: 4px;
+    justify-content: space-between;
+}
+.tab-body-item .left{
+    flex-basis: 627px;
+}
+.tab-body-item .right{
+    flex-basis: 436px;
+}
+.options-logo{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 4px;
+    background-color: var(--bg-primary-dark);
+}
+.cultivate-commitment-section{
+    background-color: var(--light-green);
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+.cultivate-commitment-wrapper{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    column-gap: 36px;
+    row-gap: 27px;
+}
+.cultivate-commitment-wrapper .grid-item:first-child{
+    grid-row: 1 / 3;
+    padding: 50px 36px 44px 40px;
+}
+.cultivate-commitment-wrapper .grid-item:first-child h3{
+    margin-top: 13px;
+}
+.cultivate-commitment-wrapper .grid-item{
+    padding: 30px 26px 25px 30px;
+    background-color: white;
+    border-radius: 4px;
+}
+.cultivate-commitment-wrapper .grid-item .item-logo{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: var(--light-green);
+}
+.cultivate-commitment-wrapper .grid-item h5{
+    margin-top: 22px;
+    margin-bottom: 9px;
+}
+.open-free-account-section{
+    margin-top: 140px;
+    margin-bottom: 140px;
+}
+.open-free-account-section .content-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 70px;
+}
+.open-free-account-section .content-wrapper .left{
+    flex-basis: 503px;
+}
+.open-free-account-section .content-wrapper .right{
+    flex-basis: 519px;
+}
+.open-free-account-section .content-wrapper .left h2{
+    margin-bottom: 22px;
+}
+.open-free-account-section .content-wrapper .left .request-demo{
+    margin-top: 27px;
+}
+.get-in-touch-section{
+    margin-top: 140px;
+    margin-bottom: 140px;
+}
+.get-in-touch-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 65px;
+}
+.get-in-touch-wrapper .left{
+    flex-basis: 555px;
+}
+.get-in-touch-wrapper .right{
+    flex-basis: 652px;
+}
+.get-in-touch-wrapper .left .request-demo{
+    margin-top: 36px;
+}
+.get-in-touch-wrapper .left h2{
+    margin-bottom: 23px;
+}
+.organization-links-section{
+    background-color: var(--white-200);
+    padding-top: 140px;
+    height: 708px;
+    padding-bottom: 140px;
+    display: flex;
+    align-items: center;
+}
+.organization-links-wrapper{
+    position: relative;
+}
+.organization-links-section h2{
+    text-align: center;
+    max-width: 733px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.org-links-1,
+.org-links-2{
+    position: absolute;
+    top: -65%;
+}
+.org-links-1{
+    left: 0;
+}
+.org-links-2{
+    right: 0;
+}

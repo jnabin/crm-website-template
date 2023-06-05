@@ -1470,6 +1470,10 @@
         min-width: auto;
     }
 
+    .login-box .full-width-small{
+        width: 100% !important;
+    }
+
     .login-box .continue-login,
     .login-box .continue-login-code{
         padding-left: 0px;
@@ -1547,5 +1551,8 @@
     .portal-wrapper .current-plan .current-plan-content .right-content {
         flex-direction: row;
         gap: 16px;
+    }
+    .login-container .login-tite img{
+        height: 21px;
     }
 }

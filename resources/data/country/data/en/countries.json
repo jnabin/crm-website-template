@@ -1,0 +1,1668 @@
+[
+	{
+		"id": 4,
+		"name": "Afghanistan",
+		"alpha2": "af",
+		"alpha3": "afg",
+		"dial_code": "+93",
+		"phone_mask": "##-###-####"
+	},
+	{
+		"id": 8,
+		"name": "Albania",
+		"alpha2": "al",
+		"alpha3": "alb",
+		"dial_code": "+355",
+		"phone_mask": "(###)###-###"
+	},
+	{
+		"id": 12,
+		"name": "Algeria",
+		"alpha2": "dz",
+		"alpha3": "dza",
+		"dial_code": "+213",
+		"phone_mask": "##-###-####"
+	},
+	{
+		"id": 20,
+		"name": "Andorra",
+		"alpha2": "ad",
+		"alpha3": "and",
+		"dial_code": "+376",
+		"phone_mask": "###-###"
+	},
+	{
+		"id": 24,
+		"name": "Angola",
+		"alpha2": "ao",
+		"alpha3": "ago",
+		"dial_code": "+244",
+		"phone_mask": "(###)###-###"
+	},
+	{
+		"id": 28,
+		"name": "Antigua and Barbuda",
+		"alpha2": "ag",
+		"alpha3": "atg",
+		"dial_code": "+1268",
+		"phone_mask": "(268)###-####"
+	},
+	{
+		"id": 32,
+		"name": "Argentina",
+		"alpha2": "ar",
+		"alpha3": "arg",
+		"dial_code": "+54",
+		"phone_mask": "(###)###-####"
+	},
+	{
+		"id": 51,
+		"name": "Armenia",
+		"alpha2": "am",
+		"alpha3": "arm",
+		"dial_code": "+374",
+		"phone_mask": "##-###-###"
+	},
+	{
+		"id": 36,
+		"name": "Australia",
+		"alpha2": "au",
+		"alpha3": "aus",
+		"dial_code": "+61",
+		"phone_mask": "#-####-####"
+	},
+	{
+		"id": 40,
+		"name": "Austria",
+		"alpha2": "at",
+		"alpha3": "aut",
+		"dial_code": "+43",
+		"phone_mask": "(###)###-####"
+	},
+	{
+		"id": 31,
+		"name": "Azerbaijan",
+		"alpha2": "az",
+		"alpha3": "aze",
+		"dial_code": "+994",
+		"phone_mask": "##-###-##-##"
+	},
+	{
+		"id": 44,
+		"name": "Bahamas",
+		"alpha2": "bs",
+		"alpha3": "bhs",
+		"dial_code": "+1242",
+		"phone_mask": "(242)###-####"
+	},
+	{
+		"id": 48,
+		"name": "Bahrain",
+		"alpha2": "bh",
+		"alpha3": "bhr",
+		"dial_code": "+973",
+		"phone_mask": "####-####"
+	},
+	{
+		"id": 50,
+		"name": "Bangladesh",
+		"alpha2": "bd",
+		"alpha3": "bgd",
+		"dial_code": "+880",
+		"phone_mask": "1###-######"
+	},
+	{
+		"id": 52,
+		"name": "Barbados",
+		"alpha2": "bb",
+		"alpha3": "brb",
+		"dial_code": "+1246",
+		"phone_mask": "(246)###-####"
+	},
+	{
+		"id": 112,
+		"name": "Belarus",
+		"alpha2": "by",
+		"alpha3": "blr",
+		"dial_code": "+375",
+		"phone_mask": "(##)###-##-##"
+	},
+	{
+		"id": 56,
+		"name": "Belgium",
+		"alpha2": "be",
+		"alpha3": "bel",
+		"dial_code": "+32",
+		"phone_mask": "(###)###-###"
+	},
+	{
+		"id": 84,
+		"name": "Belize",
+		"alpha2": "bz",
+		"alpha3": "blz",
+		"dial_code": "+501",
+		"phone_mask": "###-####"
+	},
+	{
+		"id": 204,
+		"name": "Benin",
+		"alpha2": "bj",
+		"alpha3": "ben",
+		"dial_code": "+229",
+		"phone_mask": "##-##-####"
+	},
+	{
+		"id": 64,
+		"name": "Bhutan",
+		"alpha2": "bt",
+		"alpha3": "btn",
+		"dial_code": "+975",
+		"phone_mask": [
+			"17-###-###",
+			"#-###-###"
+		]
+	},
+	{
+		"id": 68,
+		"name": "Bolivia (Plurinational State of)",
+		"alpha2": "bo",
+		"alpha3": "bol",
+		"dial_code": "+591",
+		"phone_mask": "#-###-####"
+	},
+	{
+		"id": 70,
+		"name": "Bosnia and Herzegovina",
+		"alpha2": "ba",
+		"alpha3": "bih",
+		"dial_code": "+387",
+		"phone_mask": [
+			"##-####",
+			"##-#####"
+		]
+	},
+	{
+		"id": 72,
+		"name": "Botswana",
+		"alpha2": "bw",
+		"alpha3": "bwa",
+		"dial_code": "+267",
+		"phone_mask": "##-###-###"
+	},
+	{
+		"id": 76,
+		"name": "Brazil",
+		"alpha2": "br",
+		"alpha3": "bra",
+		"dial_code": "+55",
+		"phone_mask": [
+			"(##)####-####",
+			"(##)#####-####"
+		]
+	},
+	{
+		"id": 96,
+		"name": "Brunei Darussalam",
+		"alpha2": "bn",
+		"alpha3": "brn",
+		"dial_code": "+673",
+		"phone_mask": "###-####"
+	},
+	{
+		"id": 100,
+		"name": "Bulgaria",
+		"alpha2": "bg",
+		"alpha3": "bgr",
+		"dial_code": "+359",
+		"phone_mask": "(###)###-###"
+	},
+	{
+		"id": 854,
+		"name": "Burkina Faso",
+		"alpha2": "bf",
+		"alpha3": "bfa",
+		"dial_code": "+226",
+		"phone_mask": "##-##-####"
+	},
+	{
+		"id": 108,
+		"name": "Burundi",
+		"alpha2": "bi",
+		"alpha3": "bdi",
+		"dial_code": "+257",
+		"phone_mask": "##-##-####"
+	},
+	{
+		"id": 132,
+		"name": "Cabo Verde",
+		"alpha2": "cv",
+		"alpha3": "cpv",
+		"dial_code": "+238",
+		"phone_mask": "(###)##-##"
+	},
+	{
+		"id": 116,
+		"name": "Cambodia",
+		"alpha2": "kh",
+		"alpha3": "khm",
+		"dial_code": "+855",
+		"phone_mask": "##-###-###"
+	},
+	{
+		"id": 120,
+		"name": "Cameroon",
+		"alpha2": "cm",
+		"alpha3": "cmr",
+		"dial_code": "+237",
+		"phone_mask": "####-####"
+	},
+	{
+		"id": 124,
+		"name": "Canada",
+		"alpha2": "ca",
+		"alpha3": "can",
+		"dial_code": "+1",
+		"phone_mask": "(###) ###-####"
+	},
+	{
+		"id": 140,
+		"name": "Central African Republic",
+		"alpha2": "cf",
+		"alpha3": "caf",
+		"dial_code": "+236",
+		"phone_mask": "##-##-####"
+	},
+	{
+		"id": 148,
+		"name": "Chad",
+		"alpha2": "td",
+		"alpha3": "tcd",
+		"dial_code": "+235",
+		"phone_mask": "##-##-##-##"
+	},
+	{
+		"id": 152,
+		"name": "Chile",
+		"alpha2": "cl",
+		"alpha3": "chl",
+		"dial_code": "+56",
+		"phone_mask": "#-####-####"
+	},
+	{
+		"id": 156,
+		"name": "China",
+		"alpha2": "cn",
+		"alpha3": "chn",
+		"dial_code": "+86",
+		"phone_mask": [
+			"(###)####-###",
+			"(###)####-####",
+			"##-#####-#####"
+		]
+	},
+	{
+		"id": 170,
+		"name": "Colombia",
+		"alpha2": "co",
+		"alpha3": "col",
+		"dial_code": "+57",
+		"phone_mask": "(###)###-####"
+	},
+	{
+		"id": 174,
+		"name": "Comoros",
+		"alpha2": "km",
+		"alpha3": "com",
+		"dial_code": "+269",
+		"phone_mask": "##-#####"
+	},
+	{
+		"id": 178,
+		"name": "Congo",
+		"alpha2": "cg",
+		"alpha3": "cog",
+		"dial_code": "+242",
+		"phone_mask": "##-#####"
+	},
+	{
+		"id": 180,
+		"name": "Congo, Democratic Republic of the",
+		"alpha2": "cd",
+		"alpha3": "cod",
+		"dial_code": "+243",
+		"phone_mask": "(###)###-###"
+	},
+	{
+		"id": 188,
+		"name": "Costa Rica",
+		"alpha2": "cr",
+		"alpha3": "cri",
+		"dial_code": "+506",
+		"phone_mask": "####-####"
+	},
+	{
+		"id": 384,
+		"name": "Côte d'Ivoire",
+		"alpha2": "ci",
+		"alpha3": "civ",
+		"dial_code": "+225",
+		"phone_mask": "##-###-###"
+	},
+	{
+		"id": 191,
+		"name": "Croatia",
+		"alpha2": "hr",
+		"alpha3": "hrv",
+		"dial_code": "+385",
+		"phone_mask": "##-###-###"
+	},
+	{
+		"id": 192,
+		"name": "Cuba",
+		"alpha2": "cu",
+		"alpha3": "cub",
+		"dial_code": "+53",
+		"phone_mask": "#-###-####"
+	},
+	{
+		"id": 196,
+		"name": "Cyprus",
+		"alpha2": "cy",
+		"alpha3": "cyp",
+		"dial_code": "+357",
+		"phone_mask": "##-###-###"
+	},
+	{
+		"id": 203,
+		"name": "Czechia",
+		"alpha2": "cz",
+		"alpha3": "cze",
+		"dial_code": "+420",
+		"phone_mask": "(###)###-###"
+	},
+	{
+		"id": 208,
+		"name": "Denmark",
+		"alpha2": "dk",
+		"alpha3": "dnk",
+		"dial_code": "+45",
+		"phone_mask": "##-##-##-##"
+	},
+	{
+		"id": 262,
+		"name": "Djibouti",
+		"alpha2": "dj",
+		"alpha3": "dji",
+		"dial_code": "+253",
+		"phone_mask": "##-##-##-##"
+	},
+	{
+		"id": 212,
+		"name": "Dominica",
+		"alpha2": "dm",
+		"alpha3": "dma",
+		"dial_code": "+1767",
+		"phone_mask": "(767)###-####"
+	},
+	{
+		"id": 214,
+		"name": "Dominican Republic",
+		"alpha2": "do",
+		"alpha3": "dom",
+		"dial_code": "+1849",
+		"phone_mask": [
+			"(809)###-####",
+			"(829)###-####",
+			"(849)###-####"
+		]
+	},
+	{
+		"id": 218,
+		"name": "Ecuador",
+		"alpha2": "ec",
+		"alpha3": "ecu",
+		"dial_code": "+593",
+		"phone_mask": [
+			"#-###-####",
+			"##-###-####"
+		]
+	},
+	{
+		"id": 818,
+		"name": "Egypt",
+		"alpha2": "eg",
+		"alpha3": "egy",
+		"dial_code": "+20",
+		"phone_mask": "(###)###-####"
+	},
+	{
+		"id": 222,
+		"name": "El Salvador",
+		"alpha2": "sv",
+		"alpha3": "slv",
+		"dial_code": "+503",
+		"phone_mask": "##-##-####"
+	},
+	{
+		"id": 226,
+		"name": "Equatorial Guinea",
+		"alpha2": "gq",
+		"alpha3": "gnq",
+		"dial_code": "+240",
+		"phone_mask": "##-###-####"
+	},
+	{
+		"id": 232,
+		"name": "Eritrea",
+		"alpha2": "er",
+		"alpha3": "eri",
+		"dial_code": "+291",
+		"phone_mask": "#-###-###"
+	},
+	{
+		"id": 233,
+		"name": "Estonia",
+		"alpha2": "ee",
+		"alpha3": "est",
+		"dial_code": "+372",
+		"phone_mask": [
+			"###-####",
+			"####-####"
+		]
+	},
+	{
+		"id": 748,
+		"name": "Eswatini",
+		"alpha2": "sz",
+		"alpha3": "swz",
+		"dial_code": "+268",
+		"phone_mask": "##-##-####"
+	},
+	{
+		"id": 231,
+		"name": "Ethiopia",
+		"alpha2": "et",
+		"alpha3": "eth",
+		"dial_code": "+251",
+		"phone_mask": "##-###-####"
+	},
+	{
+		"id": 242,
+		"name": "Fiji",
+		"alpha2": "fj",
+		"alpha3": "fji",
+		"dial_code": "+679",
+		"phone_mask": "##-#####"
+	},
+	{
+		"id": 246,
+		"name": "Finland",
+		"alpha2": "fi",
+		"alpha3": "fin",
+		"dial_code": "+358",
+		"phone_mask": "(###)###-##-##"
+	},
+	{
+		"id": 250,
+		"name": "France",
+		"alpha2": "fr",
+		"alpha3": "fra",
+		"dial_code": "+33",
+		"phone_mask": "(###)###-###"
+	},
+	{
+		"id": 266,
+		"name": "Gabon",
+		"alpha2": "ga",
+		"alpha3": "gab",
+		"dial_code": "+241",
+		"phone_mask": "#-##-##-##"
+	},
+	{
+		"id": 270,
+		"name": "Gambia",
+		"alpha2": "gm",
+		"alpha3": "gmb",
+		"dial_code": "+220",
+		"phone_mask": "(###)##-##"
+	},
+	{
+		"id": 268,
+		"name": "Georgia",
+		"alpha2": "ge",
+		"alpha3": "geo",
+		"dial_code": "+995",
+		"phone_mask": "(###)###-###"
+	},
+	{
+		"id": 276,
+		"name": "Germany",
+		"alpha2": "de",
+		"alpha3": "deu",
+		"dial_code": "+49",
+		"phone_mask": [
+			"###-###",
+			"(###)##-##",
+			"(###)##-###",
+			"(###)##-####",
+			"(###)###-####",
+			"(####)###-####"
+		]
+	},
+	{
+		"id": 288,
+		"name": "Ghana",
+		"alpha2": "gh",
+		"alpha3": "gha",
+		"dial_code": "+233",
+		"phone_mask": "(###)###-###"
+	},
+	{
+		"id": 300,
+		"name": "Greece",
+		"alpha2": "gr",
+		"alpha3": "grc",
+		"dial_code": "+30",
+		"phone_mask": "(###)###-####"
+	},
+	{
+		"id": 308,
+		"name": "Grenada",
+		"alpha2": "gd",
+		"alpha3": "grd",
+		"dial_code": "+1473",
+		"phone_mask": "(473)###-####"
+	},
+	{
+		"id": 320,
+		"name": "Guatemala",
+		"alpha2": "gt",
+		"alpha3": "gtm",
+		"dial_code": "+502",
+		"phone_mask": "#-###-####"
+	},
+	{
+		"id": 324,
+		"name": "Guinea",
+		"alpha2": "gn",
+		"alpha3": "gin",
+		"dial_code": "+224",
+		"phone_mask": "##-###-###"
+	},
+	{
+		"id": 624,
+		"name": "Guinea-Bissau",
+		"alpha2": "gw",
+		"alpha3": "gnb",
+		"dial_code": "+245",
+		"phone_mask": "#-######"
+	},
+	{
+		"id": 328,
+		"name": "Guyana",
+		"alpha2": "gy",
+		"alpha3": "guy",
+		"dial_code": "+595",
+		"phone_mask": "###-####"
+	},
+	{
+		"id": 332,
+		"name": "Haiti",
+		"alpha2": "ht",
+		"alpha3": "hti",
+		"dial_code": "+509",
+		"phone_mask": "##-##-####"
+	},
+	{
+		"id": 340,
+		"name": "Honduras",
+		"alpha2": "hn",
+		"alpha3": "hnd",
+		"dial_code": "+504",
+		"phone_mask": "####-####"
+	},
+	{
+		"id": 348,
+		"name": "Hungary",
+		"alpha2": "hu",
+		"alpha3": "hun",
+		"dial_code": "+36",
+		"phone_mask": "(###)###-###"
+	},
+	{
+		"id": 352,
+		"name": "Iceland",
+		"alpha2": "is",
+		"alpha3": "isl",
+		"dial_code": "+354",
+		"phone_mask": "###-####"
+	},
+	{
+		"id": 356,
+		"name": "India",
+		"alpha2": "in",
+		"alpha3": "ind",
+		"dial_code": "+91",
+		"phone_mask": "(####)###-###"
+	},
+	{
+		"id": 360,
+		"name": "Indonesia",
+		"alpha2": "id",
+		"alpha3": "idn",
+		"dial_code": "+62",
+		"phone_mask": [
+			"##-###-##",
+			"##-###-###",
+			"##-###-####",
+			"(8##)###-###",
+			"(8##)###-##-###"
+		]
+	},
+	{
+		"id": 364,
+		"name": "Iran (Islamic Republic of)",
+		"alpha2": "ir",
+		"alpha3": "irn",
+		"dial_code": "+98",
+		"phone_mask": "(###)###-####"
+	},
+	{
+		"id": 368,
+		"name": "Iraq",
+		"alpha2": "iq",
+		"alpha3": "irq",
+		"dial_code": "+964",
+		"phone_mask": "(###)###-####"
+	},
+	{
+		"id": 372,
+		"name": "Ireland",
+		"alpha2": "ie",
+		"alpha3": "irl",
+		"dial_code": "+353",
+		"phone_mask": "(###)###-###"
+	},
+	{
+		"id": 376,
+		"name": "Israel",
+		"alpha2": "il",
+		"alpha3": "isr",
+		"dial_code": "+972",
+		"phone_mask": [
+			"#-###-####",
+			"5#-###-####"
+		]
+	},
+	{
+		"id": 380,
+		"name": "Italy",
+		"alpha2": "it",
+		"alpha3": "ita",
+		"dial_code": "+39",
+		"phone_mask": "(###)####-###"
+	},
+	{
+		"id": 388,
+		"name": "Jamaica",
+		"alpha2": "jm",
+		"alpha3": "jam",
+		"dial_code": "+1876",
+		"phone_mask": "(876)###-####"
+	},
+	{
+		"id": 392,
+		"name": "Japan",
+		"alpha2": "jp",
+		"alpha3": "jpn",
+		"dial_code": "+81",
+		"phone_mask": [
+			"(###)###-###",
+			"##-####-####"
+		]
+	},
+	{
+		"id": 400,
+		"name": "Jordan",
+		"alpha2": "jo",
+		"alpha3": "jor",
+		"dial_code": "+962",
+		"phone_mask": "#-####-####"
+	},
+	{
+		"id": 398,
+		"name": "Kazakhstan",
+		"alpha2": "kz",
+		"alpha3": "kaz",
+		"dial_code": "+77",
+		"phone_mask": [
+			"(6##)###-##-##",
+			"(7##)###-##-##"
+		]
+	},
+	{
+		"id": 404,
+		"name": "Kenya",
+		"alpha2": "ke",
+		"alpha3": "ken",
+		"dial_code": "+254",
+		"phone_mask": "###-######"
+	},
+	{
+		"id": 296,
+		"name": "Kiribati",
+		"alpha2": "ki",
+		"alpha3": "kir",
+		"dial_code": "+686",
+		"phone_mask": "##-###"
+	},
+	{
+		"id": 408,
+		"name": "Korea (Democratic People's Republic of)",
+		"alpha2": "kp",
+		"alpha3": "prk",
+		"dial_code": "+850",
+		"phone_mask": [
+			"###-###",
+			"####-####",
+			"##-###-###",
+			"###-####-###",
+			"191-###-####",
+			"####-#############"
+		]
+	},
+	{
+		"id": 410,
+		"name": "Korea, Republic of",
+		"alpha2": "kr",
+		"alpha3": "kor",
+		"dial_code": "+82",
+		"phone_mask": "##-###-####"
+	},
+	{
+		"id": 414,
+		"name": "Kuwait",
+		"alpha2": "kw",
+		"alpha3": "kwt",
+		"dial_code": "+965",
+		"phone_mask": "####-####"
+	},
+	{
+		"id": 417,
+		"name": "Kyrgyzstan",
+		"alpha2": "kg",
+		"alpha3": "kgz",
+		"dial_code": "+996",
+		"phone_mask": "(###)###-###"
+	},
+	{
+		"id": 418,
+		"name": "Lao People's Democratic Republic",
+		"alpha2": "la",
+		"alpha3": "lao",
+		"dial_code": "+856",
+		"phone_mask": [
+			"##-###-###",
+			"(20##)###-###"
+		]
+	},
+	{
+		"id": 428,
+		"name": "Latvia",
+		"alpha2": "lv",
+		"alpha3": "lva",
+		"dial_code": "+371",
+		"phone_mask": "##-###-###"
+	},
+	{
+		"id": 422,
+		"name": "Lebanon",
+		"alpha2": "lb",
+		"alpha3": "lbn",
+		"dial_code": "+961",
+		"phone_mask": [
+			"#-###-###",
+			"##-###-###"
+		]
+	},
+	{
+		"id": 426,
+		"name": "Lesotho",
+		"alpha2": "ls",
+		"alpha3": "lso",
+		"dial_code": "+266",
+		"phone_mask": "#-###-####"
+	},
+	{
+		"id": 430,
+		"name": "Liberia",
+		"alpha2": "lr",
+		"alpha3": "lbr",
+		"dial_code": "+231",
+		"phone_mask": "##-###-###"
+	},
+	{
+		"id": 434,
+		"name": "Libya",
+		"alpha2": "ly",
+		"alpha3": "lby",
+		"dial_code": "+218",
+		"phone_mask": [
+			"##-###-###",
+			"21-###-####"
+		]
+	},
+	{
+		"id": 438,
+		"name": "Liechtenstein",
+		"alpha2": "li",
+		"alpha3": "lie",
+		"dial_code": "+423",
+		"phone_mask": "(###)###-####"
+	},
+	{
+		"id": 440,
+		"name": "Lithuania",
+		"alpha2": "lt",
+		"alpha3": "ltu",
+		"dial_code": "+370",
+		"phone_mask": "(###)##-###"
+	},
+	{
+		"id": 442,
+		"name": "Luxembourg",
+		"alpha2": "lu",
+		"alpha3": "lux",
+		"dial_code": "+352",
+		"phone_mask": "(###)###-###"
+	},
+	{
+		"id": 450,
+		"name": "Madagascar",
+		"alpha2": "mg",
+		"alpha3": "mdg",
+		"dial_code": "+261",
+		"phone_mask": "##-##-#####"
+	},
+	{
+		"id": 454,
+		"name": "Malawi",
+		"alpha2": "mw",
+		"alpha3": "mwi",
+		"dial_code": "+265",
+		"phone_mask": [
+			"1-###-###",
+			"#-####-####"
+		]
+	},
+	{
+		"id": 458,
+		"name": "Malaysia",
+		"alpha2": "my",
+		"alpha3": "mys",
+		"dial_code": "+60",
+		"phone_mask": [
+			"#-###-###",
+			"##-###-###",
+			"(###)###-###",
+			"##-###-####"
+		]
+	},
+	{
+		"id": 462,
+		"name": "Maldives",
+		"alpha2": "mv",
+		"alpha3": "mdv",
+		"dial_code": "+960",
+		"phone_mask": "###-####"
+	},
+	{
+		"id": 466,
+		"name": "Mali",
+		"alpha2": "ml",
+		"alpha3": "mli",
+		"dial_code": "+223",
+		"phone_mask": "##-##-####"
+	},
+	{
+		"id": 470,
+		"name": "Malta",
+		"alpha2": "mt",
+		"alpha3": "mlt",
+		"dial_code": "+356",
+		"phone_mask": "####-####"
+	},
+	{
+		"id": 584,
+		"name": "Marshall Islands",
+		"alpha2": "mh",
+		"alpha3": "mhl",
+		"dial_code": "+692",
+		"phone_mask": "###-####"
+	},
+	{
+		"id": 478,
+		"name": "Mauritania",
+		"alpha2": "mr",
+		"alpha3": "mrt",
+		"dial_code": "+222",
+		"phone_mask": "##-##-####"
+	},
+	{
+		"id": 480,
+		"name": "Mauritius",
+		"alpha2": "mu",
+		"alpha3": "mus",
+		"dial_code": "+230",
+		"phone_mask": "###-####"
+	},
+	{
+		"id": 484,
+		"name": "Mexico",
+		"alpha2": "mx",
+		"alpha3": "mex",
+		"dial_code": "+52",
+		"phone_mask": [
+			"##-##-####",
+			"(###)###-####"
+		]
+	},
+	{
+		"id": 583,
+		"name": "Micronesia (Federated States of)",
+		"alpha2": "fm",
+		"alpha3": "fsm",
+		"dial_code": "+691",
+		"phone_mask": "###-####"
+	},
+	{
+		"id": 498,
+		"name": "Moldova, Republic of",
+		"alpha2": "md",
+		"alpha3": "mda",
+		"dial_code": "+373",
+		"phone_mask": "####-####"
+	},
+	{
+		"id": 492,
+		"name": "Monaco",
+		"alpha2": "mc",
+		"alpha3": "mco",
+		"dial_code": "+377",
+		"phone_mask": [
+			"##-###-###",
+			"(###)###-###"
+		]
+	},
+	{
+		"id": 496,
+		"name": "Mongolia",
+		"alpha2": "mn",
+		"alpha3": "mng",
+		"dial_code": "+976",
+		"phone_mask": "##-##-####"
+	},
+	{
+		"id": 499,
+		"name": "Montenegro",
+		"alpha2": "me",
+		"alpha3": "mne",
+		"dial_code": "+382",
+		"phone_mask": "##-###-###"
+	},
+	{
+		"id": 504,
+		"name": "Morocco",
+		"alpha2": "ma",
+		"alpha3": "mar",
+		"dial_code": "+212",
+		"phone_mask": "##-####-###"
+	},
+	{
+		"id": 508,
+		"name": "Mozambique",
+		"alpha2": "mz",
+		"alpha3": "moz",
+		"dial_code": "+258",
+		"phone_mask": "##-###-###"
+	},
+	{
+		"id": 104,
+		"name": "Myanmar",
+		"alpha2": "mm",
+		"alpha3": "mmr",
+		"dial_code": "+95",
+		"phone_mask": [
+			"###-###",
+			"#-###-###",
+			"##-###-###"
+		]
+	},
+	{
+		"id": 516,
+		"name": "Namibia",
+		"alpha2": "na",
+		"alpha3": "nam",
+		"dial_code": "+264",
+		"phone_mask": "##-###-####"
+	},
+	{
+		"id": 520,
+		"name": "Nauru",
+		"alpha2": "nr",
+		"alpha3": "nru",
+		"dial_code": "+674",
+		"phone_mask": "###-####"
+	},
+	{
+		"id": 524,
+		"name": "Nepal",
+		"alpha2": "np",
+		"alpha3": "npl",
+		"dial_code": "+977",
+		"phone_mask": "##-###-###"
+	},
+	{
+		"id": 528,
+		"name": "Netherlands",
+		"alpha2": "nl",
+		"alpha3": "nld",
+		"dial_code": "+31",
+		"phone_mask": "##-###-####"
+	},
+	{
+		"id": 554,
+		"name": "New Zealand",
+		"alpha2": "nz",
+		"alpha3": "nzl",
+		"dial_code": "+64",
+		"phone_mask": [
+			"#-###-###",
+			"(###)###-###",
+			"(###)###-####"
+		]
+	},
+	{
+		"id": 558,
+		"name": "Nicaragua",
+		"alpha2": "ni",
+		"alpha3": "nic",
+		"dial_code": "+505",
+		"phone_mask": "####-####"
+	},
+	{
+		"id": 562,
+		"name": "Niger",
+		"alpha2": "ne",
+		"alpha3": "ner",
+		"dial_code": "+227",
+		"phone_mask": "##-##-####"
+	},
+	{
+		"id": 566,
+		"name": "Nigeria",
+		"alpha2": "ng",
+		"alpha3": "nga",
+		"dial_code": "+234",
+		"phone_mask": [
+			"##-###-##",
+			"##-###-###",
+			"(###)###-####"
+		]
+	},
+	{
+		"id": 807,
+		"name": "North Macedonia",
+		"alpha2": "mk",
+		"alpha3": "mkd",
+		"dial_code": "+389",
+		"phone_mask": "##-###-###"
+	},
+	{
+		"id": 578,
+		"name": "Norway",
+		"alpha2": "no",
+		"alpha3": "nor",
+		"dial_code": "+47",
+		"phone_mask": "(###)##-###"
+	},
+	{
+		"id": 512,
+		"name": "Oman",
+		"alpha2": "om",
+		"alpha3": "omn",
+		"dial_code": "+968",
+		"phone_mask": "##-###-###"
+	},
+	{
+		"id": 586,
+		"name": "Pakistan",
+		"alpha2": "pk",
+		"alpha3": "pak",
+		"dial_code": "+92",
+		"phone_mask": "(###)###-####"
+	},
+	{
+		"id": 585,
+		"name": "Palau",
+		"alpha2": "pw",
+		"alpha3": "plw",
+		"dial_code": "+680",
+		"phone_mask": "###-####"
+	},
+	{
+		"id": 591,
+		"name": "Panama",
+		"alpha2": "pa",
+		"alpha3": "pan",
+		"dial_code": "+507",
+		"phone_mask": "###-####"
+	},
+	{
+		"id": 598,
+		"name": "Papua New Guinea",
+		"alpha2": "pg",
+		"alpha3": "png",
+		"dial_code": "+675",
+		"phone_mask": "(###)##-###"
+	},
+	{
+		"id": 600,
+		"name": "Paraguay",
+		"alpha2": "py",
+		"alpha3": "pry",
+		"dial_code": "+595",
+		"phone_mask": "(###)###-###"
+	},
+	{
+		"id": 604,
+		"name": "Peru",
+		"alpha2": "pe",
+		"alpha3": "per",
+		"dial_code": "+51",
+		"phone_mask": "(###)###-###"
+	},
+	{
+		"id": 608,
+		"name": "Philippines",
+		"alpha2": "ph",
+		"alpha3": "phl",
+		"dial_code": "+63",
+		"phone_mask": "(###)###-####"
+	},
+	{
+		"id": 616,
+		"name": "Poland",
+		"alpha2": "pl",
+		"alpha3": "pol",
+		"dial_code": "+48",
+		"phone_mask": "(###)###-###"
+	},
+	{
+		"id": 620,
+		"name": "Portugal",
+		"alpha2": "pt",
+		"alpha3": "prt",
+		"dial_code": "+351",
+		"phone_mask": "##-###-####"
+	},
+	{
+		"id": 634,
+		"name": "Qatar",
+		"alpha2": "qa",
+		"alpha3": "qat",
+		"dial_code": "+974",
+		"phone_mask": "####-####"
+	},
+	{
+		"id": 642,
+		"name": "Romania",
+		"alpha2": "ro",
+		"alpha3": "rou",
+		"dial_code": "+40",
+		"phone_mask": "##-###-####"
+	},
+	{
+		"id": 643,
+		"name": "Russian Federation",
+		"alpha2": "ru",
+		"alpha3": "rus",
+		"dial_code": "+7",
+		"phone_mask": "(###)###-##-##"
+	},
+	{
+		"id": 646,
+		"name": "Rwanda",
+		"alpha2": "rw",
+		"alpha3": "rwa",
+		"dial_code": "+250",
+		"phone_mask": "(###)###-###"
+	},
+	{
+		"id": 659,
+		"name": "Saint Kitts and Nevis",
+		"alpha2": "kn",
+		"alpha3": "kna",
+		"dial_code": "+1869",
+		"phone_mask": "(869)###-####"
+	},
+	{
+		"id": 662,
+		"name": "Saint Lucia",
+		"alpha2": "lc",
+		"alpha3": "lca",
+		"dial_code": "+1758",
+		"phone_mask": "(758)###-####"
+	},
+	{
+		"id": 670,
+		"name": "Saint Vincent and the Grenadines",
+		"alpha2": "vc",
+		"alpha3": "vct",
+		"dial_code": "+1784",
+		"phone_mask": "(784)###-####"
+	},
+	{
+		"id": 882,
+		"name": "Samoa",
+		"alpha2": "ws",
+		"alpha3": "wsm",
+		"dial_code": "+685",
+		"phone_mask": "##-####"
+	},
+	{
+		"id": 674,
+		"name": "San Marino",
+		"alpha2": "sm",
+		"alpha3": "smr",
+		"dial_code": "+378",
+		"phone_mask": "####-######"
+	},
+	{
+		"id": 678,
+		"name": "Sao Tome and Principe",
+		"alpha2": "st",
+		"alpha3": "stp",
+		"dial_code": "+239",
+		"phone_mask": "##-#####"
+	},
+	{
+		"id": 682,
+		"name": "Saudi Arabia",
+		"alpha2": "sa",
+		"alpha3": "sau",
+		"dial_code": "+966",
+		"phone_mask": [
+			"#-###-####",
+			"5#-####-####"
+		]
+	},
+	{
+		"id": 686,
+		"name": "Senegal",
+		"alpha2": "sn",
+		"alpha3": "sen",
+		"dial_code": "+221",
+		"phone_mask": "##-###-####"
+	},
+	{
+		"id": 688,
+		"name": "Serbia",
+		"alpha2": "rs",
+		"alpha3": "srb",
+		"dial_code": "+381",
+		"phone_mask": "##-###-####"
+	},
+	{
+		"id": 690,
+		"name": "Seychelles",
+		"alpha2": "sc",
+		"alpha3": "syc",
+		"dial_code": "+248",
+		"phone_mask": "#-###-###"
+	},
+	{
+		"id": 694,
+		"name": "Sierra Leone",
+		"alpha2": "sl",
+		"alpha3": "sle",
+		"dial_code": "+232",
+		"phone_mask": "##-######"
+	},
+	{
+		"id": 702,
+		"name": "Singapore",
+		"alpha2": "sg",
+		"alpha3": "sgp",
+		"dial_code": "+65",
+		"phone_mask": "####-####"
+	},
+	{
+		"id": 703,
+		"name": "Slovakia",
+		"alpha2": "sk",
+		"alpha3": "svk",
+		"dial_code": "+421",
+		"phone_mask": "(###)###-###"
+	},
+	{
+		"id": 705,
+		"name": "Slovenia",
+		"alpha2": "si",
+		"alpha3": "svn",
+		"dial_code": "+386",
+		"phone_mask": "##-###-###"
+	},
+	{
+		"id": 90,
+		"name": "Solomon Islands",
+		"alpha2": "sb",
+		"alpha3": "slb",
+		"dial_code": "+677",
+		"phone_mask": [
+			"#####",
+			"###-####"
+		]
+	},
+	{
+		"id": 706,
+		"name": "Somalia",
+		"alpha2": "so",
+		"alpha3": "som",
+		"dial_code": "+252",
+		"phone_mask": [
+			"#-###-###",
+			"##-###-###"
+		]
+	},
+	{
+		"id": 710,
+		"name": "South Africa",
+		"alpha2": "za",
+		"alpha3": "zaf",
+		"dial_code": "+27",
+		"phone_mask": "##-###-####"
+	},
+	{
+		"id": 728,
+		"name": "South Sudan",
+		"alpha2": "ss",
+		"alpha3": "ssd",
+		"dial_code": "+211",
+		"phone_mask": "##-###-####"
+	},
+	{
+		"id": 724,
+		"name": "Spain",
+		"alpha2": "es",
+		"alpha3": "esp",
+		"dial_code": "+34",
+		"phone_mask": "(###)###-###"
+	},
+	{
+		"id": 144,
+		"name": "Sri Lanka",
+		"alpha2": "lk",
+		"alpha3": "lka",
+		"dial_code": "+94",
+		"phone_mask": "##-###-####"
+	},
+	{
+		"id": 729,
+		"name": "Sudan",
+		"alpha2": "sd",
+		"alpha3": "sdn",
+		"dial_code": "+249",
+		"phone_mask": "##-###-####"
+	},
+	{
+		"id": 740,
+		"name": "Suriname",
+		"alpha2": "sr",
+		"alpha3": "sur",
+		"dial_code": "+597",
+		"phone_mask": [
+			"###-###",
+			"###-####"
+		]
+	},
+	{
+		"id": 752,
+		"name": "Sweden",
+		"alpha2": "se",
+		"alpha3": "swe",
+		"dial_code": "+46",
+		"phone_mask": "##-###-####"
+	},
+	{
+		"id": 756,
+		"name": "Switzerland",
+		"alpha2": "ch",
+		"alpha3": "che",
+		"dial_code": "+41",
+		"phone_mask": "##-###-####"
+	},
+	{
+		"id": 760,
+		"name": "Syrian Arab Republic",
+		"alpha2": "sy",
+		"alpha3": "syr",
+		"dial_code": "+963",
+		"phone_mask": "##-####-###"
+	},
+	{
+		"id": 762,
+		"name": "Tajikistan",
+		"alpha2": "tj",
+		"alpha3": "tjk",
+		"dial_code": "+992",
+		"phone_mask": "##-###-####"
+	},
+	{
+		"id": 834,
+		"name": "Tanzania, United Republic of",
+		"alpha2": "tz",
+		"alpha3": "tza",
+		"dial_code": "+255",
+		"phone_mask": "##-###-####"
+	},
+	{
+		"id": 764,
+		"name": "Thailand",
+		"alpha2": "th",
+		"alpha3": "tha",
+		"dial_code": "+66",
+		"phone_mask": [
+			"##-###-###",
+			"##-###-####"
+		]
+	},
+	{
+		"id": 626,
+		"name": "Timor-Leste",
+		"alpha2": "tl",
+		"alpha3": "tls",
+		"dial_code": "+670",
+		"phone_mask": [
+			"###-####",
+			"77#-#####",
+			"78#-#####"
+		]
+	},
+	{
+		"id": 768,
+		"name": "Togo",
+		"alpha2": "tg",
+		"alpha3": "tgo",
+		"dial_code": "+228",
+		"phone_mask": "##-###-###"
+	},
+	{
+		"id": 776,
+		"name": "Tonga",
+		"alpha2": "to",
+		"alpha3": "ton",
+		"dial_code": "+676",
+		"phone_mask": "#####"
+	},
+	{
+		"id": 780,
+		"name": "Trinidad and Tobago",
+		"alpha2": "tt",
+		"alpha3": "tto",
+		"dial_code": "+1868",
+		"phone_mask": "(868)###-####"
+	},
+	{
+		"id": 788,
+		"name": "Tunisia",
+		"alpha2": "tn",
+		"alpha3": "tun",
+		"dial_code": "+216",
+		"phone_mask": "##-###-###"
+	},
+	{
+		"id": 792,
+		"name": "Turkey",
+		"alpha2": "tr",
+		"alpha3": "tur",
+		"dial_code": "+90",
+		"phone_mask": "(###)###-####"
+	},
+	{
+		"id": 795,
+		"name": "Turkmenistan",
+		"alpha2": "tm",
+		"alpha3": "tkm",
+		"dial_code": "+993",
+		"phone_mask": "#-###-####"
+	},
+	{
+		"id": 798,
+		"name": "Tuvalu",
+		"alpha2": "tv",
+		"alpha3": "tuv",
+		"dial_code": "+688",
+		"phone_mask": [
+			"2####",
+			"90####"
+		]
+	},
+	{
+		"id": 800,
+		"name": "Uganda",
+		"alpha2": "ug",
+		"alpha3": "uga",
+		"dial_code": "+256",
+		"phone_mask": "(###)###-###"
+	},
+	{
+		"id": 804,
+		"name": "Ukraine",
+		"alpha2": "ua",
+		"alpha3": "ukr",
+		"dial_code": "+380",
+		"phone_mask": "(##)###-##-##"
+	},
+	{
+		"id": 784,
+		"name": "United Arab Emirates",
+		"alpha2": "ae",
+		"alpha3": "are",
+		"dial_code": "+971",
+		"phone_mask": [
+			"#-###-####",
+			"5#-###-####"
+		]
+	},
+	{
+		"id": 826,
+		"name": "United Kingdom of Great Britain and Northern Ireland",
+		"alpha2": "gb",
+		"alpha3": "gbr",
+		"dial_code": "+44",
+		"phone_mask": "##-####-####"
+	},
+	{
+		"id": 840,
+		"name": "United States of America",
+		"alpha2": "us",
+		"alpha3": "usa",
+		"dial_code": "+1",
+		"phone_mask": "(###) ###-####"
+	},
+	{
+		"id": 858,
+		"name": "Uruguay",
+		"alpha2": "uy",
+		"alpha3": "ury",
+		"dial_code": "+598",
+		"phone_mask": "#-###-##-##"
+	},
+	{
+		"id": 860,
+		"name": "Uzbekistan",
+		"alpha2": "uz",
+		"alpha3": "uzb",
+		"dial_code": "+998",
+		"phone_mask": "##-###-####"
+	},
+	{
+		"id": 548,
+		"name": "Vanuatu",
+		"alpha2": "vu",
+		"alpha3": "vut",
+		"dial_code": "+678",
+		"phone_mask": [
+			"#####",
+			"##-#####"
+		]
+	},
+	{
+		"id": 862,
+		"name": "Venezuela (Bolivarian Republic of)",
+		"alpha2": "ve",
+		"alpha3": "ven",
+		"dial_code": "+58",
+		"phone_mask": "(###)###-####"
+	},
+	{
+		"id": 704,
+		"name": "Viet Nam",
+		"alpha2": "vn",
+		"alpha3": "vnm",
+		"dial_code": "+84",
+		"phone_mask": [
+			"##-####-###",
+			"(###)####-###"
+		]
+	},
+	{
+		"id": 887,
+		"name": "Yemen",
+		"alpha2": "ye",
+		"alpha3": "yem",
+		"dial_code": "+967",
+		"phone_mask": [
+			"#-###-###",
+			"##-###-###",
+			"###-###-###"
+		]
+	},
+	{
+		"id": 894,
+		"name": "Zambia",
+		"alpha2": "zm",
+		"alpha3": "zmb",
+		"dial_code": "+260",
+		"phone_mask": "##-###-####"
+	},
+	{
+		"id": 716,
+		"name": "Zimbabwe",
+		"alpha2": "zw",
+		"alpha3": "zwe",
+		"dial_code": "+263",
+		"phone_mask": "#-######"
+	}
+]

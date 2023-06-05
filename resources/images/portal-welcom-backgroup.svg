@@ -1,0 +1,21 @@
+<svg width="1196" height="271" viewBox="0 0 1196 271" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1196" height="271" rx="10" fill="#D6FFD8"/>
+<mask id="mask0_5004_17328" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1196" height="271">
+<rect width="1196" height="271" rx="10" fill="#D6FFD8"/>
+</mask>
+<g mask="url(#mask0_5004_17328)">
+<circle cx="1200" cy="252" r="51.5" fill="#EBFA9E" stroke="black"/>
+<circle cx="1145" cy="267" r="51.5" fill="white" stroke="black"/>
+<circle cx="1206" cy="-28" r="67.5" fill="#FFEFEB" stroke="black"/>
+<circle cx="-4" cy="-9" r="67.5" fill="#FFF7D6" stroke="black"/>
+<circle cx="787" cy="276" r="86" fill="#4DF189"/>
+<circle cx="696" cy="273" r="85.5" stroke="black"/>
+<path d="M890.642 84.2095L971.211 67.5974L947.124 114.111L890.642 84.2095Z" fill="#FFF7D6" stroke="#1C2436" stroke-width="0.851582"/>
+<path d="M919.732 99.5754L919.32 99.3692L919.147 99.7966L913.666 113.351V97.0668L964.559 71.2514L920.027 99.7228L919.732 99.5754Z" fill="#FFF7D6" stroke="#1C2436" stroke-width="0.851582"/>
+<path d="M919.511 100.385L926.599 104.115L914.289 113.814L919.511 100.385Z" fill="#FFF7D6" stroke="#1C2436" stroke-width="0.851582"/>
+<path d="M881.341 153.674L926.281 136.687L911.935 181.951L898.122 168.796L897.721 168.415L897.455 168.899L894.507 174.26V165.869V165.681L894.368 165.554L881.341 153.674Z" fill="#E7D6FF" stroke="#1C2436" stroke-width="0.851582"/>
+<path d="M897.51 168.823L897.479 168.858L897.456 168.899L894.508 174.259V166.058L921.391 141.772L897.51 168.823Z" fill="#E7D6FF" stroke="#1C2436" stroke-width="0.851582"/>
+<path d="M838.897 116.843L838.907 116.666L838.789 116.534L832.852 109.894L862.66 105.866L848.458 128.298L841.17 120.362L840.915 120.084L840.608 120.304L838.609 121.741L838.897 116.843Z" fill="#EBFA9E" stroke="#1C2436" stroke-width="0.851582"/>
+<path d="M853.427 110.359L839.705 118.323L839.588 118.391L839.532 118.514L838.69 120.359L838.882 117.097L853.427 110.359Z" fill="#EBFA9E" stroke="#1C2436" stroke-width="0.851582"/>
+</g>
+</svg>

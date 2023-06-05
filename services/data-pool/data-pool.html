@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="icon" type="image/x-icon" href="../../resources/images/favicon.png">
+   <title>The best Data pool for business</title>
+   <link rel="stylesheet" href="../../css/bootstrap.min.css">
+   <link rel="stylesheet" href="../../css/variable.css">
+   <link rel="stylesheet" href="./data-pool.css">
+   <link rel="stylesheet" href="../../css/common.css">
+   <link rel="stylesheet" href="../../css/responsive.css">
+   <link rel="stylesheet" href="../../css/generic.css">
+   <link rel="stylesheet" href="../../css/fontawesome/css/all.min.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="stylesheet" href="../../css/font-css/general-sans.css">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+   <script src="../../js/Translate.js"></script>
+   <script src="../../js/scrollreveal.js"></script>
+   <script src="../../js/gsap.min.js"></script>
+   <script src="../../js/ScrollTrigger.min.js"></script>
+   <script>
+      function load(){
+         let userLang = navigator.language || navigator.userLanguage;
+         let translate = new Translate();
+         let currentLng = 'en';
+         if(userLang.includes('en')) {
+            currentLng = 'en';
+         } else if(userLang.includes('fr')) {
+            currentLng = 'fr';
+         }
+         let attributeName = 'data-tag';
+         translate.init(attributeName, currentLng);
+         translate.process(); 
+      }
+   </script>
+</head>
+<body onload="load()">
+   <header class="index-header">
+      <nav class="container">
+         <div class="d-flex justify-content-between align-items-center">
+            <div class="main-cm-logo">
+             <a href="../../index/index.html"><img src="../../resources/images/logo.svg" alt="" srcset=""></a>
+            </div>
+            <div class="nav-dropdown-items">
+               <div class="use-case">
+                  <button class="pointer" data-bs-toggle="dropdown" aria-expanded="false">
+                     <span data-tag="nav-use-case">Use case</span>
+                     <i class="fa-solid fa-chevron-down"></i>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                     <a class="dropdown-item" href="../../use-case/non-profit/non-profit.html">
+                        <div class="dropdown-item-image"><img src="../../resources/images/Non-profit-icon.svg" alt="" srcset=""></div>
+                        <div>
+                           <p class="bold-nav-text">Non-profit</p>
+                           <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                        </div>
+                     </a>
+                     </li>
+                    <li>
+                     <a class="dropdown-item" href="../../use-case/political-party/political-party.html">
+                        <div class="dropdown-item-image"><img src="../../resources/images/Political-parti-icon.svg" alt="" srcset=""></div>
+                        <div>
+                           <p class="bold-nav-text">Political parti</p>
+                           <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                        </div>
+                     </a>
+                     </li>
+                    <li>
+                     <a class="dropdown-item" href="../../use-case/elected-office/elected-office.html">
+                        <div class="dropdown-item-image"><img src="../../resources/images/Elected-office-icon.svg" alt="" srcset=""></div>
+                        <div>
+                           <p class="bold-nav-text">Elected office</p>
+                           <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                        </div>
+                     </a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="use-case services">
+                  <button class="pointer active" data-bs-toggle="dropdown" aria-expanded="false">
+                     <span data-tag="nav-services">Services</span>
+                     <i class="fa-solid fa-chevron-down"></i>
+                  </button>
+                  <div class="dropdown-menu custom-service-dropdown-menu">
+                     <div class="service-left-options">
+                        <a class="dropdown-item" href="../election-software/election-software.html">
+                           <div class="dropdown-item-image"><img src="../../resources/images/election-software.svg" alt="" srcset=""></div>
+                           <div>
+                              <p class="bold-nav-text">Election software</p>
+                              <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                           </div>
+                        </a>
+                        <a class="dropdown-item" href="../predictive-call-center/predictive-call-center.html">
+                           <div class="dropdown-item-image"><img src="../../resources/images/predictive-call.svg" alt="" srcset=""></div>
+                           <div>
+                              <p class="bold-nav-text">Predictive call center</p>
+                              <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                           </div>
+                        </a>
+                        <a class="dropdown-item" href="../robot-call/robot-call.html">
+                           <div class="dropdown-item-image"><img src="../../resources/images/nav-robot-call.svg" alt="" srcset=""></div>
+                           <div>
+                              <p class="bold-nav-text">Robot call</p>
+                              <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                           </div>
+                        </a>
+                        <a class="dropdown-item" href="../crm-software/crm-software.html">
+                           <div class="dropdown-item-image"><img src="../../resources/images/nav-crm-software.svg" alt="" srcset=""></div>
+                           <div>
+                              <p class="bold-nav-text">CRM software</p>
+                              <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="service-right-options">
+                        <a class="dropdown-item" href="../agent-calling/agent-calling.html">
+                           <div class="dropdown-item-image"><img src="../../resources/images/agent-calling.svg" alt="" srcset=""></div>
+                           <div>
+                              <p class="bold-nav-text">Agent calling</p>
+                              <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                           </div>
+                        </a>
+                        <a class="dropdown-item" href="../sign-printing/sign-printing.html">
+                           <div class="dropdown-item-image"><img src="../../resources/images/nav-signin.svg" alt="" srcset=""></div>
+                           <div>
+                              <p class="bold-nav-text">Sign and printing</p>
+                              <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                           </div>
+                        </a>
+                        <a class="dropdown-item active" href="#">
+                           <div class="dropdown-item-image"><img src="../../resources/images/data-pool.svg" alt="" srcset=""></div>
+                           <div>
+                              <p class="bold-nav-text">Data pool</p>
+                              <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                           </div>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="use-case pricing pointer">
+                  <a class="pointer" href="../../coming-soon/coming-soon.html" data-tag="nav-pricing">
+                     Pricing
+                  </a>
+               </div>
+            </div>
+            <div class="tablet-nav-dropdown-items-wrapper" id="tabletNavDropdownItemsWrapper">
+               <div class="tablet-nav-dropdown-items">
+                  <div class="tablet-use-case-section">
+                     <div class="expansion-controll">
+                        <span>Use Case</span>
+                        <span class="float-end">
+                           <i class="fa-solid fa-chevron-down"></i>
+                        </span>
+                     </div>
+                     <div class="service-expansion-body">
+                        <a class="service-expansion-item" href="../../use-case/non-profit/non-profit.html">
+                           <div class="ex-item-logo">
+                              <img src="../../resources/images/Non-profit-icon.svg" alt="" srcset="">
+                           </div>
+                           <div class="ex-item-name">
+                              <p class="bold-nav-text">Non-profit</p>
+                              <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                           </div>
+                        </a>
+                        <a class="service-expansion-item" href="../../use-case/political-party/political-party.html">
+                           <div class="ex-item-logo">
+                              <img src="../../resources/images/Political-parti-icon.svg" alt="" srcset="">
+                           </div>
+                           <div class="ex-item-name">
+                              <p class="bold-nav-text">Political parti</p>
+                              <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                           </div>
+                        </a>
+                        <a class="service-expansion-item" href="../../use-case/elected-office/elected-office.html">
+                           <div class="ex-item-logo">
+                              <img src="../../resources/images/Elected-office-icon.svg" alt="" srcset="">
+                           </div>
+                           <div class="ex-item-name">
+                              <p class="bold-nav-text">Elected office</p>
+                              <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                           </div>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="tablet-service-section">
+                     <div class="expansion-controll">
+                        <span>Services</span>
+                        <span class="float-end">
+                           <i class="fa-solid fa-chevron-down"></i>
+                        </span>
+                     </div>
+                     <div class="service-expansion-body-dual">
+                        <div class="service-expansion-body-dual-left">
+                           <a class="service-expansion-item" href="../election-software/election-software.html">
+                              <div class="ex-item-logo">
+                                 <img src="../../resources/images/election-software.svg" alt="" srcset="">
+                              </div>
+                              <div class="ex-item-name">
+                                 <p class="bold-nav-text">Election software</p>
+                                 <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                              </div>
+                           </a>
+                           <a class="service-expansion-item" href="../predictive-call-center/predictive-call-center.html">
+                              <div class="ex-item-logo">
+                                 <img src="../../resources/images/predictive-call.svg" alt="" srcset="">
+                              </div>
+                              <div class="ex-item-name">
+                                 <p class="bold-nav-text">Predictive call center</p>
+                                 <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                              </div>
+                           </a>
+                           <a href="../robot-call/robot-call.html" class="service-expansion-item">
+                              <div class="ex-item-logo">
+                                 <img src="../../resources/images/nav-robot-call.svg" alt="" srcset="">
+                              </div>
+                              <div class="ex-item-name">
+                                 <p class="bold-nav-text">Robot call</p>
+                                 <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                              </div>
+                           </a>
+                           <a class="service-expansion-item" href="../crm-software/crm-software.html">
+                              <div class="ex-item-logo">
+                                 <img src="../../resources/images/nav-crm-software.svg" alt="" srcset="">
+                              </div>
+                              <div class="ex-item-name">
+                                 <p class="bold-nav-text">CRM software</p>
+                                 <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                              </div>
+                           </a>
+                        </div>
+                        <div class="service-expansion-body-dual-right">
+                           <a class="service-expansion-item" href="../agent-calling/agent-calling.html">
+                              <div class="ex-item-logo">
+                                 <img src="../../resources/images/agent-calling.svg" alt="" srcset="">
+                              </div>
+                              <div class="ex-item-name">
+                                 <p class="bold-nav-text">Agent calling</p>
+                                 <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                              </div>
+                           </a>
+                           <a class="service-expansion-item" href="../sign-printing/sign-printing.html">
+                              <div class="ex-item-logo">
+                                 <img src="../../resources/images/nav-signin.svg" alt="" srcset="">
+                              </div>
+                              <div class="ex-item-name">
+                                 <p class="bold-nav-text">Sign and printing</p>
+                                 <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                              </div>
+                           </a>
+                           <a class="service-expansion-item" href="../data-pool/data-pool.html">
+                              <div class="ex-item-logo">
+                                 <img src="../../resources/images/data-pool.svg" alt="" srcset="">
+                              </div>
+                              <div class="ex-item-name">
+                                 <p class="bold-nav-text">Data pool</p>
+                                 <p class="regular" style="white-space: pre-wrap;">Lorem ipsum dolor sit amet consectetur.</p>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <a class="d-block">
+                     <span>Pricing</span>
+                  </a>
+               </div>
+            </div>
+            <div class="other-nav-tool">
+               <div class="get-demo">
+                  <a href="../../demo/demo.html">
+                     <span data-tag="nav-get-demo">Get a demo</span>
+                  </a>
+               </div>
+               <div class="select-language">
+                  <span class="cursor" data-bs-toggle="dropdown" aria-expanded="false">
+                     <i class="fa-solid fa-globe"></i>
+                  </span>
+                  <ul class="dropdown-menu">
+                     <li>
+                        <a class="dropdown-item" href="">
+                           <img class="m-r-10" src="../../resources/images/canada-flag.svg" alt="" srcset="">
+                           English
+                        </a>
+                     </li>
+                     <li>
+                        <a class="dropdown-item" href="">
+                           <img class="m-r-10" src="../../resources/images/french-flag.svg" alt="" srcset="">
+                           French
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="expand-menu" id="expandMenu">
+                  <img src="../../resources/images/menu.svg" alt="" srcset="">
+               </div>
+            </div>
+         </div>
+      </nav>
+   </header>
+   <main class="main-content">
+        <section class="data-pool-hero-section">
+            <div class="data-pool-hero-wrapper container">
+                <div class="hero-ttile-section justify-content-between default-flex-section-wrapper">
+                    <div class="left">
+                        <h1>
+                            The best Data pool for business
+                        </h1>
+                    </div>
+                    <div class="right">
+                        <p class="regular">
+                            Lorem ipsum dolor sit amet consectetur. Id tristique suspen disse blandit viverra dolor vestibulum in. Consequat pellentesque integer eget nibh tristique.
+                        </p>
+                    </div>
+                </div>
+                <div class="data-pool-top-wrapper">
+                    <div class="data-pool-details-wrapper first-01 justify-content-between default-flex-section-wrapper">
+                        <div class="left">
+                            <h3>Map with the election census</h3>
+                            <p class="regular">
+                                Lorem ipsum dolor sit amet consectetur. Sit id nunc cras magna vel pulvinar. Facilisi hendrerit aliquam enim amet at senectus.
+                            </p>
+                            <div class="request-demo text-start">
+                                <a href="../../demo/demo.html" data-tag="request-demo">Request a demo</a>
+                             </div>
+                        </div>
+                        <div class="right">
+                            <img src="../../resources/images/Democratik_en-feature-mapstats.png" alt="" srcset="">
+                        </div>
+                    </div>
+                </div>
+                <div class="data-pool-wrapper">
+                    <div class="data-pool-details-wrapper second-02 justify-content-between default-flex-section-wrapper">
+                        <div class="left">
+                            <h3>Map with the election census</h3>
+                            <p class="regular">
+                                Lorem ipsum dolor sit amet consectetur. Sit id nunc cras magna vel pulvinar. Facilisi hendrerit aliquam enim amet at senectus.
+                            </p>
+                            <div class="request-demo text-start">
+                                <a href="../../demo/demo.html" data-tag="request-demo">Request a demo</a>
+                             </div>
+                        </div>
+                        <div class="right">
+                            <img src="../../resources/images/Democratik_en-feature-mapstats.png" alt="" srcset="">
+                        </div>
+                    </div>
+                    <div class="data-pool-details-wrapper third-03 justify-content-between default-flex-section-wrapper">
+                        <div class="left">
+                            <h3>Map with the election census</h3>
+                            <p class="regular">
+                                Lorem ipsum dolor sit amet consectetur. Sit id nunc cras magna vel pulvinar. Facilisi hendrerit aliquam enim amet at senectus.
+                            </p>
+                            <div class="request-demo text-start">
+                                <a href="../../demo/demo.html" data-tag="request-demo">Request a demo</a>
+                             </div>
+                        </div>
+                        <div class="right">
+                            <img src="../../resources/images/Democratik_en-feature-mapstats.png" alt="" srcset="">
+                        </div>
+                    </div>
+                    <div class="data-pool-details-wrapper fourth-03 justify-content-between default-flex-section-wrapper">
+                     <div class="left">
+                         <h3>Map with the election census</h3>
+                         <p class="regular">
+                             Lorem ipsum dolor sit amet consectetur. Sit id nunc cras magna vel pulvinar. Facilisi hendrerit aliquam enim amet at senectus.
+                         </p>
+                         <div class="request-demo text-start">
+                             <a href="../../demo/demo.html" data-tag="request-demo">Request a demo</a>
+                          </div>
+                     </div>
+                     <div class="right">
+                         <img src="../../resources/images/Democratik_en-feature-mapstats.png" alt="" srcset="">
+                     </div>
+                 </div>
+                </div>
+            </div>
+        </section>
+        <section class="data-pool-second-section">
+            <div class="data-pool-second-section-wrapper container">
+               <h2 class="text-center">Lorem ipsum dolor sit amet consecte. Quam diam non augue </h2>
+               <div class="second-section-options">
+                  <div class="left-option">
+                     <div>
+                        <img src="../../resources/images/muscle-power.svg" alt="" srcset="">
+                     </div>
+                     <h3>The Easiest and most Powerful Democratik Datapool</h3>
+                     <p class="regular">
+                        Lorem ipsum dolor sit amet consectetur. Arcu nibh massa eget cursus. Ut vitae at turpis hendrerit viverra nisl.
+                     </p>
+                     <div class="card-action-btn">
+                        <a class="start-now-btn">
+                           <span class="arrow-up-left">
+                              <img src="../../resources/images/arrow-up-left.svg" alt="" srcset="">
+                           </span>
+                           <span>Start Now</span>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="right-option">
+                     <div class="save-money">
+                        <div class="percentage">30%</div>
+                        <p class="regular">Save money own your business</p>
+                     </div>
+                     <div class="all-data-place">
+                        <div class="percentage">100%</div>
+                        <p class="regular">Your need all data in one place</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+        </section>
+        <section class="canada-census-section">
+            <div class="canada-census-wrapper container">
+               <h2 class="text-center">Map with the Canada census</h2>
+               <p class="regular canada-census-p">
+                  Lorem ipsum dolor sit amet consectetur. Eget egestas amet ac imperdiet cras nisi. Justo sodales faucibus nulla senectus ipsum morbi posuere. Amet tincidunt et purus sit
+               </p>
+               <div class="canada-census-image text-center">
+                  <img src="../../resources/images/canada-census-data.png" alt="" srcset="">
+               </div>
+            </div>
+        </section>
+        <section class="trust-acquired-section">
+            <div class="trust-acquired-wrapper">
+               <h2 class="text-center">A relationship of trust acquired through performance.</h2>
+               <div class="brand-list-loop-wrapper first-row">
+                  <div class="brand-list align-self-center" id="brandListScroll">
+                     <span>
+                        <img src="../../resources/images/npd-brand.svg" alt="npd" srcset="">
+                     </span>
+                     <span class="orange">
+                        <img src="../../resources/images/bloc-brand.svg" alt="bloc" srcset="">
+                     </span>
+                     <span class="pinkish">
+                        <img src="../../resources/images/montreal-brand.svg" alt="project montreal" srcset="">
+                     </span>
+                     <span class="green">
+                        <img src="../../resources/images/parti-liberal-brand.svg" alt="parti liberal quebec" srcset="">
+                     </span>
+                     <span class="green-2">
+                        <img src="../../resources/images/quebecois-brand.svg" alt="parti quebecois" srcset="">
+                     </span>
+                     <span class="light-red">
+                        <img src="../../resources/images/action-brand.svg" alt="action gatineau" srcset="">
+                     </span>
+                     <span class="green">
+                        <img src="../../resources/images/ensemble.svg" alt="ensemble" srcset="">
+                     </span>
+                     <span class="green-2">
+                        <img src="../../resources/images/parti-laval.svg" alt="parti laval" srcset="">
+                     </span>
+                     <span class="light-red">
+                        <img src="../../resources/images/action-laval.svg" alt="action laval" srcset="">
+                     </span>
+                  </div>
+                  <div class="brand-list brand-list-2 align-self-center" id="brandListScroll">
+                     <span>
+                        <img src="../../resources/images/npd-brand.svg" alt="npd" srcset="">
+                     </span>
+                     <span class="orange">
+                        <img src="../../resources/images/bloc-brand.svg" alt="bloc" srcset="">
+                     </span>
+                     <span class="pinkish">
+                        <img src="../../resources/images/montreal-brand.svg" alt="project montreal" srcset="">
+                     </span>
+                     <span class="green">
+                        <img src="../../resources/images/parti-liberal-brand.svg" alt="parti liberal quebec" srcset="">
+                     </span>
+                     <span class="green-2">
+                        <img src="../../resources/images/quebecois-brand.svg" alt="parti quebecois" srcset="">
+                     </span>
+                     <span class="light-red">
+                        <img src="../../resources/images/action-brand.svg" alt="action gatineau" srcset="">
+                     </span>
+                     <span class="green">
+                        <img src="../../resources/images/ensemble.svg" alt="ensemble" srcset="">
+                     </span>
+                     <span class="green-2">
+                        <img src="../../resources/images/parti-laval.svg" alt="parti laval" srcset="">
+                     </span>
+                     <span class="light-red">
+                        <img src="../../resources/images/action-laval.svg" alt="action laval" srcset="">
+                     </span>
+                  </div>
+               </div>
+               <div class="brand-list-loop-wrapper">
+                  <div class="brand-list next align-self-center" id="brandListScroll">
+                     <span>
+                        <img src="../../resources/images/npd-brand.svg" alt="npd" srcset="">
+                     </span>
+                     <span class="orange">
+                        <img src="../../resources/images/bloc-brand.svg" alt="bloc" srcset="">
+                     </span>
+                     <span class="pinkish">
+                        <img src="../../resources/images/montreal-brand.svg" alt="project montreal" srcset="">
+                     </span>
+                     <span class="green">
+                        <img src="../../resources/images/parti-liberal-brand.svg" alt="parti liberal quebec" srcset="">
+                     </span>
+                     <span class="green-2">
+                        <img src="../../resources/images/quebecois-brand.svg" alt="parti quebecois" srcset="">
+                     </span>
+                     <span class="light-red">
+                        <img src="../../resources/images/action-brand.svg" alt="action gatineau" srcset="">
+                     </span>
+                     <span class="green">
+                        <img src="../../resources/images/ensemble.svg" alt="ensemble" srcset="">
+                     </span>
+                     <span class="green-2">
+                        <img src="../../resources/images/parti-laval.svg" alt="parti laval" srcset="">
+                     </span>
+                     <span class="light-red">
+                        <img src="../../resources/images/action-laval.svg" alt="action laval" srcset="">
+                     </span>
+                  </div>
+                  <div class="brand-list brand-list-3 align-self-center" id="brandListScroll">
+                     <span>
+                        <img src="../../resources/images/npd-brand.svg" alt="npd" srcset="">
+                     </span>
+                     <span class="orange">
+                        <img src="../../resources/images/bloc-brand.svg" alt="bloc" srcset="">
+                     </span>
+                     <span class="pinkish">
+                        <img src="../../resources/images/montreal-brand.svg" alt="project montreal" srcset="">
+                     </span>
+                     <span class="green">
+                        <img src="../../resources/images/parti-liberal-brand.svg" alt="parti liberal quebec" srcset="">
+                     </span>
+                     <span class="green-2">
+                        <img src="../../resources/images/quebecois-brand.svg" alt="parti quebecois" srcset="">
+                     </span>
+                     <span class="light-red">
+                        <img src="../../resources/images/action-brand.svg" alt="action gatineau" srcset="">
+                     </span>
+                     <span class="green">
+                        <img src="../../resources/images/ensemble.svg" alt="ensemble" srcset="">
+                     </span>
+                     <span class="green-2">
+                        <img src="../../resources/images/parti-laval.svg" alt="parti laval" srcset="">
+                     </span>
+                     <span class="light-red">
+                        <img src="../../resources/images/action-laval.svg" alt="action laval" srcset="">
+                     </span>
+                  </div>
+               </div>
+            </div>
+        </section>
+        <section class="democratic-datapool-history-section">
+            <div class="democratic-datapool-history-wrapper container">
+               <div class="data-pool-hitory-label">
+                  <h2>
+                     Democratik Datapool History
+                  </h2>
+               </div>
+               <div class="data-pool-history-card">
+                  <h2>7.5M<span class="h2-plus-span">+</span></h2>
+                  <h6>Map with the election census</h6>
+               </div>
+               <div class="data-pool-history-card">
+                  <h2>8M<span class="h2-plus-span">+</span></h2>
+                  <h6>Map with the Canada census</h6>
+               </div>
+               <div class="data-pool-history-card">
+                  <h2>10M<span class="h2-plus-span">+</span></h2>
+                  <h6>Public landline phone number</h6>
+               </div>
+               <div class="data-pool-history-card">
+                  <h2>9.4M<span class="h2-plus-span">+</span></h2>
+                  <h6>Geocoding of for contact</h6>
+               </div>
+               <div class="data-pool-history-card">
+                  <h2>4.2M<span class="h2-plus-span">+</span></h2>
+                  <h6>Public donation of the elector</h6>
+               </div>
+            </div>
+        </section>
+        <section class="why-it-is-important-section">
+            <div class="why-it-is-important-wrapper container">
+               <div class="why-it-is-important-wrapper-card">
+                  <h3 class="text-center">Why Is It Important For Your Business To Get A Democratik Datapool?</h3>
+                  <div class="options">
+                     <div class="options-item">
+                        <div class="illustration">
+                           <img src="../../resources/images/cost-saving.svg" alt="" srcset="">
+                        </div>
+                        <h5>Cost Saving</h5>
+                        <p class="regular">
+                           Lorem ipsum dolor sit amet consectetur dignissim
+                        </p>
+                     </div>
+                     <div class="options-item">
+                        <div class="illustration">
+                           <img src="../../resources/images/easy-management.svg" alt="" srcset="">
+                        </div>
+                        <h5>Easy Management</h5>
+                        <p class="regular">
+                           Lorem ipsum dolor sit amet consectetur dignissim
+                        </p>
+                     </div>
+                     <div class="options-item">
+                        <div class="illustration">
+                           <img src="../../resources/images/customer-support.svg" alt="" srcset="">
+                        </div>
+                        <h5>Customer Support</h5>
+                        <p class="regular">
+                           Lorem ipsum dolor sit amet consectetur dignissim
+                        </p>
+                     </div>
+                  </div>
+                  <div class="request-quote">
+                     <a class="big" href="#">Request a quote</a>
+                  </div>
+               </div>
+            </div>
+        </section>
+        <section class="what-people-says-section">
+            <div class="what-people-says-section-wrapper container">
+               <div class="what-people-says-contaent">
+                  <h2>What People Says</h2>
+                  <p class="big">
+                     Lorem ipsum dolor sit amet consectetur. Faucibus molestie egestas justo donec a eget morbi nulla arcu. Bibendum tempor sapien quam ipsum. Nisl faucibus nisi duis sollicitudin aliquam sem purus sed volutpat.
+                  </p>
+                  <p class="big refer-actor">
+                     Wade Warren
+                     <span class="hr-line"></span>
+                  </p>
+                  <div class="slider-action">
+                     <button>
+                        <span><i class="fa-solid fa-chevron-left"></i></span>
+                     </button>
+                     <button>
+                        <span>
+                           <i class="fa-solid fa-chevron-right"></i>
+                        </span>
+                     </button>
+                  </div>
+               </div>
+               <div class="illustration">
+                  <img src="../../resources/images/what-people-says.png" alt="" srcset="">
+               </div>
+            </div>
+        </section>
+        <!-- <section class="recent-news recent-news-section">
+         <div class="container recent-news-content">
+            <h2 class="text-center">Our recent news & insights</h2>
+            <div class="recent-news-list">
+               <div class="recent-news-item">
+                  <div>
+                     <img src="../../resources/images/blog-1.png" alt="" srcset="">
+                  </div>
+                  <div class="blog-type-btn">
+                     <button>Solution</button>
+                  </div>
+                  <h5>How is door-to-door canvassing done in Canada</h5>
+                  <div class="blog-details-link">
+                     <a href="../blogs/blog-1.html">Learn More<i class="fa-solid fa-arrow-right"></i></a>
+                  </div>
+               </div>
+               <div class="recent-news-item">
+                  <div>
+                     <img src="../../resources/images/blog-2.png" alt="" srcset="">
+                  </div>
+                  <div class="blog-type-btn">
+                     <button>New</button>
+                  </div>
+                  <h5>Why you should continue campaigning even after the...</h5>
+                  <div class="blog-details-link">
+                     <a href="../blogs/blog-1.html">Learn More<i class="fa-solid fa-arrow-right"></i></a>
+                  </div>
+               </div>
+               <div class="recent-news-item">
+                  <div>
+                     <img src="../../resources/images/blog-3.png" alt="" srcset="">
+                  </div>
+                  <div class="blog-type-btn">
+                     <button>Solution</button>
+                  </div>
+                  <h5>How to calculate your win number?</h5>
+                  <div class="blog-details-link">
+                     <a href="../blogs/blog-1.html">Learn More<i class="fa-solid fa-arrow-right"></i></a>
+                  </div>
+               </div>
+            </div>
+            <div class="request-demo p-t-20">
+               <a href="../blogs.html">View all article</a>
+            </div>
+         </div>
+        </section> -->
+   </main>
+   <footer class="footer">
+      <div class="container footer-content">
+         <div class="top-section">
+            <div class="enter-email">
+               <input type="email" name="" id="" placeholder="Enter your email">
+               <button class="subscribe">Subscribe</button>
+            </div>
+            <div class="download-option">
+               <img src="../../resources/images/google-play.svg" alt="" srcset="">
+               <img src="../../resources/images/app-store.svg" alt="" srcset="">
+            </div>
+         </div>
+         <div class="body-section">
+            <div class="footer-body-item address-content">
+               <div class="footer-logo">
+                  <img src="../../resources/images/footer-logo.svg" alt="" srcset="">
+               </div>
+               <div class="address-section">
+                  <div class="icon-content">
+                     <i class="fa-solid fa-location-dot"></i>
+                  </div>
+                  <p class="regular">
+                     2535 Boul. of the Thousand Islands, Laval, Quebec, Canada H7J 1E6
+                  </p>
+               </div>
+               <div class="mail-section">
+                  <div class="icon-content">
+                     <i class="fa-solid fa-envelope"></i>
+                  </div>
+                  <p class="regular">
+                     <a href="mailto:info@democratik.org">info@democratik.org</a>
+                  </p>
+               </div>
+               <div class="phone-section">
+                  <div class="icon-content">
+                     <i class="fa-solid fa-phone"></i>
+                  </div>
+                  <p class="regular">
+                     <a href="tel:514-600-0191">514-600-0191</a>
+                  </p>
+               </div>
+            </div>
+            <div class="footer-body-item">
+               <div class="section-title">
+                  <span class="primary-title">Use Cases</span>
+               </div>
+               <div>
+                  <p class="regular">
+                     <a href="../../use-case/non-profit/non-profit.html">Non-profit</a>
+                  </p>
+               </div>
+               <div>
+                  <p class="regular">
+                     <a href="../../use-case/political-party/political-party.html">Political parti</a>
+                  </p>
+               </div>
+               <div>
+                  <p class="regular">
+                     <a href="../../use-case/elected-office/elected-office.html">Elected office</a>
+                  </p>
+               </div>
+            </div>
+            <div class="footer-body-item">
+               <div class="section-title">
+                  <span class="primary-title">Services</span>
+               </div>
+               <div>
+                  <p class="regular">
+                     <a href="../election-software/election-software.html">Election software</a>
+                  </p>
+               </div>
+               <div>
+                  <p class="regular">
+                     <a href="../predictive-call-center/predictive-call-center.html">Predictive call center</a>
+                  </p>
+               </div>
+               <div>
+                  <p class="regular">
+                     <a href="../robot-call/robot-call.html">Robotcall</a>
+                  </p>
+               </div>
+               <div>
+                  <p class="regular">
+                     <a href="../crm-software/crm-software.html">CRM software</a>
+                  </p>
+               </div>
+               <div>
+                  <p class="regular">
+                     <a href="../agent-calling/agent-calling.html">Agent calling</a>
+                  </p>
+               </div>
+               <div>
+                  <p class="regular">
+                     <a href="../sign-printing/sign-printing.html">Sign and printing</a>
+                  </p>
+               </div>
+               <div>
+                  <p class="regular">
+                     <a href="../data-pool/data-pool.html">Data pool</a>
+                  </p>
+               </div>
+            </div>
+            <div class="footer-body-item">
+               <div class="section-title">
+                  <span class="primary-title">Company</span>
+               </div>
+               <div>
+                  <p class="regular">
+                     <a href="../../coming-soon/coming-soon.html">Our company</a>
+                  </p>
+               </div>
+               <div>
+                  <p class="regular">
+                     <a href="../../coming-soon/coming-soon.html">Our team</a>
+                  </p>
+               </div>
+               <div>
+                  <p class="regular">
+                     <a href="../../coming-soon/coming-soon.html">Security</a>
+                  </p>
+               </div>
+               <div>
+                  <p class="regular">
+                     <a href="../../coming-soon/coming-soon.html">New room</a>
+                  </p>
+               </div>
+               <div>
+                  <p class="regular">
+                     <a href="../../coming-soon/coming-soon.html">GDPR</a>
+                  </p>
+               </div>
+            </div>
+            <div class="footer-body-item">
+               <div class="section-title">
+                  <span class="primary-title">Resources</span>
+               </div>
+               <div>
+                  <p class="regular">
+                     <a href="../../coming-soon/coming-soon.html">Help & Resources</a>
+                  </p>
+               </div>
+               <div>
+                  <p class="regular">
+                     <a href="../../faq/faq.html">FAQ</a>
+                  </p>
+               </div>
+               <div>
+                  <p class="regular">
+                     <a href="../../coming-soon/coming-soon.html">Video tutorial</a>
+                  </p>
+               </div>
+               <div>
+                  <p class="regular">
+                     <a href="../../coming-soon/coming-soon.html">Democratik API</a>
+                  </p>
+               </div>
+               <div>
+                  <p class="regular">
+                     <a href="../../coming-soon/coming-soon.html">Blog</a>
+                  </p>
+               </div>
+               <div>
+                  <p class="regular">
+                     <a href="../../coming-soon/coming-soon.html" target="_self">Documentation</a>
+                  </p>
+               </div>
+               <div>
+                  <p class="regular">
+                     <a href="../../contact-us/contact-us.html">Contact us</a>
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div class="copy-right-section">
+            <div class="copyright-left-section">
+               <p class="regular">Democratik &copy; 2022 All Rights Reserved.</p>
+            </div>
+            <div class="follow-option">
+               <div>
+                  <p class="regular">Follow Us</p>
+               </div>
+               <div class="social-media-logo">
+                  <span class="regular"><i class="fa-brands fa-facebook-f"></i></span>
+               </div>
+               <div class="social-media-logo">
+                  <span class="regular"><i class="fa-brands fa-linkedin-in"></i></span>
+               </div>
+               <div class="social-media-logo">
+                  <span class="regular"><i class="fa-brands fa-twitter"></i></span>
+               </div>
+               <div class="social-media-logo">
+                  <span class="regular"><i class="fa-brands fa-instagram"></i></span>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <script src="../../js/jquery-3.6.1.min.js"></script>
+   <script src="../../js/bootstrap.bundle.min.js"></script>
+   <script src="../../js/index.js"></script>
+   <script src="./data-pool.js"></script>
+</body>
+</html>

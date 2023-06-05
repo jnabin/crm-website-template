@@ -1,0 +1,237 @@
+.index-header{
+    border-bottom: 1px solid var(--border);
+}
+.get-ready-wrapper{
+    max-width: 1053px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('..//resources/images/color-ful-bg.svg');
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    padding: 0 70px;
+}
+
+.blog-main-section-divider{
+    margin-top: 90px;
+}
+
+.blog-main-section-divider-p{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.get-ready-wrapper h3{
+    color: white;
+}
+
+p.regular.light-green{
+    color: var(--light-green);
+}
+
+.get-ready-body{
+    max-width: 511px;
+}
+
+.blog-hero-section{
+    margin-top: 90px;
+    padding-bottom: 90px;
+}
+
+h2.recent-feature{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.blog-hero-wrapper-desc{
+    display: flex;
+    max-width: 1056px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 30px;
+    align-items: center;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.blog-hero-wrapper-desc .common-content-wrapper-left{
+    flex-basis: 408px;
+}
+
+.blog-hero-wrapper-desc .common-content-wrapper-left img{
+    object-fit: cover;
+    object-position: center;
+    max-height: 352px;
+}
+
+.blog-hero-wrapper-desc .common-content-wrapper-right{
+    flex-basis: 526px;
+}
+
+.solution-btn button{
+    background-color: var(--light-green);
+    padding: 3px 20px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.solution-btn{
+    margin-bottom: 25px;
+}
+
+.blog-title{
+    margin-bottom: 20px;
+}
+
+.blog-hero-wrapper-desc .learn-more{
+    margin-top: 35px;
+}
+.all-news-section{
+    background-color: var(--white-200);
+}
+
+.all-news-content-wrapper{
+    display: flex;
+    gap: 40px;
+}
+
+.all-news-list{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 35px;
+}
+
+.news-grid-item{
+    padding: 25px;
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid var(--border);
+}
+
+.news-grid-item .blog-feature-img img{
+    max-height: 250px;
+    object-fit: cover;
+    width: 100%;
+    object-position: center;
+}
+
+.blog-feature-img{
+    margin-bottom: 28px;
+}
+
+.news-grid-item .solution-btn{
+    margin-bottom: 15px;
+}
+
+.news-grid-item .blog-item-title{
+    margin-bottom: 20px;
+}
+
+.section-title-h2{
+    margin-bottom: 50px;
+}
+.search-blogs span{
+    position: relative;
+    display: inline-block;
+}
+
+.search-blogs span i{
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    font-size: 16px;
+    transform: translateY(-50%);
+}
+
+.search-blogs span input{
+    padding-left: 46px;
+    width: 368px;
+}
+.news-filter{
+    padding: 20px;
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.blog-category{
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 25px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.recent-news{
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 25px 20px;
+}
+.recent-blogs-list{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.recent-nes-item{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+p.date{
+    color: var(--body-font);
+}
+
+.recent-news-desc{
+    display: flex;
+    flex-basis: 239px;
+    gap: 5px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.recent-news-photo{
+    flex-basis: 80px;
+}
+
+.recent-news-photo img{
+    width: 80px;
+}
+.blogs-pagination{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pagination-items{
+    display: flex;
+    gap: 10px;
+}
+.pagination-option{
+    background: #FFFFFF;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+.pagination-option.active{
+    background-color: var(--primary);
+    color: var(--dark);
+}
+.blogs-pagination{
+    margin-top: 35px;
+}
