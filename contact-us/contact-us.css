@@ -30,6 +30,7 @@
     padding: 23px;
     display: flex;
     gap: 30px;
+    cursor: pointer;
     align-items: center;
 }
 
